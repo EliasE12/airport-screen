@@ -1,0 +1,2000 @@
+﻿25-Sep-2019;6:42 PM;Wingo;RPB 2059;Yijiang;5;Exit
+23-Dec-2019;2:50 PM;Satena;NSE 6271;Mizdah;2;Exit
+04-Oct-2019;7:52 AM;Avianca;AVA 5501;Kon Dơng;12;Exit
+06-Oct-2019;9:32 PM;Viva Colombia;VVP 4952;Rio de Moinhos;2;Exit
+16-Apr-2019;1:07 PM;Avianca;AVA 7082;Jiexiu;8;Exit
+08-Aug-2019;8:46 PM;Wingo;RPB 7464;Baracoa;3;Exit
+27-Nov-2019;8:58 PM;Viva Colombia;VVP 8934;Cizhu;3;Exit
+06-Oct-2019;2:50 PM;Copa Airlines Colombia;RPB 8105;Ticaco;6;Arrival
+27-Oct-2019;7:54 PM;Satena;NSE 4473;Vaxholm;1;Arrival
+15-Jun-2019;9:49 AM;Viva Colombia;VVP 4362;Pekijing;2;Exit
+17-Nov-2019;10:00 PM;Viva Colombia;VVP 4059;Gllogjan;9;Exit
+12-Aug-2019;5:13 PM;Satena;NSE 3633;Keetmanshoop;7;Exit
+04-Dec-2019;9:21 AM;Avianca;AVA 1288;Jingzhou;2;Arrival
+03-Nov-2019;3:01 AM;Wingo;RPB 8794;Bezons;8;Exit
+11-Apr-2019;8:31 AM;Latam;ARE 8542;Wangcheng;9;Exit
+06-Sep-2019;8:59 AM;Copa Airlines Colombia;RPB 7147;Lusacan;7;Exit
+30-Aug-2019;12:27 PM;Satena;NSE 7076;Bhimbar;3;Arrival
+04-Sep-2019;2:15 AM;Satena;NSE 8593;Klichaw;9;Arrival
+02-Nov-2019;5:23 AM;Viva Colombia;VVP 7118;Kayukembang;8;Exit
+05-Sep-2019;6:37 PM;Avianca;AVA 2781;Znamenskoye;6;Arrival
+21-Jun-2019;5:37 PM;Wingo;RPB 6110;Graikochóri;13;Exit
+08-Jul-2019;7:41 PM;Viva Colombia;VVP 5926;Tranås;2;Exit
+17-May-2019;3:21 PM;Viva Colombia;VVP 4132;Araguari;2;Exit
+25-Jul-2019;9:31 AM;Copa Airlines Colombia;RPB 2054;Gaotaizi;15;Exit
+07-May-2019;8:46 PM;Copa Airlines Colombia;RPB 5086;Pendiqing;8;Exit
+27-Jun-2019;12:26 PM;Wingo;RPB 6543;Kramsk;13;Exit
+11-Nov-2019;11:22 AM;Copa Airlines Colombia;RPB 4162;Daixi;14;Arrival
+07-Jun-2019;2:10 PM;Wingo;RPB 5702;Polańczyk;11;Arrival
+12-Sep-2019;11:48 AM;Copa Airlines Colombia;RPB 4229;An Naşr;11;Arrival
+17-Nov-2019;2:03 AM;Copa Airlines Colombia;RPB 3259;Australia Square;5;Exit
+07-Sep-2019;10:16 PM;Avianca;AVA 3893;Deán Funes;12;Arrival
+17-Jul-2019;8:30 PM;Avianca;AVA 1948;Baimangpu;6;Arrival
+10-Jun-2019;4:28 PM;Viva Colombia;VVP 7177;Aş Şalw;4;Arrival
+17-Apr-2019;4:26 PM;Satena;NSE 4448;Huayacundo Arma;12;Exit
+27-Aug-2019;7:07 AM;Wingo;RPB 8819;Godong;6;Arrival
+17-May-2019;11:10 PM;Avianca;AVA 2839;Mouzourás;14;Arrival
+26-Nov-2019;8:13 AM;Viva Colombia;VVP 3778;Rungis;3;Arrival
+25-Dec-2019;11:51 AM;Viva Colombia;VVP 5596;Lons-le-Saunier;1;Exit
+04-Aug-2019;6:14 AM;Viva Colombia;VVP 5792;Yunguyo;7;Exit
+07-Jun-2019;5:38 AM;Avianca;AVA 7292;Cabanaconde;5;Exit
+15-Apr-2019;8:31 AM;Satena;NSE 2172;Fordon;9;Arrival
+20-Aug-2019;12:11 PM;Avianca;AVA 7759;Tembau;14;Arrival
+21-Sep-2019;8:57 AM;Avianca;AVA 1181;Chengqu;9;Exit
+07-May-2019;5:49 PM;Avianca;AVA 8800;Zaïo;7;Exit
+05-Oct-2019;2:32 PM;Satena;NSE 2803;Wansheng;3;Arrival
+01-Oct-2019;4:36 AM;Copa Airlines Colombia;RPB 6517;Pulorejo;6;Exit
+08-May-2019;3:17 PM;Latam;ARE 5817;Cuispes;8;Exit
+24-Oct-2019;4:22 AM;Avianca;AVA 1824;Kembé;13;Exit
+13-Sep-2019;6:59 AM;Latam;ARE 3197;Kotabaru Hilir;2;Exit
+24-Jun-2019;9:07 PM;Copa Airlines Colombia;RPB 1840;Watublapi;5;Exit
+12-Dec-2019;11:41 AM;Latam;ARE 6748;Haebaru;10;Arrival
+11-Aug-2019;10:57 PM;Satena;NSE 5618;Kliwon Cibingbin;2;Arrival
+18-Aug-2019;2:27 AM;Copa Airlines Colombia;RPB 4277;Umeå;8;Exit
+09-Nov-2019;3:40 AM;Avianca;AVA 3674;Lae;1;Exit
+16-Jul-2019;11:47 PM;Copa Airlines Colombia;RPB 6284;Železná Ruda;6;Exit
+27-Jul-2019;1:36 PM;Satena;NSE 4532;Haarlem;5;Exit
+25-Oct-2019;11:07 AM;Wingo;RPB 5634;Zalantun;7;Arrival
+30-Apr-2019;1:48 PM;Satena;NSE 6312;Vitoria-Gasteiz;8;Arrival
+14-Nov-2019;4:00 PM;Copa Airlines Colombia;RPB 7925;Nguékhokh;9;Arrival
+27-Sep-2019;6:35 PM;Latam;ARE 6964;Tall Abyaḑ;8;Exit
+11-Dec-2019;4:19 AM;Copa Airlines Colombia;RPB 5622;Bao’an;8;Exit
+07-Jul-2019;12:43 PM;Wingo;RPB 3626;Herceg-Novi;14;Arrival
+30-Aug-2019;11:33 PM;Avianca;AVA 7667;Ḩadādah;3;Exit
+17-Jul-2019;2:23 PM;Wingo;RPB 7753;Abreus;6;Arrival
+06-Jun-2019;5:27 AM;Copa Airlines Colombia;RPB 6370;Chernogorsk;2;Exit
+15-Nov-2019;7:40 PM;Latam;ARE 6197;Stockholm;7;Exit
+24-Sep-2019;9:24 PM;Latam;ARE 7958;Sacramento;6;Exit
+13-Jul-2019;11:24 AM;Viva Colombia;VVP 3382;Matang;13;Exit
+12-Jul-2019;12:31 AM;Viva Colombia;VVP 4426;Antiguo Cuscatlán;11;Arrival
+17-Jul-2019;11:02 PM;Copa Airlines Colombia;RPB 5051;Córdoba;13;Arrival
+28-May-2019;10:33 PM;Copa Airlines Colombia;RPB 1844;Boshkengash;8;Arrival
+14-Sep-2019;10:44 AM;Satena;NSE 8092;‘Aşīrah ash Shamālīyah;3;Arrival
+11-Apr-2019;6:13 PM;Wingo;RPB 4780;Marianowo;8;Exit
+17-Nov-2019;8:28 PM;Copa Airlines Colombia;RPB 2759;Banatski Despotovac;3;Arrival
+10-Jul-2019;7:28 AM;Satena;NSE 7022;Domašinec;1;Exit
+31-May-2019;1:23 AM;Copa Airlines Colombia;RPB 8091;Mahong;5;Arrival
+13-Aug-2019;2:05 AM;Copa Airlines Colombia;RPB 6453;Raszków;2;Arrival
+14-Jul-2019;5:46 AM;Wingo;RPB 3569;Bin’an;9;Exit
+04-Dec-2019;3:40 PM;Viva Colombia;VVP 3648;Nachalovo;10;Exit
+25-Apr-2019;4:19 AM;Copa Airlines Colombia;RPB 8970;Isabela;12;Arrival
+28-Aug-2019;8:34 PM;Wingo;RPB 6313;Gewanē;13;Arrival
+19-Sep-2019;10:27 AM;Viva Colombia;VVP 5575;Shymkent;5;Arrival
+25-May-2019;10:34 PM;Latam;ARE 3280;Melissochóri;11;Exit
+20-Oct-2019;6:24 PM;Copa Airlines Colombia;RPB 2067;Harrison Brook;3;Exit
+04-Jul-2019;5:53 PM;Copa Airlines Colombia;RPB 1554;Boshof;5;Exit
+08-Jun-2019;9:06 AM;Wingo;RPB 8457;Villa Concepción del Tío;1;Arrival
+08-Jul-2019;1:49 PM;Avianca;AVA 6347;Maracha;7;Arrival
+01-Jul-2019;9:41 AM;Satena;NSE 7040;Roissy Charles-de-Gaulle;14;Exit
+15-Oct-2019;3:30 PM;Satena;NSE 4785;Fengshan;11;Arrival
+04-Oct-2019;8:46 AM;Copa Airlines Colombia;RPB 8505;Kawagoe;5;Exit
+11-Sep-2019;5:14 AM;Satena;NSE 2947;Bail;2;Arrival
+18-Oct-2019;2:18 AM;Copa Airlines Colombia;RPB 1849;Alor Star;8;Arrival
+13-Dec-2019;10:14 AM;Latam;ARE 7954;Colcabamba;2;Arrival
+25-Nov-2019;9:26 AM;Copa Airlines Colombia;RPB 6458;Weiyang;5;Arrival
+01-Jun-2019;3:08 PM;Copa Airlines Colombia;RPB 7160;Lacombe;6;Exit
+20-Apr-2019;6:50 PM;Satena;NSE 7704;Krajan Sale;8;Arrival
+21-Dec-2019;4:28 PM;Satena;NSE 4434;Ermidas do Sado;3;Exit
+19-May-2019;12:40 AM;Satena;NSE 4671;Xindu;3;Arrival
+06-Sep-2019;12:00 PM;Latam;ARE 1656;Rio;11;Exit
+01-Aug-2019;11:18 PM;Wingo;RPB 5689;Nyandoma;8;Arrival
+16-May-2019;5:40 AM;Copa Airlines Colombia;RPB 6560;Castainço;11;Exit
+21-Jul-2019;3:02 PM;Satena;NSE 8551;Kauditan;11;Exit
+22-Dec-2019;10:23 AM;Latam;ARE 6149;Quiaios;13;Arrival
+31-May-2019;8:07 PM;Avianca;AVA 8453;Tegalalang;1;Exit
+19-Sep-2019;7:40 AM;Avianca;AVA 3994;Kuzhuping;10;Exit
+14-Nov-2019;11:50 PM;Wingo;RPB 3483;Yuto;11;Exit
+03-Jul-2019;11:36 PM;Satena;NSE 1779;Czarnocin;1;Arrival
+28-Aug-2019;9:08 PM;Viva Colombia;VVP 2057;Wangge’ertang;3;Arrival
+30-Apr-2019;3:17 PM;Viva Colombia;VVP 7529;Uzyn;7;Exit
+28-Jul-2019;1:36 AM;Viva Colombia;VVP 6026;Mahdia;3;Arrival
+26-Jun-2019;1:19 AM;Copa Airlines Colombia;RPB 8200;Lanigan;4;Arrival
+27-Jun-2019;9:26 PM;Latam;ARE 6039;Créteil;7;Arrival
+03-Jun-2019;4:53 PM;Satena;NSE 7101;Tây Đằng;8;Arrival
+25-Sep-2019;2:05 PM;Viva Colombia;VVP 1789;Jetis;1;Arrival
+12-Jul-2019;2:38 PM;Avianca;AVA 4544;Citatah Kaler;8;Exit
+28-Aug-2019;10:50 AM;Avianca;AVA 4893;Thị Trấn Quảng Uyên;7;Exit
+11-Apr-2019;7:03 PM;Copa Airlines Colombia;RPB 7748;El Almendro;14;Exit
+28-Sep-2019;6:46 PM;Viva Colombia;VVP 8489;Naji;9;Exit
+03-Sep-2019;12:33 PM;Viva Colombia;VVP 2993;Pontivy;13;Exit
+13-Oct-2019;9:20 PM;Avianca;AVA 8023;Hanfeng;1;Arrival
+24-May-2019;3:42 PM;Wingo;RPB 6220;Tonota;7;Arrival
+24-Aug-2019;11:22 AM;Viva Colombia;VVP 6481;Azenhas do Mar;3;Exit
+26-Apr-2019;10:25 PM;Avianca;AVA 6348;Khvastovichi;3;Exit
+27-Apr-2019;8:23 AM;Satena;NSE 1634;Fundación;9;Arrival
+30-Sep-2019;7:44 AM;Avianca;AVA 2093;Danghara;15;Exit
+13-Jul-2019;11:08 PM;Copa Airlines Colombia;RPB 3749;Samoljica;14;Arrival
+13-Nov-2019;12:18 AM;Copa Airlines Colombia;RPB 8463;Minneapolis;1;Exit
+06-Dec-2019;9:03 PM;Copa Airlines Colombia;RPB 1123;Qianzhou;2;Exit
+19-Jun-2019;8:01 PM;Wingo;RPB 1322;Pamedaran;6;Arrival
+06-Sep-2019;7:18 PM;Satena;NSE 6565;Bandeirantes;5;Exit
+26-Aug-2019;5:11 AM;Avianca;AVA 2596;Krasnomayskiy;8;Arrival
+25-Sep-2019;2:49 PM;Viva Colombia;VVP 8182;Isheyevka;7;Exit
+07-Oct-2019;2:41 AM;Latam;ARE 7582;Santa Rosa;3;Arrival
+01-May-2019;8:39 AM;Avianca;AVA 2417;Atok;8;Arrival
+05-Aug-2019;8:21 PM;Latam;ARE 8016;União dos Palmares;13;Arrival
+20-Sep-2019;9:26 PM;Wingo;RPB 3741;Caledon;1;Arrival
+06-May-2019;12:09 AM;Latam;ARE 2977;Shicheng;7;Arrival
+02-Nov-2019;3:10 PM;Latam;ARE 6632;Bagangan;1;Exit
+29-Dec-2019;3:05 PM;Wingo;RPB 4959;Častolovice;12;Arrival
+03-Nov-2019;3:14 AM;Latam;ARE 8916;Agualva;10;Exit
+24-Apr-2019;11:09 PM;Latam;ARE 2994;Cineumbeuy;3;Arrival
+12-Oct-2019;10:54 AM;Wingo;RPB 2293;Sandviken;3;Exit
+11-Oct-2019;1:46 PM;Copa Airlines Colombia;RPB 4546;Igarapé Açu;5;Arrival
+16-Sep-2019;2:51 PM;Wingo;RPB 3819;Kabir;10;Exit
+22-Oct-2019;6:03 AM;Copa Airlines Colombia;RPB 2387;Tabug;3;Exit
+17-Oct-2019;8:24 AM;Satena;NSE 4124;Maharagama;12;Exit
+04-Jun-2019;11:16 AM;Viva Colombia;VVP 1121;Rosmaninhal;1;Arrival
+28-Oct-2019;1:56 AM;Wingo;RPB 5995;Norton;7;Exit
+30-Sep-2019;2:53 PM;Wingo;RPB 1657;Dengok;8;Arrival
+14-Jun-2019;1:56 AM;Avianca;AVA 8365;Spokoynaya;6;Arrival
+20-Dec-2019;1:55 AM;Latam;ARE 2276;Morbatoh;4;Exit
+30-Jul-2019;9:34 AM;Wingo;RPB 4764;Pingdingshan;15;Exit
+14-Nov-2019;4:52 PM;Satena;NSE 1028;Santo Tomé;6;Arrival
+18-Nov-2019;1:00 PM;Avianca;AVA 5945;Buyant;3;Exit
+06-Jul-2019;4:31 PM;Viva Colombia;VVP 5146;Ozimek;6;Exit
+31-Jul-2019;4:00 PM;Copa Airlines Colombia;RPB 6115;Sirnaresmi;1;Arrival
+24-Oct-2019;8:03 PM;Wingo;RPB 5061;Labuan;1;Arrival
+23-Oct-2019;6:55 PM;Satena;NSE 3055;Nangka;14;Exit
+28-Nov-2019;11:10 PM;Wingo;RPB 2371;Canelas;10;Arrival
+30-Dec-2019;4:28 AM;Latam;ARE 3071;Gegu;15;Arrival
+03-May-2019;1:32 PM;Satena;NSE 8466;Dvinskoy;1;Exit
+04-Sep-2019;12:14 AM;Latam;ARE 1213;Rio Pardo;10;Arrival
+04-Jun-2019;11:23 AM;Satena;NSE 2979;Eira Nova;4;Arrival
+16-Dec-2019;12:29 AM;Copa Airlines Colombia;RPB 5790;Duzhou;7;Exit
+22-Nov-2019;6:03 AM;Viva Colombia;VVP 2268;Stulovo;1;Exit
+14-Jun-2019;7:57 AM;Wingo;RPB 1848;Yashalta;12;Exit
+17-Sep-2019;8:53 AM;Satena;NSE 7526;Taunan;15;Arrival
+29-Jul-2019;11:56 AM;Avianca;AVA 5318;Fort Worth;13;Exit
+01-Jun-2019;1:22 PM;Satena;NSE 7615;Jilong;9;Exit
+18-Jul-2019;5:25 AM;Satena;NSE 5286;San Fabian;4;Arrival
+03-Jun-2019;2:41 PM;Satena;NSE 8265;Phanom Sarakham;12;Arrival
+12-Oct-2019;2:23 AM;Avianca;AVA 7483;Bamiantong;9;Arrival
+18-Apr-2019;4:34 AM;Wingo;RPB 4982;Kozmice;5;Exit
+14-Oct-2019;3:48 PM;Satena;NSE 6818;Urungpigang;8;Exit
+25-Dec-2019;12:18 PM;Satena;NSE 8347;Siikajoki;11;Exit
+17-Apr-2019;5:48 AM;Viva Colombia;VVP 5928;Novobeysugskaya;13;Arrival
+11-Nov-2019;3:58 PM;Copa Airlines Colombia;RPB 7265;Açucena;5;Arrival
+16-Oct-2019;8:57 AM;Satena;NSE 1605;Lintan Chengguanzhen;12;Arrival
+15-Nov-2019;8:17 AM;Viva Colombia;VVP 6292;Pakapasan Ilir;10;Exit
+17-May-2019;1:34 PM;Avianca;AVA 3797;Karaundi;10;Arrival
+27-Dec-2019;12:32 PM;Satena;NSE 4937;Nart;11;Exit
+01-Nov-2019;8:41 AM;Wingo;RPB 4422;Russkaya Polyana;10;Arrival
+27-Nov-2019;12:58 AM;Satena;NSE 4443;Birni N Konni;11;Exit
+13-Jun-2019;10:16 PM;Avianca;AVA 5968;Pailou;15;Exit
+24-Aug-2019;10:09 AM;Latam;ARE 6715;Emar;14;Arrival
+29-Nov-2019;10:20 AM;Latam;ARE 1696;Coronel Suárez;7;Exit
+22-Jun-2019;5:08 PM;Copa Airlines Colombia;RPB 1900;Yangjingziwan;11;Exit
+12-Jul-2019;1:03 PM;Satena;NSE 5844;Rio;13;Arrival
+07-Sep-2019;11:22 PM;Wingo;RPB 5968;Sampangan;1;Arrival
+21-Aug-2019;9:39 AM;Avianca;AVA 7291;Tahilt;6;Exit
+29-Nov-2019;2:36 AM;Satena;NSE 1834;Pierzchnica;7;Exit
+07-May-2019;2:12 AM;Latam;ARE 2230;Stockholm;7;Arrival
+22-Dec-2019;3:19 PM;Satena;NSE 1616;Esuk Oron;1;Arrival
+05-May-2019;6:08 AM;Satena;NSE 3074;Huangban;1;Arrival
+03-Nov-2019;9:01 PM;Copa Airlines Colombia;RPB 1891;Bolo;14;Exit
+03-Jun-2019;1:08 PM;Viva Colombia;VVP 7761;Tangjiakou;1;Arrival
+15-Dec-2019;4:08 PM;Viva Colombia;VVP 1558;Sepolong Timur;9;Exit
+05-May-2019;4:06 PM;Latam;ARE 7165;Igbaras;2;Exit
+25-Sep-2019;4:34 PM;Avianca;AVA 5629;Pulong Sampalok;7;Arrival
+09-Apr-2019;3:36 AM;Copa Airlines Colombia;RPB 5997;Aytos;14;Arrival
+10-Apr-2019;1:51 AM;Avianca;AVA 4970;Vale de Madeiros;4;Exit
+08-Jun-2019;8:31 PM;Latam;ARE 6412;Koina;8;Exit
+22-Aug-2019;4:46 PM;Avianca;AVA 8901;Araçoiaba da Serra;8;Exit
+04-Sep-2019;6:21 AM;Wingo;RPB 6115;Na Muen;9;Exit
+23-Oct-2019;10:34 AM;Wingo;RPB 1085;Ilihan;11;Arrival
+26-Jun-2019;8:37 AM;Satena;NSE 5871;Sebasang;10;Exit
+16-May-2019;2:06 PM;Viva Colombia;VVP 7974;Yupiltepeque;2;Exit
+28-Sep-2019;7:11 PM;Avianca;AVA 2051;Linjiang;14;Arrival
+10-Sep-2019;3:09 PM;Wingo;RPB 2788;Jäppilä;15;Exit
+24-Oct-2019;3:21 PM;Copa Airlines Colombia;RPB 3880;Qiqian;10;Arrival
+17-Nov-2019;4:31 PM;Copa Airlines Colombia;RPB 1572;Jindou;14;Exit
+14-Dec-2019;8:02 AM;Latam;ARE 8828;Sidi Smaïl;5;Arrival
+25-Dec-2019;5:43 AM;Satena;NSE 6656;Huishangang;13;Arrival
+08-Oct-2019;4:49 AM;Wingo;RPB 1674;Jicun;1;Exit
+21-Aug-2019;2:06 PM;Satena;NSE 7115;Huambalpa;15;Arrival
+29-Jul-2019;10:16 PM;Latam;ARE 4493;San Jose;9;Arrival
+25-Jul-2019;5:00 PM;Latam;ARE 3818;Dongkeng;12;Exit
+29-Jun-2019;12:36 PM;Viva Colombia;VVP 5052;Mercedes;3;Exit
+16-Sep-2019;10:23 AM;Viva Colombia;VVP 7519;Sukpak;2;Exit
+31-May-2019;1:11 AM;Avianca;AVA 1506;Višnjićevo;15;Arrival
+21-Dec-2019;1:14 AM;Copa Airlines Colombia;RPB 2759;Palestina;15;Exit
+28-Apr-2019;5:41 PM;Satena;NSE 1328;Volkhov;9;Exit
+02-May-2019;5:34 AM;Avianca;AVA 2550;Buenos Aires;6;Exit
+29-Jun-2019;12:59 PM;Viva Colombia;VVP 2718;Shymkent;8;Exit
+22-Nov-2019;7:21 AM;Latam;ARE 8799;Jiwuwu;11;Exit
+17-Nov-2019;8:51 PM;Latam;ARE 7044;Shufeng;12;Exit
+13-Dec-2019;8:28 PM;Copa Airlines Colombia;RPB 2128;Foumban;14;Exit
+20-Nov-2019;3:17 PM;Avianca;AVA 1185;Jinhu;2;Arrival
+28-Oct-2019;11:56 PM;Wingo;RPB 6656;Sukhirin;11;Arrival
+15-Dec-2019;10:58 PM;Satena;NSE 1972;Floreşti;9;Arrival
+10-Sep-2019;7:56 PM;Viva Colombia;VVP 3358;Semenivka;14;Arrival
+09-Jun-2019;6:35 PM;Viva Colombia;VVP 7637;Liquan Chengguanzhen;12;Arrival
+13-May-2019;5:42 PM;Copa Airlines Colombia;RPB 5872;Krajan;6;Exit
+08-May-2019;3:22 PM;Copa Airlines Colombia;RPB 2803;Gludug;8;Arrival
+26-Dec-2019;3:26 AM;Copa Airlines Colombia;RPB 5509;Longwei;12;Exit
+29-Apr-2019;4:59 AM;Copa Airlines Colombia;RPB 8712;Gravelbourg;1;Arrival
+24-Nov-2019;4:17 AM;Viva Colombia;VVP 1182;Carepa;11;Exit
+07-May-2019;2:26 PM;Satena;NSE 6711;Norrahammar;4;Exit
+05-Aug-2019;4:55 AM;Avianca;AVA 8351;Baş Göynük;9;Arrival
+30-Aug-2019;6:45 AM;Wingo;RPB 6012;Pazarić;4;Arrival
+14-May-2019;4:28 PM;Wingo;RPB 7036;Hualingang;2;Exit
+12-Oct-2019;5:25 AM;Satena;NSE 5045;Trondheim;6;Arrival
+15-Oct-2019;12:45 AM;Satena;NSE 2999;Pospelikha;2;Exit
+09-Aug-2019;3:26 PM;Avianca;AVA 4175;Sirre;11;Arrival
+07-May-2019;7:25 PM;Wingo;RPB 4278;Bertioga;1;Arrival
+26-May-2019;4:43 AM;Viva Colombia;VVP 8732;Pandi;9;Arrival
+16-Dec-2019;7:08 PM;Copa Airlines Colombia;RPB 2534;Barroso;4;Arrival
+05-Jul-2019;5:06 AM;Wingo;RPB 3923;Jishan;10;Arrival
+16-Nov-2019;7:40 AM;Viva Colombia;VVP 7860;Bayanbaraat;2;Exit
+15-Sep-2019;8:11 AM;Latam;ARE 4196;Kolobovo;11;Exit
+26-Oct-2019;11:26 PM;Latam;ARE 5789;Alpiarça;7;Arrival
+19-Nov-2019;1:39 AM;Viva Colombia;VVP 6354;Hupalivka;6;Arrival
+13-Aug-2019;8:31 PM;Viva Colombia;VVP 3365;Villaviciosa;13;Arrival
+18-Jul-2019;6:28 AM;Viva Colombia;VVP 7427;Rifeng;4;Arrival
+11-Aug-2019;5:25 PM;Satena;NSE 2019;Xiongshan;9;Exit
+26-Jul-2019;5:37 PM;Viva Colombia;VVP 5907;Nyzhni Petrivtsi;6;Exit
+05-May-2019;2:21 PM;Wingo;RPB 2983;Gustavsberg;4;Exit
+26-Apr-2019;7:08 AM;Copa Airlines Colombia;RPB 4870;Červená Voda;4;Exit
+29-Nov-2019;7:51 PM;Latam;ARE 1269;Ordem;15;Arrival
+28-Oct-2019;9:18 PM;Viva Colombia;VVP 2356;Quimper;10;Exit
+07-Nov-2019;5:46 PM;Wingo;RPB 8139;Cochabamba;4;Exit
+26-Nov-2019;5:37 PM;Latam;ARE 1734;Coronda;15;Arrival
+05-Sep-2019;11:07 PM;Satena;NSE 2242;Xiangfu;13;Exit
+02-Dec-2019;4:49 AM;Copa Airlines Colombia;RPB 3616;Kolyubakino;5;Exit
+04-Jul-2019;3:31 AM;Copa Airlines Colombia;RPB 8316;Kamenjane;3;Arrival
+14-Jul-2019;10:37 AM;Wingo;RPB 4138;Xiangqiao;13;Exit
+05-Sep-2019;6:40 PM;Copa Airlines Colombia;RPB 8261;Skolkovo;15;Exit
+04-Dec-2019;8:21 PM;Avianca;AVA 5198;Huohua;11;Exit
+12-Jul-2019;11:25 PM;Wingo;RPB 6378;Aţ Ţafīlah;11;Arrival
+09-Aug-2019;8:12 PM;Copa Airlines Colombia;RPB 7313;Guachucal;7;Exit
+26-Sep-2019;11:19 AM;Avianca;AVA 6844;Esmeraldas;1;Arrival
+04-Oct-2019;3:30 AM;Latam;ARE 3503;Mogi das Cruzes;12;Exit
+02-Jul-2019;6:13 AM;Satena;NSE 3870;Settat;11;Exit
+16-Oct-2019;1:49 AM;Satena;NSE 7671;Hohoe;3;Arrival
+27-Sep-2019;7:00 AM;Copa Airlines Colombia;RPB 7869;Kakan;3;Arrival
+02-Aug-2019;5:18 PM;Copa Airlines Colombia;RPB 1371;Xindong;9;Arrival
+26-Jul-2019;9:57 AM;Wingo;RPB 5191;Xuri;15;Exit
+09-Nov-2019;1:11 AM;Viva Colombia;VVP 6183;Pavlovsk;9;Exit
+10-Dec-2019;1:06 AM;Viva Colombia;VVP 7612;Jirjā;9;Arrival
+10-Sep-2019;12:12 PM;Copa Airlines Colombia;RPB 1509;Rancho Viejo;11;Arrival
+15-Apr-2019;11:20 AM;Copa Airlines Colombia;RPB 7864;Irbid;9;Arrival
+17-Aug-2019;8:16 AM;Viva Colombia;VVP 3860;Muang Phôn-Hông;14;Exit
+16-Sep-2019;1:04 PM;Wingo;RPB 1460;Jiefang;2;Arrival
+14-Sep-2019;10:29 AM;Wingo;RPB 6973;Krajan Karangsari;10;Exit
+09-Nov-2019;8:44 AM;Copa Airlines Colombia;RPB 1835;San Vicente;14;Exit
+26-Jun-2019;8:05 AM;Viva Colombia;VVP 5158;Santa Fe;1;Arrival
+20-Oct-2019;6:42 PM;Viva Colombia;VVP 1274;Nanmu;5;Exit
+26-Aug-2019;10:26 PM;Latam;ARE 1358;Macheng;1;Arrival
+26-Dec-2019;11:30 AM;Avianca;AVA 2898;Ambelón;14;Arrival
+26-Apr-2019;1:16 PM;Satena;NSE 2959;Podbuzh;9;Arrival
+22-Sep-2019;11:05 PM;Avianca;AVA 7528;Uglegorsk;5;Exit
+11-Jul-2019;12:05 AM;Wingo;RPB 4983;Dukuhpicung;15;Arrival
+09-Sep-2019;5:48 PM;Avianca;AVA 5226;Smyków;15;Arrival
+14-Sep-2019;1:02 AM;Copa Airlines Colombia;RPB 1377;Nanshi;4;Arrival
+30-Oct-2019;11:34 PM;Wingo;RPB 6916;San Francisco;1;Arrival
+06-Aug-2019;4:25 PM;Avianca;AVA 7066;Anle;5;Arrival
+21-Aug-2019;3:57 AM;Copa Airlines Colombia;RPB 1293;Hongsi;7;Arrival
+26-Oct-2019;7:05 AM;Copa Airlines Colombia;RPB 1956;Paraty;14;Arrival
+28-Aug-2019;5:49 AM;Satena;NSE 4185;Bipolo;15;Arrival
+26-Aug-2019;8:01 PM;Viva Colombia;VVP 6216;Rozhdestveno;11;Arrival
+26-May-2019;3:47 AM;Avianca;AVA 5163;Molagavita;13;Exit
+03-Oct-2019;9:12 PM;Copa Airlines Colombia;RPB 4850;Bay Roberts;13;Arrival
+15-May-2019;8:35 PM;Wingo;RPB 5094;Åkersberga;13;Exit
+31-May-2019;11:18 PM;Avianca;AVA 4956;Tian’an;2;Exit
+17-Jul-2019;1:28 PM;Viva Colombia;VVP 1911;Antalaha;10;Arrival
+31-Oct-2019;1:09 AM;Wingo;RPB 7751;Artybash;11;Exit
+22-Dec-2019;8:50 AM;Copa Airlines Colombia;RPB 3041;Yong’an;1;Exit
+21-Nov-2019;12:03 AM;Satena;NSE 2224;San Pedro;1;Exit
+14-Dec-2019;12:53 AM;Wingo;RPB 7147;Ubud;6;Exit
+24-Oct-2019;10:41 AM;Viva Colombia;VVP 8725;Caratinga;12;Arrival
+09-May-2019;9:41 PM;Viva Colombia;VVP 5843;Kindu;11;Exit
+13-Aug-2019;1:24 PM;Copa Airlines Colombia;RPB 7569;Renshan;8;Arrival
+02-Nov-2019;4:48 AM;Latam;ARE 5844;Tajan;7;Arrival
+08-May-2019;6:31 AM;Wingo;RPB 4672;Marinilla;10;Exit
+02-Sep-2019;7:02 PM;Avianca;AVA 3041;Liuduzhai;8;Arrival
+24-Aug-2019;1:56 AM;Satena;NSE 7765;Guojia;13;Exit
+07-Jul-2019;12:31 PM;Copa Airlines Colombia;RPB 5133;Pizhma;14;Exit
+03-Nov-2019;5:21 PM;Copa Airlines Colombia;RPB 1646;Koumra;8;Exit
+01-Nov-2019;5:29 AM;Satena;NSE 3670;Ngluweng Dua;11;Arrival
+20-Oct-2019;12:55 PM;Copa Airlines Colombia;RPB 4601;Tafo;6;Exit
+19-Nov-2019;11:03 AM;Viva Colombia;VVP 5052;Tan-Tan;9;Exit
+04-Nov-2019;4:35 PM;Satena;NSE 6647;Alaghsas;4;Exit
+30-May-2019;10:23 AM;Avianca;AVA 2418;Codoi;1;Arrival
+15-Jun-2019;11:34 AM;Copa Airlines Colombia;RPB 4147;Guanyang;8;Arrival
+09-Oct-2019;7:29 PM;Viva Colombia;VVP 4783;Tagiura;12;Arrival
+10-Jun-2019;9:01 PM;Copa Airlines Colombia;RPB 4127;Savannakhét;7;Arrival
+16-Nov-2019;4:17 PM;Latam;ARE 3841;Wadung;9;Arrival
+04-Oct-2019;3:09 PM;Satena;NSE 1596;Yili;3;Arrival
+31-Jul-2019;7:31 PM;Satena;NSE 3790;Ambon;9;Exit
+08-Nov-2019;10:32 AM;Avianca;AVA 8815;Beizhuang;7;Arrival
+01-Sep-2019;9:56 PM;Viva Colombia;VVP 2018;Marks;9;Exit
+29-Jun-2019;6:53 AM;Satena;NSE 5982;Bhiria;3;Arrival
+26-Jul-2019;6:04 PM;Satena;NSE 4929;Buliu;3;Arrival
+30-Jul-2019;2:41 AM;Latam;ARE 5977;Kāshān;1;Exit
+21-Aug-2019;9:40 AM;Latam;ARE 5810;Johor Bahru;1;Exit
+04-Dec-2019;12:08 AM;Latam;ARE 3892;Heung-hai;9;Arrival
+27-Jul-2019;8:43 AM;Copa Airlines Colombia;RPB 1139;Ban Khok;14;Arrival
+16-Sep-2019;5:27 PM;Copa Airlines Colombia;RPB 1009;Adirejo;11;Exit
+19-May-2019;10:49 AM;Copa Airlines Colombia;RPB 8017;Novo Hamburgo;8;Exit
+18-Sep-2019;7:24 AM;Wingo;RPB 1715;Bogovinje;6;Exit
+06-May-2019;6:35 PM;Copa Airlines Colombia;RPB 8990;Limbaan;2;Arrival
+10-May-2019;12:35 PM;Latam;ARE 4642;Ambovombe;6;Exit
+25-Nov-2019;11:55 AM;Wingo;RPB 8953;Compiègne;5;Exit
+31-May-2019;9:47 PM;Viva Colombia;VVP 3229;Psachná;7;Arrival
+22-Dec-2019;3:26 PM;Satena;NSE 2634;Gombong;13;Exit
+06-Sep-2019;5:17 PM;Avianca;AVA 2853;Kokembang;9;Arrival
+19-May-2019;10:42 AM;Satena;NSE 8347;Selasari;6;Exit
+04-May-2019;3:45 AM;Copa Airlines Colombia;RPB 3160;Padangtepung;12;Exit
+17-May-2019;2:05 AM;Satena;NSE 1788;Kuala Lumpur;4;Exit
+13-Jul-2019;5:27 AM;Satena;NSE 5217;Novi Beograd;2;Exit
+30-Oct-2019;8:23 PM;Latam;ARE 6111;Zhajin;11;Arrival
+04-Jul-2019;6:22 AM;Latam;ARE 2225;Shuangyang;1;Arrival
+05-Nov-2019;11:21 PM;Avianca;AVA 5819;Khulna;1;Exit
+25-Aug-2019;7:46 AM;Viva Colombia;VVP 5891;Paulba;6;Exit
+14-Jun-2019;3:00 PM;Satena;NSE 5362;Newark;8;Arrival
+07-Sep-2019;4:15 AM;Latam;ARE 6738;Alegria;12;Arrival
+06-Jun-2019;3:27 AM;Satena;NSE 8383;Smoky Lake;5;Exit
+17-Sep-2019;8:00 AM;Copa Airlines Colombia;RPB 1274;Albarraque;6;Arrival
+29-Jul-2019;5:51 PM;Wingo;RPB 4867;Caramuca;7;Arrival
+04-Aug-2019;10:42 PM;Wingo;RPB 3425;Las Lajas;5;Arrival
+27-Oct-2019;6:22 AM;Copa Airlines Colombia;RPB 2286;Xiaowuzhan;11;Exit
+19-Jun-2019;8:13 AM;Latam;ARE 5421;Mangulile;3;Arrival
+05-Oct-2019;12:59 PM;Copa Airlines Colombia;RPB 6626;Dimitrovgrad;6;Exit
+21-Nov-2019;6:01 AM;Wingo;RPB 8552;Jiangshan;11;Exit
+09-Jun-2019;4:30 AM;Avianca;AVA 5171;London;8;Arrival
+17-May-2019;1:53 PM;Viva Colombia;VVP 6311;Pontarlier;9;Arrival
+25-Sep-2019;10:12 AM;Latam;ARE 5288;Lescar;10;Arrival
+14-May-2019;4:29 PM;Wingo;RPB 6343;Ylöjärvi;13;Arrival
+16-Aug-2019;7:07 PM;Latam;ARE 2205;eSikhawini;6;Exit
+23-Sep-2019;3:27 PM;Wingo;RPB 7391;Semang;5;Arrival
+24-Dec-2019;5:02 AM;Avianca;AVA 7423;Halteu;13;Exit
+26-May-2019;8:22 AM;Satena;NSE 8991;Jiuhua;9;Exit
+27-Oct-2019;12:31 PM;Satena;NSE 8419;Shuitianhe;12;Arrival
+19-Sep-2019;10:20 PM;Wingo;RPB 4428;Borlänge;5;Arrival
+04-Aug-2019;10:54 PM;Satena;NSE 2255;Lincoln;10;Arrival
+26-Sep-2019;11:49 AM;Satena;NSE 8655;Larvik;6;Exit
+31-Jul-2019;12:01 AM;Latam;ARE 1784;Březí;11;Arrival
+24-Oct-2019;2:17 AM;Wingo;RPB 5022;Kolyvan’;5;Arrival
+23-May-2019;9:49 PM;Viva Colombia;VVP 2319;Serra;8;Arrival
+08-Dec-2019;12:52 PM;Avianca;AVA 4428;Ostashkov;4;Arrival
+21-Sep-2019;10:24 AM;Wingo;RPB 7090;Boro Utara;7;Arrival
+15-Nov-2019;10:12 AM;Copa Airlines Colombia;RPB 7512;Al Ḩusayn;4;Exit
+26-Oct-2019;7:48 PM;Latam;ARE 2445;Neklyudovo;11;Arrival
+28-Nov-2019;1:54 AM;Satena;NSE 4402;Buenavista;8;Arrival
+13-Aug-2019;8:23 PM;Copa Airlines Colombia;RPB 1725;Pirallahı;5;Arrival
+31-Aug-2019;9:31 AM;Latam;ARE 5843;Kezileboyi;10;Arrival
+04-Sep-2019;3:06 PM;Satena;NSE 7876;Dadap;5;Exit
+27-Oct-2019;4:31 AM;Avianca;AVA 8566;Maumbawa;9;Arrival
+22-Oct-2019;1:17 PM;Copa Airlines Colombia;RPB 4479;Borda da Mata;6;Exit
+11-Aug-2019;12:26 PM;Copa Airlines Colombia;RPB 1231;Vicente Guerrero;15;Arrival
+08-Oct-2019;3:11 PM;Avianca;AVA 5715;Bobonan;10;Arrival
+12-Apr-2019;1:34 PM;Avianca;AVA 2570;Canala;8;Exit
+03-Jun-2019;11:53 PM;Avianca;AVA 7869;Tanahwangko;14;Exit
+23-Dec-2019;2:44 AM;Avianca;AVA 6667;Zhenhai;9;Exit
+05-May-2019;5:41 PM;Latam;ARE 4218;Zhengmo;5;Arrival
+14-Nov-2019;5:14 PM;Copa Airlines Colombia;RPB 3133;Vale Flores;5;Exit
+29-Sep-2019;3:33 AM;Satena;NSE 7943;Tessalit;14;Arrival
+16-Sep-2019;5:05 PM;Wingo;RPB 2008;Pushkino;3;Exit
+24-Sep-2019;9:36 AM;Copa Airlines Colombia;RPB 7920;Tocumen;11;Exit
+10-Sep-2019;11:57 PM;Copa Airlines Colombia;RPB 2776;Shangpai;14;Arrival
+17-Jun-2019;1:15 PM;Avianca;AVA 3140;Orocué;1;Exit
+19-Nov-2019;6:15 PM;Copa Airlines Colombia;RPB 8037;Banjar Petak;9;Arrival
+08-Nov-2019;6:33 AM;Viva Colombia;VVP 3881;Fullerton;15;Arrival
+03-Sep-2019;11:12 AM;Wingo;RPB 6162;Tuateta;5;Arrival
+23-Jul-2019;12:14 PM;Satena;NSE 7249;Mae Hi;15;Exit
+19-Jun-2019;8:33 PM;Copa Airlines Colombia;RPB 3846;Chincha Baja;6;Exit
+23-Dec-2019;8:41 AM;Copa Airlines Colombia;RPB 3275;Hekou;6;Arrival
+12-Oct-2019;5:50 PM;Viva Colombia;VVP 7641;Zaria;12;Arrival
+02-Aug-2019;4:23 AM;Latam;ARE 6388;Rabat;14;Exit
+11-Aug-2019;3:07 PM;Viva Colombia;VVP 5463;Colorado Springs;14;Exit
+10-Apr-2019;4:16 AM;Latam;ARE 1966;Trosa;12;Arrival
+12-Jul-2019;6:23 AM;Wingo;RPB 7420;Pasirbitung;12;Exit
+07-Jul-2019;6:19 PM;Wingo;RPB 7764;Nuquí;8;Exit
+19-May-2019;10:39 AM;Wingo;RPB 5541;Cariamanga;6;Arrival
+11-Dec-2019;6:35 AM;Satena;NSE 6337;Las Carreras;9;Exit
+07-Sep-2019;10:48 AM;Viva Colombia;VVP 8576;San Felipe Old;11;Exit
+29-Nov-2019;9:17 AM;Viva Colombia;VVP 1695;Zheleznogorsk;7;Arrival
+15-Aug-2019;7:27 AM;Copa Airlines Colombia;RPB 8730;Emiliano Zapata;10;Exit
+21-May-2019;1:40 PM;Satena;NSE 5582;El Tránsito;13;Arrival
+09-Oct-2019;11:29 PM;Avianca;AVA 7164;Kaduy;13;Arrival
+23-Aug-2019;6:15 AM;Wingo;RPB 5433;Biguaçu;13;Arrival
+13-Aug-2019;8:26 AM;Viva Colombia;VVP 4829;Richmond;12;Arrival
+30-Sep-2019;2:02 AM;Viva Colombia;VVP 3435;Västanfjärd;10;Arrival
+29-Nov-2019;11:28 AM;Wingo;RPB 2378;Środa Wielkopolska;8;Arrival
+11-Dec-2019;3:58 AM;Satena;NSE 8090;Duqu;1;Exit
+18-Oct-2019;7:01 PM;Avianca;AVA 6959;Neglasari;2;Arrival
+25-Jul-2019;6:15 AM;Copa Airlines Colombia;RPB 5285;Espinal;1;Exit
+11-Jul-2019;2:32 PM;Avianca;AVA 6194;Garoua Boulaï;10;Exit
+16-Apr-2019;12:26 PM;Wingo;RPB 6330;Huayang;8;Exit
+30-Apr-2019;11:15 AM;Satena;NSE 7936;Rubio;9;Arrival
+11-Dec-2019;12:30 PM;Latam;ARE 3001;La Rochelle;7;Exit
+10-Apr-2019;6:52 AM;Wingo;RPB 5638;Bīleh Savār;10;Exit
+06-May-2019;11:17 AM;Copa Airlines Colombia;RPB 4261;Beiguoyuan;6;Arrival
+19-Aug-2019;1:30 PM;Copa Airlines Colombia;RPB 7534;Nakama;4;Arrival
+07-Dec-2019;6:16 PM;Latam;ARE 7626;Guarapuava;5;Exit
+31-Oct-2019;4:38 AM;Avianca;AVA 3990;Prachuap Khiri Khan;11;Arrival
+24-Jun-2019;8:39 AM;Wingo;RPB 1273;Ust’-Uda;12;Exit
+23-May-2019;10:52 AM;Copa Airlines Colombia;RPB 8695;Chancay;1;Exit
+19-May-2019;8:39 AM;Satena;NSE 5796;Lusk;11;Arrival
+16-May-2019;8:23 PM;Copa Airlines Colombia;RPB 2755;Chư Prông;13;Arrival
+15-Oct-2019;4:37 AM;Copa Airlines Colombia;RPB 1279;Quintinha;3;Arrival
+16-Jul-2019;9:00 AM;Satena;NSE 3371;Wutongkou;4;Exit
+26-Jul-2019;5:34 PM;Avianca;AVA 8634;Braunschweig;9;Arrival
+21-Jul-2019;5:10 PM;Avianca;AVA 8457;Shicheng;2;Exit
+13-Jun-2019;9:14 AM;Avianca;AVA 4144;Zhongcun;6;Arrival
+30-May-2019;7:04 PM;Viva Colombia;VVP 7609;Grabica;9;Arrival
+11-May-2019;4:36 PM;Viva Colombia;VVP 8031;Kebon Tengah;14;Arrival
+24-Aug-2019;9:44 AM;Copa Airlines Colombia;RPB 4056;Shencun;10;Exit
+12-May-2019;4:25 AM;Avianca;AVA 3878;Roudnice nad Labem;13;Arrival
+14-Apr-2019;5:32 PM;Latam;ARE 1848;Guadalupe Victoria;11;Exit
+08-Jul-2019;6:13 AM;Latam;ARE 2513;Catujal Velho;14;Arrival
+24-Jul-2019;12:29 PM;Viva Colombia;VVP 1279;Jiangti;9;Exit
+13-Aug-2019;5:34 PM;Avianca;AVA 6827;Kaum Kaler;7;Arrival
+29-Oct-2019;2:06 PM;Satena;NSE 5897;Dhali;8;Arrival
+10-Apr-2019;9:17 PM;Satena;NSE 4725;Schiltigheim;3;Exit
+28-Sep-2019;1:19 AM;Copa Airlines Colombia;RPB 6573;Xiejiaya;9;Arrival
+28-Aug-2019;7:41 AM;Wingo;RPB 4193;Paris 05;13;Arrival
+01-May-2019;6:53 AM;Satena;NSE 6922;Dalam;14;Exit
+01-Dec-2019;11:48 AM;Satena;NSE 7783;Saraburi;13;Arrival
+28-Aug-2019;12:23 AM;Wingo;RPB 3100;Đắk Hà;14;Arrival
+11-Jun-2019;3:50 AM;Copa Airlines Colombia;RPB 2046;Gucheng;11;Exit
+16-May-2019;12:41 PM;Wingo;RPB 5272;Asan;12;Exit
+17-Aug-2019;5:22 AM;Avianca;AVA 4471;Kufayrit;5;Arrival
+31-Oct-2019;8:37 AM;Avianca;AVA 8083;Karangdalam;1;Arrival
+23-Aug-2019;9:56 AM;Copa Airlines Colombia;RPB 7226;Trelleborg;12;Arrival
+07-May-2019;2:17 PM;Copa Airlines Colombia;RPB 2419;Santo Amaro;9;Arrival
+13-Jun-2019;2:51 AM;Satena;NSE 2994;Guanshan;7;Arrival
+24-Jun-2019;7:16 PM;Wingo;RPB 1278;Jobabo;9;Arrival
+03-Oct-2019;5:26 AM;Avianca;AVA 2453;Aghavnatun;2;Exit
+22-Sep-2019;2:47 AM;Viva Colombia;VVP 1016;Żyraków;4;Arrival
+18-Jul-2019;5:01 PM;Latam;ARE 6349;Osekovo;5;Exit
+14-May-2019;2:40 AM;Avianca;AVA 2390;Kamenka;5;Arrival
+02-Jun-2019;1:18 PM;Avianca;AVA 6809;Khamis Mushait;6;Exit
+12-May-2019;5:26 AM;Copa Airlines Colombia;RPB 6990;Nandayure;10;Arrival
+02-Dec-2019;5:02 AM;Viva Colombia;VVP 8921;Union;8;Arrival
+01-Nov-2019;9:12 AM;Copa Airlines Colombia;RPB 8460;Roshal’;14;Exit
+04-Oct-2019;9:48 AM;Copa Airlines Colombia;RPB 1746;Gandorhun;2;Exit
+22-Oct-2019;3:23 PM;Viva Colombia;VVP 8082;Allealle;7;Arrival
+15-Sep-2019;2:33 AM;Copa Airlines Colombia;RPB 3698;Gachancipá;2;Arrival
+08-Dec-2019;4:56 AM;Copa Airlines Colombia;RPB 5347;Preserje pri Radomljah;10;Arrival
+30-Jun-2019;8:12 PM;Copa Airlines Colombia;RPB 3187;Jati;5;Exit
+12-Apr-2019;10:59 PM;Wingo;RPB 2177;Concordia;14;Exit
+30-Oct-2019;8:13 PM;Wingo;RPB 8536;Hexi;4;Arrival
+22-Apr-2019;11:21 PM;Latam;ARE 5720;Villa Hayes;12;Exit
+27-Aug-2019;7:41 AM;Copa Airlines Colombia;RPB 6307;Glubokiy;8;Arrival
+31-Aug-2019;2:34 PM;Satena;NSE 6985;Hanzhong;14;Arrival
+11-Apr-2019;2:51 PM;Satena;NSE 7018;Alpatovo;15;Exit
+08-Nov-2019;2:40 PM;Viva Colombia;VVP 4792;Mamurras;3;Exit
+12-Jul-2019;5:15 PM;Satena;NSE 4374;Dayr Sāmit;12;Arrival
+11-Apr-2019;12:04 AM;Copa Airlines Colombia;RPB 7229;Bác Ái;12;Arrival
+08-Jun-2019;11:42 AM;Viva Colombia;VVP 6650;Słupno;2;Arrival
+23-May-2019;2:58 PM;Viva Colombia;VVP 1492;Biryulëvo Zapadnoye;13;Exit
+09-Dec-2019;11:49 PM;Satena;NSE 6955;San Marcos;11;Exit
+05-May-2019;7:48 AM;Avianca;AVA 6940;Dasuhe;5;Exit
+08-May-2019;1:30 AM;Latam;ARE 3939;Mamuša;6;Arrival
+15-Sep-2019;12:12 PM;Avianca;AVA 5131;Ya’ergenchu;1;Exit
+17-May-2019;10:38 PM;Copa Airlines Colombia;RPB 5208;Metlika;1;Arrival
+26-Apr-2019;3:12 PM;Satena;NSE 4293;Xylotymbou;10;Arrival
+22-Jul-2019;4:34 PM;Viva Colombia;VVP 3809;Torrão;9;Exit
+04-Dec-2019;11:42 AM;Wingo;RPB 3159;Maranganí;13;Exit
+08-Dec-2019;4:03 AM;Wingo;RPB 1295;Campamento;7;Exit
+07-May-2019;4:49 AM;Wingo;RPB 1654;Sogamoso;13;Exit
+13-Oct-2019;5:36 AM;Viva Colombia;VVP 8277;Edgeworthstown;3;Exit
+24-Jul-2019;8:27 PM;Latam;ARE 4353;Mlangali;1;Arrival
+30-Oct-2019;8:10 AM;Wingo;RPB 8095;Pilzno;4;Exit
+27-Nov-2019;12:15 AM;Avianca;AVA 7122;Phu Kam Yao;10;Arrival
+15-Aug-2019;2:13 AM;Viva Colombia;VVP 2176;Gaotai;14;Exit
+20-Dec-2019;7:49 PM;Avianca;AVA 2143;Sumuran;1;Arrival
+20-Sep-2019;6:32 PM;Copa Airlines Colombia;RPB 3458;Quế Sơn;8;Exit
+08-May-2019;8:09 AM;Copa Airlines Colombia;RPB 4938;Tanalt;9;Arrival
+15-Aug-2019;9:54 AM;Satena;NSE 7980;Jiangqiao;12;Arrival
+25-Oct-2019;6:38 AM;Copa Airlines Colombia;RPB 8901;Zaraysk;7;Exit
+12-Apr-2019;7:56 PM;Satena;NSE 1293;Gambang;2;Exit
+15-Jun-2019;5:07 AM;Viva Colombia;VVP 8810;Povedniki;2;Exit
+15-Jun-2019;1:40 AM;Wingo;RPB 5987;Kŭlob;6;Arrival
+02-Nov-2019;7:27 AM;Satena;NSE 2789;Hangji;14;Arrival
+11-Sep-2019;1:14 AM;Avianca;AVA 3064;Jiangdianzi;6;Arrival
+14-Dec-2019;1:53 AM;Copa Airlines Colombia;RPB 1769;Sanbaishan;2;Arrival
+25-Jul-2019;3:37 PM;Latam;ARE 3956;Liufeng;9;Arrival
+11-Jun-2019;10:57 AM;Viva Colombia;VVP 3543;Pop;7;Arrival
+01-Dec-2019;5:25 AM;Viva Colombia;VVP 5202;Kindu;6;Arrival
+16-Nov-2019;5:26 PM;Viva Colombia;VVP 2821;Vuzenica;13;Exit
+15-Apr-2019;3:34 AM;Wingo;RPB 5108;Sayaxché;1;Exit
+15-May-2019;6:05 PM;Copa Airlines Colombia;RPB 3503;Villa Alemana;13;Arrival
+22-Dec-2019;7:31 AM;Latam;ARE 5333;Barcarena;3;Exit
+22-Dec-2019;3:19 PM;Latam;ARE 1379;Talok;9;Arrival
+22-Sep-2019;10:43 AM;Avianca;AVA 4869;Chkalov;13;Exit
+16-Oct-2019;10:43 AM;Viva Colombia;VVP 1712;Hidalgo;12;Exit
+16-Jun-2019;10:12 PM;Avianca;AVA 6613;Waldbillig;1;Arrival
+10-Jun-2019;5:53 AM;Avianca;AVA 1597;Jönköping;7;Arrival
+08-Jul-2019;10:23 PM;Wingo;RPB 6592;Jarry;7;Arrival
+07-Nov-2019;12:24 AM;Viva Colombia;VVP 8727;Huangqiao;7;Arrival
+28-May-2019;9:50 AM;Viva Colombia;VVP 4969;Drakino;13;Exit
+20-Jul-2019;7:19 PM;Avianca;AVA 4193;Kawambwa;11;Arrival
+05-Nov-2019;2:13 AM;Satena;NSE 2714;Qarah Bāgh;3;Exit
+03-Dec-2019;1:09 PM;Copa Airlines Colombia;RPB 3952;San José de Jáchal;6;Arrival
+31-Oct-2019;2:22 PM;Wingo;RPB 3654;Ábidos;4;Exit
+08-Dec-2019;11:57 AM;Satena;NSE 3161;Milagros;10;Arrival
+16-Nov-2019;9:24 PM;Wingo;RPB 4742;Novi Sad;9;Exit
+26-Aug-2019;12:16 PM;Viva Colombia;VVP 4787;Abade de Neiva;13;Exit
+24-May-2019;7:05 AM;Avianca;AVA 4891;Kavýli;5;Arrival
+28-May-2019;5:53 PM;Copa Airlines Colombia;RPB 4890;Zalanga;2;Arrival
+13-Apr-2019;2:31 AM;Avianca;AVA 1668;Carolina;10;Arrival
+11-Sep-2019;12:03 PM;Avianca;AVA 6980;Babah Rot;13;Exit
+25-Nov-2019;5:44 AM;Avianca;AVA 5486;Bromma;10;Arrival
+21-Apr-2019;2:48 AM;Viva Colombia;VVP 8953;Ketanggi;8;Exit
+08-Jul-2019;2:06 AM;Wingo;RPB 3641;San Cosme y Damián;6;Arrival
+09-Aug-2019;2:00 PM;Wingo;RPB 7015;Metahāra;6;Arrival
+18-Sep-2019;11:48 AM;Wingo;RPB 3126;Jiquilillo;7;Arrival
+21-Dec-2019;5:55 AM;Wingo;RPB 8072;Pho Thong;9;Exit
+07-Dec-2019;7:13 AM;Copa Airlines Colombia;RPB 2968;Sanqishi;7;Arrival
+24-Jun-2019;4:16 PM;Latam;ARE 3617;Malitubog;13;Exit
+21-Nov-2019;11:13 PM;Avianca;AVA 8549;Oujiangcha;3;Arrival
+11-Nov-2019;1:26 PM;Avianca;AVA 8886;Haitou;4;Exit
+05-Oct-2019;8:04 PM;Viva Colombia;VVP 6222;Haduohe;1;Arrival
+06-May-2019;3:23 PM;Satena;NSE 4254;Fortaleza;5;Exit
+02-Oct-2019;4:34 AM;Avianca;AVA 4234;Dalmeny;4;Exit
+15-Nov-2019;3:21 AM;Avianca;AVA 2535;Pillpinto;13;Arrival
+23-Oct-2019;3:48 AM;Wingo;RPB 1794;Namboongan;8;Exit
+04-Jul-2019;8:33 AM;Copa Airlines Colombia;RPB 1384;Cernay;4;Exit
+22-Aug-2019;7:06 AM;Satena;NSE 6138;Val-d'Or;13;Arrival
+29-Nov-2019;2:55 AM;Copa Airlines Colombia;RPB 8172;Chyżne;12;Exit
+04-Oct-2019;4:18 PM;Wingo;RPB 1311;Tiandiba;5;Exit
+27-Jun-2019;1:17 AM;Wingo;RPB 1444;Santa Maria da Vitória;7;Arrival
+12-Dec-2019;10:21 PM;Avianca;AVA 2419;Runting;5;Arrival
+24-Nov-2019;7:36 AM;Wingo;RPB 7006;Wringinputih;13;Exit
+30-Sep-2019;5:44 AM;Wingo;RPB 5377;Kŭlob;4;Arrival
+05-Oct-2019;9:19 AM;Viva Colombia;VVP 8551;Lengshui;12;Exit
+22-Apr-2019;1:46 AM;Copa Airlines Colombia;RPB 5434;Ustynivka;3;Arrival
+10-May-2019;2:14 PM;Wingo;RPB 4425;Nakhon Nayok;6;Exit
+27-Dec-2019;1:53 AM;Avianca;AVA 2581;Nice;8;Arrival
+14-May-2019;10:12 PM;Wingo;RPB 8533;Ashcroft;15;Exit
+23-Nov-2019;11:02 AM;Avianca;AVA 3148;Kota Kinabalu;2;Exit
+10-Aug-2019;2:49 AM;Avianca;AVA 2343;Wau;9;Exit
+25-Apr-2019;2:56 AM;Latam;ARE 7868;Savigny-le-Temple;8;Arrival
+07-Jul-2019;8:36 AM;Viva Colombia;VVP 3224;Maraã;7;Exit
+22-Oct-2019;12:00 AM;Wingo;RPB 5199;Kuta;6;Arrival
+14-Oct-2019;10:13 PM;Satena;NSE 8472;Boji;6;Arrival
+22-Jul-2019;3:52 PM;Wingo;RPB 6220;San Miguel;5;Exit
+03-Sep-2019;10:43 AM;Viva Colombia;VVP 5563;Daja;13;Arrival
+02-Oct-2019;9:04 AM;Wingo;RPB 8878;Dongfu;15;Exit
+08-Dec-2019;8:45 PM;Copa Airlines Colombia;RPB 6184;Nîmes;9;Exit
+01-Jun-2019;9:05 PM;Satena;NSE 6795;Al Miqdādīyah;5;Arrival
+26-Nov-2019;4:56 PM;Copa Airlines Colombia;RPB 3582;Limón;1;Arrival
+26-Apr-2019;6:06 AM;Copa Airlines Colombia;RPB 2657;Xinmin;2;Exit
+16-Dec-2019;9:30 PM;Viva Colombia;VVP 5344;Beijiang;14;Arrival
+21-Dec-2019;2:22 PM;Viva Colombia;VVP 1957;Tabug;15;Arrival
+20-Sep-2019;12:58 PM;Latam;ARE 2335;Wonotirto;5;Exit
+11-Aug-2019;2:09 PM;Viva Colombia;VVP 7359;Devon;11;Exit
+03-Dec-2019;9:45 AM;Wingo;RPB 5243;Villa de Soto;1;Arrival
+07-Nov-2019;8:14 PM;Viva Colombia;VVP 8491;Trasak;15;Arrival
+17-Dec-2019;1:26 PM;Viva Colombia;VVP 2804;Xinchang;13;Exit
+09-Jul-2019;6:16 AM;Latam;ARE 7897;Yotala;11;Arrival
+19-Jul-2019;2:38 AM;Wingo;RPB 8625;Gayamdesa;10;Exit
+14-May-2019;4:28 AM;Avianca;AVA 6166;Bojszowy Nowe;1;Exit
+18-May-2019;8:16 AM;Viva Colombia;VVP 6966;Hobaramachi;10;Exit
+17-Apr-2019;2:57 PM;Satena;NSE 1941;Al Farwānīyah;4;Exit
+29-Apr-2019;2:58 PM;Satena;NSE 7155;Lazaro Cardenas;6;Arrival
+10-Jun-2019;4:30 PM;Wingo;RPB 2294;Damatou;1;Arrival
+07-Sep-2019;6:56 AM;Latam;ARE 4003;Pidigan;12;Exit
+21-Jul-2019;2:38 AM;Viva Colombia;VVP 2913;Sunduan;6;Exit
+18-Nov-2019;9:47 PM;Viva Colombia;VVP 4251;Gon’ba;5;Exit
+04-Jun-2019;4:04 PM;Latam;ARE 6063;Oslo;12;Arrival
+31-Jul-2019;12:45 AM;Latam;ARE 7701;Tomakomai;1;Exit
+10-Apr-2019;3:18 AM;Copa Airlines Colombia;RPB 3692;Vyšší Brod;5;Arrival
+10-Nov-2019;2:25 AM;Wingo;RPB 8386;Stupari;14;Exit
+13-Oct-2019;11:34 PM;Latam;ARE 4665;Höfn;9;Exit
+21-Jun-2019;3:26 AM;Satena;NSE 6647;Conchal;2;Exit
+20-May-2019;3:10 AM;Viva Colombia;VVP 6235;Thạnh Mỹ;15;Exit
+08-Jun-2019;2:26 PM;Wingo;RPB 4827;Gotse Delchev;1;Arrival
+25-May-2019;3:04 PM;Viva Colombia;VVP 2895;Karibib;7;Exit
+19-Oct-2019;2:52 AM;Satena;NSE 2115;Gajrug;3;Arrival
+25-Nov-2019;11:54 AM;Satena;NSE 4406;Sampao;7;Arrival
+04-Oct-2019;11:36 AM;Satena;NSE 5318;Haifa;2;Exit
+04-Dec-2019;12:15 PM;Satena;NSE 5910;Buenos Aires;5;Exit
+21-Oct-2019;11:54 AM;Wingo;RPB 1372;Bileća;3;Exit
+01-Dec-2019;10:06 PM;Wingo;RPB 1466;Futian;7;Exit
+09-Jul-2019;6:06 PM;Viva Colombia;VVP 1874;Bronx;14;Exit
+27-Jul-2019;10:09 AM;Copa Airlines Colombia;RPB 3761;Gewanē;12;Arrival
+20-Oct-2019;2:16 AM;Copa Airlines Colombia;RPB 6780;Krosno Odrzańskie;4;Arrival
+01-Oct-2019;9:54 PM;Wingo;RPB 6683;Matmata;5;Exit
+16-Dec-2019;9:46 AM;Avianca;AVA 6256;Artemivs’k;4;Exit
+10-Jul-2019;10:27 PM;Viva Colombia;VVP 2680;Bantiran;3;Arrival
+11-Oct-2019;1:40 AM;Viva Colombia;VVP 5292;Tashang;4;Arrival
+24-Aug-2019;1:52 AM;Satena;NSE 6612;Gaotuo;10;Arrival
+16-Jun-2019;10:10 AM;Satena;NSE 7489;Jakusko;14;Exit
+18-Nov-2019;3:02 PM;Satena;NSE 6286;Río Grande;15;Exit
+06-May-2019;9:06 AM;Latam;ARE 8358;Tsetsegnuur;8;Arrival
+06-May-2019;4:06 PM;Copa Airlines Colombia;RPB 4320;Pegões;3;Exit
+27-Nov-2019;4:46 AM;Latam;ARE 6141;Koktokay;15;Exit
+15-Nov-2019;4:44 PM;Satena;NSE 2062;Nong Ruea;3;Exit
+21-Aug-2019;6:08 PM;Satena;NSE 3529;Pirallahı;6;Exit
+14-Apr-2019;9:31 AM;Satena;NSE 6248;Tanjungkerta;15;Exit
+28-Jul-2019;3:45 PM;Latam;ARE 3983;Lemland;5;Exit
+07-May-2019;7:41 AM;Copa Airlines Colombia;RPB 1246;København;3;Arrival
+13-Aug-2019;11:11 PM;Satena;NSE 1891;Awjilah;11;Exit
+18-Apr-2019;9:53 PM;Satena;NSE 7573;Blois;11;Exit
+05-Sep-2019;11:43 AM;Avianca;AVA 6673;Sancha;9;Exit
+12-Jun-2019;11:13 AM;Satena;NSE 6259;Znamenskoye;3;Arrival
+10-Dec-2019;5:32 PM;Viva Colombia;VVP 7245;Jalālpur Pīrwāla;4;Arrival
+08-May-2019;8:33 AM;Copa Airlines Colombia;RPB 4352;Venustiano Carranza;11;Arrival
+12-Apr-2019;4:54 PM;Copa Airlines Colombia;RPB 5499;Congas;3;Arrival
+14-Aug-2019;1:00 PM;Viva Colombia;VVP 3372;Battaramulla South;10;Exit
+18-Apr-2019;7:55 PM;Wingo;RPB 1043;Suez;2;Arrival
+17-May-2019;11:07 AM;Satena;NSE 4719;Lubei;6;Exit
+10-Jul-2019;11:43 PM;Avianca;AVA 3532;Dongli;14;Exit
+05-Nov-2019;5:26 AM;Viva Colombia;VVP 1425;Prata;9;Exit
+26-Jul-2019;5:26 AM;Copa Airlines Colombia;RPB 7500;Tempurejo;7;Exit
+09-Dec-2019;5:28 PM;Wingo;RPB 8298;Edinburgh;5;Arrival
+22-Jul-2019;4:25 AM;Latam;ARE 6276;Bilad;12;Exit
+27-Nov-2019;4:57 AM;Wingo;RPB 3637;Shazi;4;Arrival
+14-Sep-2019;3:04 AM;Latam;ARE 1769;Wanquan;5;Exit
+02-Jun-2019;2:01 AM;Avianca;AVA 5753;Florida;8;Arrival
+01-May-2019;11:58 PM;Satena;NSE 6035;Carrières-sur-Seine;8;Exit
+27-Apr-2019;11:33 PM;Avianca;AVA 5333;Margita;14;Exit
+19-Jun-2019;12:29 AM;Wingo;RPB 7890;Limeiras;8;Arrival
+12-Aug-2019;12:17 AM;Copa Airlines Colombia;RPB 5538;Yacheng;10;Arrival
+18-Nov-2019;7:52 PM;Copa Airlines Colombia;RPB 4269;Łopuszna;14;Exit
+10-Apr-2019;7:53 PM;Copa Airlines Colombia;RPB 8422;Nortelândia;3;Arrival
+28-Oct-2019;9:43 PM;Satena;NSE 8198;Bergen;10;Exit
+15-Apr-2019;8:43 PM;Satena;NSE 5734;Changqiao;9;Arrival
+24-May-2019;7:09 AM;Copa Airlines Colombia;RPB 4311;Prokop’yevsk;3;Arrival
+02-Jun-2019;12:06 PM;Satena;NSE 2855;Mariestad;5;Arrival
+16-Oct-2019;2:41 PM;Satena;NSE 7728;Himi;4;Arrival
+29-Dec-2019;12:52 PM;Avianca;AVA 7632;Gualeguaychú;15;Arrival
+12-Jun-2019;3:29 PM;Avianca;AVA 3403;Eirunepé;9;Exit
+17-Oct-2019;1:51 PM;Satena;NSE 4063;Medveditskiy;1;Exit
+22-Jul-2019;10:08 PM;Avianca;AVA 6994;Maués;8;Arrival
+21-Nov-2019;7:16 AM;Wingo;RPB 7460;Cimaragas;4;Arrival
+29-Dec-2019;4:41 AM;Viva Colombia;VVP 7708;Balung Barat;14;Arrival
+25-Dec-2019;12:12 PM;Satena;NSE 5699;Bambari;1;Arrival
+28-Dec-2019;2:47 AM;Viva Colombia;VVP 5319;Balzers;2;Exit
+03-Jun-2019;7:28 AM;Satena;NSE 8203;Paynjuwayn;7;Arrival
+04-Sep-2019;1:54 AM;Wingo;RPB 8154;Nagpandayan;7;Arrival
+15-Jun-2019;5:31 PM;Latam;ARE 5259;Áno Kopanákion;6;Arrival
+08-Jun-2019;9:19 PM;Copa Airlines Colombia;RPB 2113;København;14;Exit
+11-Nov-2019;2:49 AM;Satena;NSE 5410;Morgados;10;Arrival
+13-Dec-2019;11:02 PM;Avianca;AVA 4002;Plumbon;13;Arrival
+17-Oct-2019;5:32 AM;Wingo;RPB 3278;Dukuh Kaler;15;Exit
+23-Oct-2019;12:16 PM;Copa Airlines Colombia;RPB 2042;Myślenice;13;Arrival
+24-Nov-2019;3:52 PM;Copa Airlines Colombia;RPB 2751;San Antonio;5;Arrival
+27-Apr-2019;12:15 AM;Satena;NSE 6679;Łaziska Górne;11;Arrival
+12-Sep-2019;1:55 PM;Copa Airlines Colombia;RPB 2225;Sibreh;8;Arrival
+22-May-2019;6:06 AM;Copa Airlines Colombia;RPB 7216;Podbrdo;8;Arrival
+09-Aug-2019;9:46 PM;Avianca;AVA 7375;Westport;15;Arrival
+05-Aug-2019;9:52 PM;Wingo;RPB 3969;Taiping;13;Exit
+03-Nov-2019;5:34 PM;Viva Colombia;VVP 4209;Cincinnati;6;Exit
+19-Jun-2019;1:01 PM;Satena;NSE 6482;Xin’an;11;Exit
+12-Apr-2019;12:22 PM;Latam;ARE 4918;Diepsloot;15;Exit
+24-Apr-2019;5:51 PM;Copa Airlines Colombia;RPB 5594;Losevo;15;Exit
+01-Jul-2019;6:22 PM;Latam;ARE 7394;Purificación;10;Arrival
+04-May-2019;3:40 AM;Viva Colombia;VVP 7807;Ajaccio;6;Arrival
+11-Nov-2019;7:28 AM;Viva Colombia;VVP 5908;Krayen;1;Exit
+27-Oct-2019;11:22 AM;Latam;ARE 6671;Kyaikkami;1;Exit
+30-Aug-2019;11:32 AM;Avianca;AVA 2792;Muara Siberut;3;Exit
+19-Jul-2019;4:38 PM;Copa Airlines Colombia;RPB 3439;Mapalad;14;Arrival
+16-Oct-2019;7:28 AM;Satena;NSE 2163;Kybartai;11;Arrival
+27-Jul-2019;6:26 PM;Copa Airlines Colombia;RPB 8062;Jacura;1;Exit
+09-Apr-2019;5:20 PM;Copa Airlines Colombia;RPB 5087;Pellegrini;15;Arrival
+17-Dec-2019;3:57 PM;Viva Colombia;VVP 3130;Thị Trấn Than Uyên;1;Arrival
+28-Sep-2019;10:40 PM;Avianca;AVA 2928;Nizhniy Novgorod;13;Arrival
+04-Jul-2019;4:45 PM;Copa Airlines Colombia;RPB 5723;Osveya;10;Arrival
+14-Apr-2019;4:21 AM;Viva Colombia;VVP 4602;Mirandopólis;3;Exit
+13-Sep-2019;1:19 AM;Wingo;RPB 2250;Daweishan;2;Arrival
+10-Dec-2019;1:04 AM;Satena;NSE 4459;Sortavala;6;Exit
+04-Oct-2019;8:06 AM;Copa Airlines Colombia;RPB 2005;Kang-neung;11;Arrival
+24-Jul-2019;9:29 AM;Viva Colombia;VVP 7570;Ban Mo;8;Exit
+02-Jul-2019;6:21 PM;Latam;ARE 6478;Beihe;6;Exit
+30-Nov-2019;10:04 PM;Satena;NSE 4520;Indianapolis;13;Arrival
+19-May-2019;4:43 AM;Avianca;AVA 1536;Beidajie;13;Exit
+02-Oct-2019;2:34 PM;Satena;NSE 2008;Trelleborg;2;Arrival
+14-May-2019;10:40 PM;Avianca;AVA 4969;Guisa;13;Exit
+15-Sep-2019;12:40 AM;Satena;NSE 2360;Guadalupe;13;Exit
+19-Jun-2019;10:42 PM;Satena;NSE 6509;Rogoźnik;13;Arrival
+03-Dec-2019;8:35 PM;Satena;NSE 2698;Bantul;12;Arrival
+12-Oct-2019;1:04 PM;Copa Airlines Colombia;RPB 7447;Espírito Santo do Pinhal;4;Arrival
+20-Nov-2019;3:13 PM;Viva Colombia;VVP 7173;Ciudad Cortés;14;Exit
+28-Jun-2019;12:02 PM;Satena;NSE 2539;Oussivo;10;Exit
+02-Dec-2019;3:21 AM;Copa Airlines Colombia;RPB 3472;Hrtkovci;5;Exit
+30-May-2019;4:20 PM;Viva Colombia;VVP 2576;Chalamarca;5;Arrival
+03-Nov-2019;5:53 PM;Viva Colombia;VVP 6924;Rionegro;14;Exit
+14-Nov-2019;9:50 PM;Satena;NSE 1049;Risālpur;1;Exit
+17-Apr-2019;2:21 PM;Avianca;AVA 8674;Guataquí;6;Exit
+13-Sep-2019;8:09 AM;Avianca;AVA 2368;Hannover;9;Arrival
+18-May-2019;7:19 PM;Latam;ARE 6725;Talghar;10;Exit
+26-Jul-2019;2:39 PM;Copa Airlines Colombia;RPB 5530;San Agustín;5;Exit
+31-May-2019;4:42 PM;Satena;NSE 7483;Canindé;13;Exit
+24-Jun-2019;8:40 AM;Avianca;AVA 7708;Zhichanghe;10;Exit
+04-Nov-2019;7:56 AM;Latam;ARE 6061;Kedungharjo;11;Arrival
+01-Oct-2019;7:16 PM;Copa Airlines Colombia;RPB 6321;Salinas;14;Arrival
+19-Nov-2019;11:45 AM;Copa Airlines Colombia;RPB 8354;Agalteca;4;Arrival
+02-May-2019;10:07 AM;Satena;NSE 1308;Tinawagan;8;Arrival
+03-Dec-2019;4:35 PM;Avianca;AVA 2110;Sucre;3;Exit
+21-May-2019;10:34 PM;Satena;NSE 3806;Abade de Vermoim;7;Arrival
+01-Dec-2019;2:15 AM;Satena;NSE 3707;Acas;15;Arrival
+12-Aug-2019;6:15 PM;Wingo;RPB 4006;Sadao;5;Arrival
+31-Oct-2019;8:39 AM;Wingo;RPB 6274;Huangge;13;Exit
+28-May-2019;9:24 AM;Wingo;RPB 6074;Tiko;13;Exit
+30-Aug-2019;2:58 AM;Latam;ARE 8190;Segbwema;13;Exit
+20-Aug-2019;10:54 PM;Wingo;RPB 5168;Colonias Unidas;11;Exit
+24-Jul-2019;4:40 PM;Latam;ARE 5428;Nandayure;14;Exit
+16-Jul-2019;7:00 PM;Satena;NSE 7501;Bil‘īn;14;Exit
+20-Apr-2019;7:01 AM;Avianca;AVA 3784;Onokivtsi;10;Arrival
+21-Nov-2019;10:04 PM;Latam;ARE 4042;Tengah;11;Exit
+09-Apr-2019;2:36 AM;Avianca;AVA 3452;Rožďalovice;9;Arrival
+16-May-2019;5:23 AM;Copa Airlines Colombia;RPB 8294;Tours;15;Arrival
+22-Oct-2019;9:51 PM;Copa Airlines Colombia;RPB 8415;Sruki;12;Arrival
+20-Sep-2019;10:24 PM;Latam;ARE 3556;Bernardo Larroudé;10;Exit
+09-Apr-2019;7:19 AM;Viva Colombia;VVP 1062;Mauraro;15;Arrival
+11-Aug-2019;4:48 AM;Latam;ARE 6719;Wuyun;11;Arrival
+18-Jul-2019;7:30 AM;Wingo;RPB 4780;Hejiadong;3;Exit
+28-Aug-2019;9:10 AM;Avianca;AVA 4522;Sanghan;5;Exit
+29-Dec-2019;9:26 AM;Viva Colombia;VVP 1704;Hongqiao;11;Arrival
+15-Sep-2019;8:08 AM;Wingo;RPB 7221;Domsjö;4;Arrival
+07-Jun-2019;1:47 AM;Viva Colombia;VVP 4488;Aketi;6;Arrival
+08-Nov-2019;5:07 AM;Viva Colombia;VVP 7811;Niort;12;Arrival
+17-Aug-2019;5:59 PM;Satena;NSE 4112;Niterói;10;Exit
+08-Jul-2019;4:46 AM;Copa Airlines Colombia;RPB 8023;Rennes;3;Exit
+02-Oct-2019;1:10 PM;Viva Colombia;VVP 3321;Rancakole;9;Exit
+28-Jul-2019;3:20 PM;Viva Colombia;VVP 8531;Heishui;13;Exit
+17-Jul-2019;8:02 AM;Wingo;RPB 5129;Annopol;14;Exit
+30-Oct-2019;6:16 PM;Avianca;AVA 7122;Nanmuping;9;Exit
+10-May-2019;3:46 PM;Copa Airlines Colombia;RPB 1137;Itbayat;1;Exit
+01-Jun-2019;11:31 PM;Viva Colombia;VVP 6147;Tochigi;7;Arrival
+17-Aug-2019;4:18 PM;Wingo;RPB 5058;Nanterre;3;Arrival
+15-Oct-2019;3:50 AM;Copa Airlines Colombia;RPB 7249;Zwettl;2;Arrival
+31-Aug-2019;8:39 PM;Wingo;RPB 1141;Pathum Thani;12;Arrival
+11-Dec-2019;8:44 AM;Latam;ARE 6653;Māymay;13;Exit
+17-Oct-2019;9:19 AM;Copa Airlines Colombia;RPB 4951;Santa Cruz del Quiché;6;Arrival
+05-Aug-2019;12:53 AM;Satena;NSE 6106;Velas;4;Exit
+22-Apr-2019;3:16 AM;Avianca;AVA 6983;Ciechanów;4;Exit
+11-Jun-2019;10:48 PM;Wingo;RPB 7060;Iznoski;4;Arrival
+22-Sep-2019;6:42 AM;Copa Airlines Colombia;RPB 3768;Stockholm;8;Arrival
+04-Jun-2019;10:05 AM;Satena;NSE 6176;Montreuil;15;Exit
+02-Dec-2019;7:23 PM;Satena;NSE 4403;Bradag;11;Arrival
+18-May-2019;2:44 AM;Wingo;RPB 5250;Grabów;5;Arrival
+02-Nov-2019;3:55 AM;Latam;ARE 6019;Ainaži;6;Arrival
+13-Jun-2019;3:16 PM;Copa Airlines Colombia;RPB 6139;La Esperanza;6;Arrival
+01-Jun-2019;5:42 AM;Viva Colombia;VVP 1548;Bolesławiec;10;Exit
+04-May-2019;11:55 AM;Latam;ARE 7195;Longtanhe;4;Exit
+08-May-2019;5:22 PM;Wingo;RPB 7286;Barinitas;13;Arrival
+03-Jun-2019;9:11 PM;Satena;NSE 3715;Shijiazhuang;3;Exit
+28-Jun-2019;8:07 PM;Latam;ARE 3802;Qilin;15;Arrival
+25-Oct-2019;7:46 AM;Wingo;RPB 4417;Cao Thượng;8;Arrival
+25-May-2019;1:44 AM;Wingo;RPB 1592;Las Palmas;8;Exit
+29-Dec-2019;8:50 PM;Latam;ARE 5413;Sarirejo Satu;10;Exit
+29-Jul-2019;3:11 PM;Avianca;AVA 8861;Sukakerta;4;Exit
+17-Jul-2019;11:21 PM;Satena;NSE 6751;Dashi;9;Arrival
+21-Dec-2019;1:49 PM;Wingo;RPB 1963;Watthana Nakhon;7;Arrival
+09-Apr-2019;11:03 PM;Latam;ARE 7601;Tuen Mun;11;Exit
+23-Jun-2019;11:43 AM;Avianca;AVA 7895;Mang’it Shahri;8;Arrival
+18-Dec-2019;7:37 AM;Latam;ARE 2563;Żarnów;10;Exit
+04-Oct-2019;7:58 PM;Copa Airlines Colombia;RPB 8355;Datong;7;Arrival
+01-Jul-2019;7:46 AM;Wingo;RPB 2140;Odienné;4;Exit
+27-Jun-2019;12:46 PM;Viva Colombia;VVP 2747;Simpang;14;Arrival
+03-May-2019;6:35 AM;Wingo;RPB 1518;Huangzhuang;8;Exit
+23-Dec-2019;3:29 AM;Satena;NSE 5320;Bendilmuning;14;Exit
+16-Dec-2019;2:46 PM;Copa Airlines Colombia;RPB 4009;Heping;6;Arrival
+17-May-2019;5:57 AM;Satena;NSE 8724;Yigo Village;12;Exit
+17-May-2019;6:51 AM;Avianca;AVA 8025;Brańsk;6;Arrival
+15-Apr-2019;3:57 PM;Copa Airlines Colombia;RPB 1173;Hanau;8;Arrival
+26-May-2019;10:31 AM;Copa Airlines Colombia;RPB 3020;Duoxiang;4;Exit
+28-May-2019;1:25 PM;Wingo;RPB 6440;Xinjia;4;Exit
+27-Jun-2019;11:27 AM;Latam;ARE 2805;Qinglian;14;Arrival
+25-Sep-2019;2:58 PM;Viva Colombia;VVP 8282;San Bernardo;12;Arrival
+15-Apr-2019;1:18 PM;Satena;NSE 6409;Stradbally;7;Exit
+20-Oct-2019;11:54 AM;Wingo;RPB 1001;Oslo;3;Arrival
+15-May-2019;3:52 PM;Viva Colombia;VVP 8941;Frederico Westphalen;14;Arrival
+26-Dec-2019;7:25 PM;Latam;ARE 5397;Aveleda;14;Exit
+21-May-2019;2:51 AM;Avianca;AVA 8453;Wangxian;11;Exit
+04-Jul-2019;5:16 PM;Wingo;RPB 8401;Bechyně;12;Arrival
+12-Aug-2019;6:43 PM;Copa Airlines Colombia;RPB 1619;Jialai;1;Arrival
+19-Dec-2019;6:11 AM;Latam;ARE 2170;Fort Wayne;5;Exit
+30-Sep-2019;4:14 AM;Satena;NSE 4716;Västerås;11;Arrival
+07-Jul-2019;10:30 PM;Avianca;AVA 8920;Ketitang Wetan;15;Arrival
+04-Nov-2019;4:54 AM;Latam;ARE 3531;Merkezköy;5;Exit
+03-Dec-2019;2:25 PM;Copa Airlines Colombia;RPB 5514;Sainte-Sophie;14;Arrival
+10-Jun-2019;3:37 PM;Copa Airlines Colombia;RPB 1037;Taltal;2;Arrival
+03-Dec-2019;12:30 PM;Copa Airlines Colombia;RPB 4997;Pawa;14;Arrival
+12-May-2019;12:38 AM;Latam;ARE 6730;Chervonoarmiys’k;1;Exit
+24-Jun-2019;6:08 AM;Wingo;RPB 7709;Táriba;8;Arrival
+15-Aug-2019;5:59 AM;Satena;NSE 4077;Nový Bor;4;Exit
+25-Dec-2019;12:29 PM;Latam;ARE 5331;Bernardo Larroudé;8;Exit
+02-Oct-2019;12:24 PM;Wingo;RPB 6527;Belica;10;Arrival
+24-Oct-2019;4:47 PM;Avianca;AVA 8202;Zapod;4;Exit
+02-Oct-2019;4:16 PM;Wingo;RPB 4635;Pitogo;8;Arrival
+05-Oct-2019;6:02 PM;Latam;ARE 8900;Åtvidaberg;6;Arrival
+04-Jun-2019;5:18 AM;Avianca;AVA 1882;Chengnan;1;Arrival
+15-Jul-2019;10:20 PM;Latam;ARE 6868;Johor Bahru;13;Exit
+02-Jun-2019;1:03 AM;Satena;NSE 3121;Ambarita;1;Exit
+17-Apr-2019;8:58 AM;Satena;NSE 8882;Futu;7;Arrival
+05-Oct-2019;10:38 AM;Copa Airlines Colombia;RPB 5465;Žihle;15;Arrival
+18-Apr-2019;1:10 PM;Satena;NSE 1228;Panshan;5;Arrival
+29-Nov-2019;8:46 AM;Viva Colombia;VVP 6092;Xialiao;15;Exit
+12-Nov-2019;7:14 PM;Latam;ARE 4188;Xianyi;10;Exit
+11-Jun-2019;10:49 PM;Viva Colombia;VVP 7608;Tandayag;12;Arrival
+12-Aug-2019;3:47 PM;Wingo;RPB 2454;Kinéta;1;Arrival
+27-Dec-2019;10:45 PM;Viva Colombia;VVP 6611;Xiushi;6;Arrival
+28-Dec-2019;1:16 AM;Avianca;AVA 2156;Luau;13;Exit
+05-Dec-2019;3:56 PM;Copa Airlines Colombia;RPB 8144;Dolulolong;10;Exit
+24-Oct-2019;9:33 AM;Latam;ARE 2971;Shushicë;14;Arrival
+08-May-2019;3:09 AM;Wingo;RPB 4019;Colonia Aurora;11;Exit
+23-Oct-2019;7:46 AM;Satena;NSE 3101;Katyuzhanka;7;Exit
+27-Aug-2019;10:50 AM;Satena;NSE 1998;Chongru;3;Arrival
+10-Apr-2019;2:01 PM;Viva Colombia;VVP 1778;Vendychany;13;Exit
+16-Aug-2019;10:25 AM;Avianca;AVA 8679;Río Bueno;11;Exit
+06-Nov-2019;11:31 PM;Viva Colombia;VVP 2226;Lysogorskaya;7;Arrival
+02-Jul-2019;10:17 AM;Viva Colombia;VVP 6633;Dawei;2;Exit
+10-Sep-2019;9:58 AM;Latam;ARE 2823;Wencheng;5;Arrival
+22-Sep-2019;2:54 PM;Wingo;RPB 5991;Uppsala;7;Arrival
+29-May-2019;4:39 AM;Viva Colombia;VVP 7107;Perivóli;6;Arrival
+22-Sep-2019;4:09 PM;Avianca;AVA 2277;Nizhnevartovsk;13;Arrival
+16-Nov-2019;12:27 AM;Wingo;RPB 4769;Tawali;6;Exit
+23-Dec-2019;8:30 PM;Viva Colombia;VVP 7115;Iława;14;Exit
+21-Jul-2019;9:12 AM;Satena;NSE 7201;Āzādshahr;6;Arrival
+11-Jun-2019;11:45 AM;Viva Colombia;VVP 1059;Michałów;3;Arrival
+09-Sep-2019;5:37 AM;Avianca;AVA 2638;Nürnberg;6;Exit
+16-Oct-2019;10:42 AM;Copa Airlines Colombia;RPB 1021;Glagahan;11;Exit
+27-Apr-2019;4:38 PM;Wingo;RPB 7463;Varkaus;15;Arrival
+07-Sep-2019;9:31 AM;Wingo;RPB 7380;Balung;14;Arrival
+28-Jul-2019;2:02 AM;Satena;NSE 4574;Al Jīb;4;Exit
+28-Jun-2019;5:29 PM;Avianca;AVA 3584;Dongfeng;3;Arrival
+29-May-2019;9:21 AM;Wingo;RPB 3616;Guradog;13;Arrival
+05-Sep-2019;12:31 PM;Latam;ARE 3877;El Tambo;15;Exit
+22-Aug-2019;9:06 PM;Latam;ARE 4486;Zhengguo;6;Arrival
+20-Aug-2019;12:44 AM;Wingo;RPB 2956;Al Jafr;2;Arrival
+25-Nov-2019;6:00 PM;Avianca;AVA 4980;Naperville;11;Exit
+31-May-2019;10:22 PM;Wingo;RPB 4622;Las Palomas;7;Exit
+15-Sep-2019;12:50 PM;Satena;NSE 8217;Stockholm;9;Exit
+24-Oct-2019;5:12 PM;Latam;ARE 7618;Tibigan;8;Arrival
+25-Nov-2019;8:51 AM;Wingo;RPB 2450;Lushikeng;13;Exit
+19-May-2019;9:13 AM;Satena;NSE 4104;Khlong Hat;4;Exit
+31-Jul-2019;4:56 PM;Satena;NSE 8123;Dasanlian Lauk;10;Exit
+24-May-2019;5:39 PM;Latam;ARE 6457;Tønsberg;15;Exit
+11-Oct-2019;2:43 PM;Viva Colombia;VVP 7321;Banjar Triwangsakeliki;1;Arrival
+10-Jun-2019;9:12 PM;Latam;ARE 3926;Rostov;15;Arrival
+04-Dec-2019;7:53 PM;Viva Colombia;VVP 4805;Tadjoura;3;Arrival
+13-Apr-2019;9:21 AM;Latam;ARE 3316;Binlod;5;Arrival
+22-Nov-2019;12:47 AM;Viva Colombia;VVP 1921;Haysyn;1;Exit
+07-Aug-2019;2:12 PM;Copa Airlines Colombia;RPB 2933;Meringkik;8;Exit
+28-Nov-2019;5:58 PM;Wingo;RPB 5169;Lyon;14;Exit
+01-Jul-2019;12:23 PM;Wingo;RPB 1666;Batang;8;Exit
+19-Apr-2019;5:29 AM;Satena;NSE 2906;Sakule;2;Exit
+24-May-2019;10:30 AM;Satena;NSE 4044;Boro Utara;5;Arrival
+07-Jul-2019;8:31 AM;Copa Airlines Colombia;RPB 4418;Episkopí;1;Arrival
+13-Aug-2019;3:37 PM;Satena;NSE 1531;Barbudo;2;Arrival
+23-Sep-2019;9:47 PM;Wingo;RPB 6768;Paço;10;Arrival
+20-May-2019;6:16 PM;Wingo;RPB 7483;Ágios Andréas;4;Arrival
+10-Jun-2019;2:28 AM;Copa Airlines Colombia;RPB 4396;Shuidun;15;Arrival
+25-Oct-2019;10:53 PM;Avianca;AVA 2213;Yishui;13;Arrival
+13-Dec-2019;9:35 PM;Copa Airlines Colombia;RPB 4219;Daur;11;Arrival
+16-Sep-2019;3:14 AM;Satena;NSE 6005;Alor Setar;9;Exit
+25-Aug-2019;8:17 PM;Copa Airlines Colombia;RPB 3528;Taipei;8;Exit
+13-Sep-2019;11:12 PM;Viva Colombia;VVP 2458;Lanat;12;Arrival
+05-Oct-2019;10:37 AM;Latam;ARE 1685;Miyako;14;Exit
+24-Apr-2019;9:37 PM;Viva Colombia;VVP 2136;København;5;Arrival
+23-Oct-2019;8:50 AM;Wingo;RPB 2632;Kalapadua;4;Arrival
+01-Nov-2019;2:10 PM;Satena;NSE 5171;Cakungsari;8;Exit
+09-Oct-2019;8:10 AM;Latam;ARE 7843;Roissy Charles-de-Gaulle;10;Arrival
+19-Dec-2019;6:46 PM;Copa Airlines Colombia;RPB 8902;Tha Uthen;6;Exit
+15-Sep-2019;1:48 AM;Viva Colombia;VVP 5620;Chiquimulilla;15;Exit
+28-Aug-2019;11:03 AM;Copa Airlines Colombia;RPB 1519;Horní Cerekev;7;Arrival
+13-Nov-2019;3:56 AM;Wingo;RPB 4419;Muzambinho;3;Exit
+11-Nov-2019;8:43 AM;Satena;NSE 7956;Mhamid;14;Arrival
+29-Jul-2019;7:02 AM;Viva Colombia;VVP 2162;La Plata;12;Arrival
+20-Aug-2019;11:04 PM;Copa Airlines Colombia;RPB 5986;Houzhai;14;Arrival
+23-Nov-2019;2:15 AM;Wingo;RPB 2886;Obertyn;7;Exit
+19-Sep-2019;7:30 PM;Latam;ARE 7697;Mirecourt;13;Exit
+12-Dec-2019;7:54 PM;Avianca;AVA 6841;Stockholm;15;Exit
+23-May-2019;11:31 PM;Viva Colombia;VVP 7205;Mishima;14;Exit
+09-Aug-2019;10:01 AM;Copa Airlines Colombia;RPB 1137;Contramaestre;12;Exit
+08-Nov-2019;1:33 AM;Wingo;RPB 2187;Lille;13;Exit
+26-Dec-2019;6:20 PM;Viva Colombia;VVP 2219;Sal’sk;1;Exit
+10-Aug-2019;7:41 AM;Avianca;AVA 7480;Altagracia de Orituco;5;Exit
+29-Oct-2019;5:27 PM;Avianca;AVA 3533;Hexi;11;Exit
+08-Aug-2019;7:48 AM;Latam;ARE 1641;Torreira;5;Exit
+20-Nov-2019;2:29 PM;Copa Airlines Colombia;RPB 2138;Chhāgalnāiya;15;Arrival
+07-Oct-2019;11:47 AM;Latam;ARE 7988;Renhe;6;Arrival
+18-Dec-2019;5:53 AM;Copa Airlines Colombia;RPB 1166;Kíti;1;Exit
+08-Sep-2019;3:19 PM;Satena;NSE 4325;Ejigbo;1;Arrival
+26-May-2019;1:19 PM;Copa Airlines Colombia;RPB 7765;Diofior;15;Arrival
+20-Dec-2019;6:25 AM;Satena;NSE 7135;Ngromo;13;Arrival
+01-Dec-2019;11:26 AM;Latam;ARE 5395;Paris 11;2;Arrival
+15-Jun-2019;5:35 AM;Avianca;AVA 4392;Watthana Nakhon;13;Arrival
+25-Jun-2019;7:41 PM;Wingo;RPB 4309;Micoud;9;Arrival
+16-Apr-2019;4:14 PM;Copa Airlines Colombia;RPB 6442;Nogueira;9;Arrival
+29-Nov-2019;2:21 PM;Wingo;RPB 7890;Margita;7;Arrival
+11-Nov-2019;11:09 PM;Copa Airlines Colombia;RPB 5432;Tayturka;7;Exit
+29-Jun-2019;4:25 PM;Latam;ARE 5739;Bayan Uula Sumu;9;Arrival
+05-Jul-2019;1:29 AM;Wingo;RPB 8561;Ludza;8;Exit
+28-Jun-2019;6:06 PM;Wingo;RPB 4037;Lingshan;12;Exit
+28-Jul-2019;9:26 AM;Copa Airlines Colombia;RPB 2640;Mae Lao;4;Exit
+22-Jun-2019;3:34 PM;Viva Colombia;VVP 2660;Hailin;11;Exit
+07-Oct-2019;11:57 PM;Latam;ARE 5826;Dalong;15;Arrival
+12-Jul-2019;2:59 PM;Copa Airlines Colombia;RPB 4361;Pamarayan;5;Arrival
+16-May-2019;1:05 AM;Latam;ARE 8770;West Hartford;14;Exit
+18-Nov-2019;1:55 PM;Satena;NSE 3022;Lyon;2;Arrival
+17-Jun-2019;10:01 AM;Wingo;RPB 7045;Kuala Pilah;6;Exit
+16-Oct-2019;5:15 PM;Viva Colombia;VVP 2688;Yetang;13;Arrival
+31-May-2019;7:09 PM;Latam;ARE 2912;Przybiernów;4;Arrival
+29-Apr-2019;3:40 AM;Satena;NSE 1036;Aeteke;3;Exit
+16-Nov-2019;11:25 PM;Latam;ARE 3925;Fanhu;8;Exit
+30-Apr-2019;10:27 PM;Copa Airlines Colombia;RPB 6278;Baiyang;10;Exit
+12-Dec-2019;7:51 AM;Viva Colombia;VVP 7370;Zhongzuiling;8;Arrival
+18-May-2019;5:42 PM;Viva Colombia;VVP 8459;Gaocheng;5;Arrival
+16-Nov-2019;7:42 PM;Viva Colombia;VVP 8323;Hanchang;3;Arrival
+25-Jun-2019;11:28 PM;Viva Colombia;VVP 4701;Kapchorwa;14;Exit
+07-Aug-2019;7:48 PM;Latam;ARE 8482;Gutang;7;Exit
+30-Jun-2019;2:52 AM;Satena;NSE 5681;Butterworth;6;Exit
+18-Jun-2019;11:28 AM;Copa Airlines Colombia;RPB 8655;Sucre;15;Exit
+17-Dec-2019;8:34 AM;Viva Colombia;VVP 8055;Cam Lộ;4;Arrival
+10-Sep-2019;8:24 PM;Latam;ARE 5392;Peukanbada;13;Arrival
+17-May-2019;5:30 AM;Avianca;AVA 4977;Mainz;4;Arrival
+04-Jun-2019;12:37 AM;Copa Airlines Colombia;RPB 6951;Locminé;14;Exit
+30-Aug-2019;12:02 AM;Wingo;RPB 8936;San Diego;3;Arrival
+28-Apr-2019;1:26 AM;Latam;ARE 1750;Zhuyeping;8;Arrival
+12-Sep-2019;6:34 PM;Avianca;AVA 6430;Gjirokastër;1;Exit
+10-Oct-2019;12:12 PM;Viva Colombia;VVP 1813;Tonghong;11;Exit
+04-Jul-2019;2:23 PM;Avianca;AVA 4493;Bila Tserkva;12;Exit
+30-May-2019;6:37 AM;Satena;NSE 5664;Kodyma;1;Exit
+29-Jun-2019;8:50 PM;Copa Airlines Colombia;RPB 3680;Błażowa;5;Arrival
+09-Sep-2019;11:44 PM;Satena;NSE 4674;Versailles;5;Arrival
+12-Sep-2019;11:37 AM;Copa Airlines Colombia;RPB 7993;Offa;3;Arrival
+27-Sep-2019;7:22 PM;Wingo;RPB 3433;Farasān;13;Arrival
+13-Dec-2019;8:40 AM;Satena;NSE 7445;Nong Hi;8;Exit
+27-Oct-2019;1:20 AM;Satena;NSE 8950;Mġarr;5;Arrival
+10-Jun-2019;1:50 AM;Latam;ARE 2379;Zhongtang;3;Arrival
+22-Apr-2019;12:57 AM;Latam;ARE 8252;Florencio Sánchez;4;Arrival
+06-Oct-2019;10:34 AM;Wingo;RPB 6779;Bledzew;14;Arrival
+06-Jun-2019;12:18 PM;Satena;NSE 5045;Isnā;7;Exit
+08-Oct-2019;8:15 PM;Avianca;AVA 2621;Sendai;8;Exit
+09-Nov-2019;6:58 PM;Viva Colombia;VVP 4580;Augusta;15;Arrival
+02-Nov-2019;5:21 AM;Viva Colombia;VVP 1958;Vilque Chico;3;Exit
+18-Nov-2019;12:16 PM;Viva Colombia;VVP 1760;Czchów;12;Exit
+25-Jun-2019;7:26 AM;Satena;NSE 6181;Runsonglaozhai;12;Arrival
+26-Nov-2019;3:16 AM;Latam;ARE 5182;Halmstad;12;Exit
+20-Apr-2019;4:58 AM;Satena;NSE 1833;Lafia;3;Exit
+22-Nov-2019;7:23 AM;Copa Airlines Colombia;RPB 6787;Tanzybey;4;Exit
+02-Dec-2019;12:26 PM;Avianca;AVA 2869;Baranovichi;10;Arrival
+02-Dec-2019;2:19 AM;Latam;ARE 5457;Shashemenē;10;Arrival
+09-Nov-2019;4:39 AM;Wingo;RPB 6881;Dístomo;8;Exit
+22-Oct-2019;9:03 PM;Copa Airlines Colombia;RPB 1792;Söderköping;13;Arrival
+13-Sep-2019;2:29 AM;Wingo;RPB 7114;Shajia’ao;9;Exit
+19-Jun-2019;11:28 AM;Wingo;RPB 5770;Bugembe;6;Arrival
+10-Sep-2019;10:31 PM;Satena;NSE 7872;Sehwān;7;Arrival
+23-May-2019;1:05 PM;Copa Airlines Colombia;RPB 5561;Gostovići;1;Arrival
+22-Apr-2019;3:05 AM;Wingo;RPB 2667;Lat Yao;6;Exit
+18-May-2019;7:21 AM;Latam;ARE 2358;San Miguel;9;Arrival
+27-Nov-2019;7:45 AM;Copa Airlines Colombia;RPB 6368;Katur;9;Exit
+27-Jul-2019;8:10 PM;Copa Airlines Colombia;RPB 8875;Baliuag;1;Arrival
+12-Apr-2019;7:02 AM;Latam;ARE 8564;Besançon;1;Arrival
+01-Jun-2019;1:11 AM;Latam;ARE 7670;Stockholm;14;Arrival
+08-Jun-2019;6:22 PM;Wingo;RPB 3298;Freixo de Numão;9;Arrival
+26-Sep-2019;9:38 AM;Latam;ARE 4336;Tongzha;10;Arrival
+12-Nov-2019;6:41 AM;Wingo;RPB 6236;Yanghuxiang;6;Exit
+11-May-2019;7:20 AM;Wingo;RPB 6355;Labytnangi;15;Exit
+17-Jul-2019;3:10 AM;Viva Colombia;VVP 1487;Mizusawa;9;Arrival
+21-Apr-2019;2:16 AM;Avianca;AVA 4316;Muyuka;10;Arrival
+14-Jun-2019;2:05 PM;Satena;NSE 5490;Vellinge;6;Exit
+07-Dec-2019;2:49 PM;Avianca;AVA 2925;Vallecillo;7;Exit
+01-Jul-2019;12:55 PM;Avianca;AVA 8181;Camalote;13;Exit
+05-Sep-2019;5:05 PM;Avianca;AVA 4127;Yazd;12;Exit
+16-Nov-2019;5:35 AM;Wingo;RPB 4714;Boketu;4;Arrival
+06-May-2019;12:34 PM;Avianca;AVA 8663;Villa Lugano;9;Arrival
+04-Nov-2019;1:46 PM;Avianca;AVA 6002;Dubréka;1;Exit
+27-Jun-2019;8:55 PM;Satena;NSE 6350;Estique;15;Arrival
+09-Jul-2019;4:12 PM;Satena;NSE 1314;Ono;5;Arrival
+18-Dec-2019;3:21 PM;Viva Colombia;VVP 5709;Municipio de Copacabana;8;Exit
+26-Aug-2019;9:20 PM;Viva Colombia;VVP 7701;Mbanza-Ngungu;14;Arrival
+16-Apr-2019;11:07 AM;Latam;ARE 5907;Borås;10;Arrival
+15-Oct-2019;1:31 PM;Latam;ARE 5987;Fenoarivo Be;11;Arrival
+22-Aug-2019;3:38 PM;Viva Colombia;VVP 1090;Jingkou;10;Arrival
+04-Nov-2019;8:37 AM;Latam;ARE 6991;Galapa;10;Arrival
+18-Jul-2019;1:20 PM;Avianca;AVA 6558;Cikotok;1;Arrival
+08-Jul-2019;9:01 AM;Latam;ARE 2543;Pentéli;3;Arrival
+10-Sep-2019;1:41 AM;Copa Airlines Colombia;RPB 4346;Palmeira;13;Exit
+27-Sep-2019;6:58 PM;Avianca;AVA 5101;Almelo;15;Exit
+23-Nov-2019;6:08 AM;Wingo;RPB 3396;Rzozów;9;Exit
+26-May-2019;10:06 AM;Latam;ARE 6538;Elato;10;Arrival
+21-May-2019;5:24 PM;Copa Airlines Colombia;RPB 7231;Santiago de María;13;Arrival
+03-Aug-2019;4:05 PM;Latam;ARE 2009;Oof;4;Exit
+17-May-2019;9:02 PM;Avianca;AVA 7476;Helsingborg;14;Arrival
+11-Jun-2019;6:03 PM;Wingo;RPB 2245;Venda Nova;2;Arrival
+12-Nov-2019;9:02 PM;Copa Airlines Colombia;RPB 3230;Visby;8;Arrival
+12-Jul-2019;9:59 AM;Wingo;RPB 2626;Borzna;8;Arrival
+26-Aug-2019;1:14 PM;Avianca;AVA 3924;Corona;8;Arrival
+20-Dec-2019;1:15 AM;Wingo;RPB 3882;Garanhuns;11;Arrival
+14-Jul-2019;9:08 PM;Latam;ARE 1568;Korenovsk;12;Exit
+10-Sep-2019;7:46 PM;Latam;ARE 5628;Chahe;13;Exit
+12-Jul-2019;9:48 AM;Avianca;AVA 6578;Valladolid;14;Exit
+09-Sep-2019;11:17 AM;Avianca;AVA 8079;Doumuhu;9;Exit
+01-Sep-2019;9:00 PM;Wingo;RPB 4765;Harstad;6;Exit
+13-Dec-2019;8:25 AM;Wingo;RPB 7025;Lampitak;3;Exit
+03-Dec-2019;4:08 PM;Copa Airlines Colombia;RPB 3438;Idvor;10;Exit
+19-Jun-2019;3:13 AM;Satena;NSE 5146;Bayamo;9;Exit
+14-Jul-2019;3:16 PM;Latam;ARE 2936;Malczyce;13;Arrival
+21-Apr-2019;6:10 AM;Satena;NSE 2791;Qianpai;10;Arrival
+28-Jul-2019;10:37 AM;Viva Colombia;VVP 6856;Ishiki;15;Arrival
+09-Jul-2019;1:06 AM;Copa Airlines Colombia;RPB 3901;Plan de Ayala;6;Exit
+21-Aug-2019;7:57 PM;Latam;ARE 4069;Yacuiba;10;Exit
+05-Sep-2019;8:19 AM;Latam;ARE 7408;Chenfang;8;Arrival
+02-Jul-2019;7:08 AM;Satena;NSE 2481;Casal;3;Exit
+21-Jun-2019;6:50 AM;Satena;NSE 8223;San Miguel;10;Arrival
+31-May-2019;2:42 PM;Latam;ARE 4502;Sampir;6;Exit
+30-Jul-2019;4:31 PM;Copa Airlines Colombia;RPB 7680;Kadugadung;2;Arrival
+15-Oct-2019;6:18 PM;Avianca;AVA 8309;Catanauan;8;Arrival
+17-Jul-2019;12:33 PM;Latam;ARE 1353;Mayuge;6;Arrival
+06-Aug-2019;12:17 PM;Latam;ARE 1198;Maintang;15;Exit
+04-Aug-2019;4:08 PM;Satena;NSE 4054;Lakkha Nëvre;11;Arrival
+11-Dec-2019;4:31 PM;Avianca;AVA 3102;Kut Rang;1;Exit
+24-May-2019;1:20 AM;Latam;ARE 8272;San Simon;3;Arrival
+11-Jul-2019;10:41 PM;Wingo;RPB 6210;Quisqueya;4;Arrival
+09-Jun-2019;7:40 AM;Latam;ARE 1033;San Miguel;8;Arrival
+29-Nov-2019;5:03 PM;Viva Colombia;VVP 1016;Zhongshanmen;9;Arrival
+28-Jun-2019;2:33 AM;Satena;NSE 1970;Apuri;2;Arrival
+01-Jul-2019;2:18 PM;Satena;NSE 1609;Yala;6;Exit
+17-Sep-2019;2:24 PM;Wingo;RPB 3457;Tawun;10;Exit
+09-Nov-2019;6:16 PM;Copa Airlines Colombia;RPB 4731;Rubirizi;3;Arrival
+06-May-2019;9:30 PM;Latam;ARE 7301;Fencheng;1;Exit
+15-May-2019;9:43 PM;Viva Colombia;VVP 6533;Maxiao;3;Arrival
+20-Oct-2019;1:31 AM;Copa Airlines Colombia;RPB 6206;Jianshan;9;Exit
+10-Jun-2019;3:24 PM;Wingo;RPB 1069;Hannover;12;Exit
+09-Dec-2019;6:59 PM;Wingo;RPB 4354;Palue;11;Exit
+20-Nov-2019;5:53 AM;Latam;ARE 6276;Indianapolis;13;Exit
+09-Nov-2019;12:39 AM;Latam;ARE 5017;Dasht-e Lati;6;Exit
+26-Jun-2019;9:56 AM;Avianca;AVA 3356;Pimentel;11;Exit
+23-Dec-2019;2:16 PM;Avianca;AVA 1823;Al Wardānīn;3;Exit
+01-Oct-2019;3:44 PM;Viva Colombia;VVP 5176;Maying;8;Exit
+28-Apr-2019;8:05 AM;Latam;ARE 8130;San Francisco;14;Arrival
+13-May-2019;7:27 AM;Latam;ARE 8521;Bangolo;11;Arrival
+16-Jul-2019;3:30 PM;Viva Colombia;VVP 3706;Picassinos;6;Arrival
+07-May-2019;9:57 AM;Wingo;RPB 8423;Ranao;6;Arrival
+22-Oct-2019;5:20 AM;Satena;NSE 8269;Suvorovskaya;4;Exit
+19-Aug-2019;9:12 AM;Wingo;RPB 4765;Mahaddayweyne;13;Exit
+29-Aug-2019;3:02 AM;Satena;NSE 6783;Tilmi;13;Arrival
+29-Jun-2019;5:54 PM;Satena;NSE 4846;Ji’an;4;Exit
+25-Dec-2019;10:45 AM;Satena;NSE 6865;Sawankhalok;7;Arrival
+19-May-2019;10:58 AM;Wingo;RPB 7547;Bendilmuning;5;Exit
+15-Jul-2019;3:55 PM;Wingo;RPB 7923;Lijiang;9;Arrival
+01-Aug-2019;5:58 AM;Copa Airlines Colombia;RPB 4685;Bornu Yassu;5;Arrival
+02-Aug-2019;6:57 PM;Wingo;RPB 4107;Marseille;10;Arrival
+14-Apr-2019;4:49 AM;Latam;ARE 8328;Alenquer;4;Exit
+26-May-2019;7:10 PM;Avianca;AVA 3702;Tengah;10;Arrival
+09-Apr-2019;3:24 AM;Latam;ARE 8974;Bang Bua Thong;13;Arrival
+22-Nov-2019;12:17 PM;Latam;ARE 5080;Kalininskiy;2;Arrival
+26-Sep-2019;3:25 AM;Wingo;RPB 6919;Makata;14;Arrival
+07-Jun-2019;9:40 PM;Copa Airlines Colombia;RPB 1636;Dikson;8;Exit
+27-Aug-2019;2:05 PM;Avianca;AVA 8635;Klášterec nad Ohří;6;Exit
+12-May-2019;4:30 AM;Copa Airlines Colombia;RPB 4598;Banjar Dharmasemedi;13;Arrival
+12-Jul-2019;2:27 AM;Copa Airlines Colombia;RPB 8216;Zouila;10;Arrival
+25-Nov-2019;4:45 AM;Avianca;AVA 2817;San Fernando Apure;15;Exit
+03-Jun-2019;2:51 PM;Viva Colombia;VVP 8713;Mirów;12;Exit
+27-Dec-2019;8:26 AM;Satena;NSE 5109;Sykiés;11;Exit
+03-Oct-2019;10:37 PM;Latam;ARE 7772;Casisang;12;Arrival
+04-Jul-2019;2:15 AM;Avianca;AVA 4356;Valence;8;Arrival
+06-Sep-2019;1:59 PM;Latam;ARE 4586;Shengli;12;Exit
+30-May-2019;8:15 PM;Wingo;RPB 8476;Reguenga;1;Exit
+27-Jun-2019;8:53 AM;Wingo;RPB 8148;Paris 04;12;Arrival
+21-Sep-2019;1:29 PM;Wingo;RPB 8801;Zbarazh;9;Arrival
+11-Nov-2019;6:50 PM;Latam;ARE 8851;Xinpu;9;Arrival
+19-Aug-2019;3:31 PM;Latam;ARE 3831;Cigebrok;4;Exit
+21-Apr-2019;10:01 PM;Latam;ARE 8089;General Roca;10;Exit
+07-May-2019;5:34 AM;Avianca;AVA 4085;Thoeng;6;Exit
+09-Apr-2019;3:26 AM;Avianca;AVA 3667;General Vedia;1;Exit
+13-Jul-2019;9:09 AM;Wingo;RPB 1073;Congkar;14;Exit
+30-May-2019;10:23 PM;Copa Airlines Colombia;RPB 1572;Kalodzishchy;12;Arrival
+15-Dec-2019;1:58 PM;Viva Colombia;VVP 7271;Gaide;2;Arrival
+14-Apr-2019;5:36 PM;Viva Colombia;VVP 4406;Yihe;7;Exit
+27-Jun-2019;12:15 PM;Copa Airlines Colombia;RPB 1935;Pule;2;Exit
+14-Oct-2019;7:20 PM;Wingo;RPB 7946;Kaseda-shirakame;10;Arrival
+28-Apr-2019;7:55 AM;Avianca;AVA 4864;Cam Ranh;4;Exit
+22-Jun-2019;7:25 PM;Wingo;RPB 8576;Grenoble;15;Arrival
+04-Jun-2019;12:31 PM;Wingo;RPB 2722;Álli Meriá;7;Arrival
+15-Sep-2019;6:29 AM;Avianca;AVA 3259;Chuangye;5;Arrival
+24-Oct-2019;12:52 AM;Satena;NSE 5607;Sere;9;Arrival
+20-Dec-2019;9:03 PM;Avianca;AVA 4058;Pećigrad;4;Arrival
+02-Aug-2019;4:25 AM;Avianca;AVA 6865;Río Alejandro;5;Exit
+08-Dec-2019;6:53 PM;Viva Colombia;VVP 3506;Anicuns;15;Arrival
+24-Nov-2019;4:25 AM;Copa Airlines Colombia;RPB 8511;Göteborg;9;Exit
+10-Dec-2019;7:47 PM;Wingo;RPB 4650;Semuda;12;Exit
+18-Sep-2019;11:13 AM;Avianca;AVA 2786;Damiao;3;Arrival
+05-Jun-2019;5:58 PM;Avianca;AVA 8013;La Libertad;3;Arrival
+04-Jun-2019;8:09 PM;Copa Airlines Colombia;RPB 6005;Otrokovice;13;Exit
+24-Dec-2019;5:41 AM;Wingo;RPB 6780;Almelo;11;Arrival
+08-Dec-2019;5:42 AM;Avianca;AVA 4155;Pule;9;Exit
+29-Dec-2019;5:40 AM;Viva Colombia;VVP 8425;Alor Setar;4;Exit
+31-Oct-2019;9:01 PM;Viva Colombia;VVP 3802;Midland;14;Exit
+15-May-2019;11:02 PM;Latam;ARE 2363;Resende;14;Arrival
+06-Oct-2019;3:01 PM;Latam;ARE 3082;Fangcun;11;Exit
+28-Sep-2019;10:48 PM;Avianca;AVA 3906;Cornwall;13;Arrival
+09-Aug-2019;12:11 AM;Copa Airlines Colombia;RPB 5157;Sandaogou;1;Exit
+08-Aug-2019;5:29 AM;Viva Colombia;VVP 6774;Gumuk Tengah;2;Arrival
+07-May-2019;2:25 PM;Copa Airlines Colombia;RPB 4939;Camplong;15;Arrival
+27-Dec-2019;4:37 PM;Avianca;AVA 4761;Shangyu;9;Arrival
+12-Aug-2019;1:17 PM;Copa Airlines Colombia;RPB 8652;Mokopane;5;Arrival
+19-May-2019;8:28 AM;Wingo;RPB 4888;Palamadu;2;Arrival
+19-Oct-2019;1:40 PM;Wingo;RPB 2235;San Pedro;4;Arrival
+09-Sep-2019;11:04 PM;Satena;NSE 2932;Faratsiho;10;Exit
+26-Sep-2019;12:07 PM;Viva Colombia;VVP 5334;Paços de Ferreira;9;Arrival
+26-Jul-2019;8:54 AM;Latam;ARE 4734;Drahovo;12;Arrival
+19-Nov-2019;3:33 AM;Copa Airlines Colombia;RPB 3982;Krychaw;15;Exit
+30-Aug-2019;4:32 AM;Avianca;AVA 8069;Maizuru;8;Arrival
+07-Oct-2019;11:00 PM;Viva Colombia;VVP 4439;Zheshart;13;Arrival
+24-Oct-2019;12:22 AM;Wingo;RPB 5461;Теарце;6;Exit
+20-Jun-2019;12:32 PM;Avianca;AVA 7053;Stanowice;15;Exit
+02-Sep-2019;9:35 PM;Wingo;RPB 7873;Ust’-Omchug;9;Arrival
+10-Oct-2019;3:26 AM;Viva Colombia;VVP 3916;Béziers;11;Exit
+15-Oct-2019;10:00 PM;Viva Colombia;VVP 5392;Oefatu;8;Exit
+20-Jun-2019;1:33 PM;Latam;ARE 3900;Dongke;1;Exit
+22-Aug-2019;5:38 AM;Viva Colombia;VVP 3371;San Lucas;1;Arrival
+28-Jul-2019;12:25 AM;Avianca;AVA 5108;Mitzpe Ramon;8;Arrival
+21-Sep-2019;2:30 PM;Wingo;RPB 4693;Borås;2;Arrival
+23-Sep-2019;6:11 PM;Avianca;AVA 3719;Belo Horizonte;6;Exit
+16-Jul-2019;10:50 PM;Copa Airlines Colombia;RPB 7097;Bánica;9;Exit
+15-Dec-2019;11:18 PM;Wingo;RPB 7381;Meruge;8;Exit
+03-May-2019;5:14 PM;Wingo;RPB 6883;Babakanjaya;3;Arrival
+28-Oct-2019;1:01 AM;Satena;NSE 3540;Kuragaki-kosugi;11;Exit
+08-Aug-2019;6:42 AM;Satena;NSE 3992;São Martinho de Árvore;10;Arrival
+07-Aug-2019;6:03 AM;Copa Airlines Colombia;RPB 4507;Baise City;6;Exit
+13-Aug-2019;1:12 AM;Wingo;RPB 7909;Sidaohezi;15;Arrival
+14-Sep-2019;4:27 AM;Avianca;AVA 7738;Cuito;7;Arrival
+05-Dec-2019;6:53 AM;Satena;NSE 8138;Pylaía;4;Arrival
+02-May-2019;1:37 AM;Satena;NSE 2203;Bayambang;14;Arrival
+25-Jul-2019;6:45 PM;Avianca;AVA 4546;Gaza;10;Arrival
+17-Jun-2019;9:16 PM;Latam;ARE 8445;Hongshanyao;13;Arrival
+26-May-2019;8:34 AM;Copa Airlines Colombia;RPB 1723;Heřmanův Městec;9;Arrival
+07-Nov-2019;2:45 AM;Avianca;AVA 4405;Qingshan;12;Arrival
+08-Dec-2019;2:00 PM;Viva Colombia;VVP 8730;Ostankinskiy;2;Exit
+01-Aug-2019;2:06 AM;Satena;NSE 6245;Tiantang;2;Exit
+14-Nov-2019;4:16 PM;Avianca;AVA 6813;Kozhevnikovo;15;Exit
+30-May-2019;11:13 AM;Wingo;RPB 3679;Zizhao;14;Arrival
+05-Dec-2019;5:20 PM;Copa Airlines Colombia;RPB 3815;Qijiazuo;15;Arrival
+27-Sep-2019;8:03 AM;Copa Airlines Colombia;RPB 8169;‘Arīqah;6;Arrival
+26-Dec-2019;6:34 AM;Latam;ARE 4737;Gaotang;9;Arrival
+19-Apr-2019;12:54 AM;Satena;NSE 8146;Cete;13;Exit
+24-Apr-2019;4:23 AM;Satena;NSE 6247;Sakété;4;Arrival
+12-Sep-2019;12:05 AM;Wingo;RPB 8797;Cintra;14;Exit
+09-Dec-2019;11:45 PM;Viva Colombia;VVP 1044;Mukhen;7;Arrival
+17-Jul-2019;6:51 AM;Latam;ARE 5631;Otradnyy;2;Arrival
+02-Aug-2019;11:05 AM;Latam;ARE 6436;Varpaisjärvi;2;Arrival
+15-Oct-2019;8:37 PM;Satena;NSE 7776;Allacapan;8;Arrival
+18-Aug-2019;4:16 PM;Viva Colombia;VVP 4593;Karlskoga;13;Arrival
+28-Dec-2019;9:38 PM;Latam;ARE 6737;Bago;8;Arrival
+20-Jun-2019;2:03 PM;Avianca;AVA 1100;Padangpanjang;9;Exit
+23-Jun-2019;7:19 AM;Viva Colombia;VVP 4736;Sukhirin;12;Exit
+16-Jun-2019;3:00 PM;Latam;ARE 1280;Figueira;8;Arrival
+08-Oct-2019;10:19 AM;Copa Airlines Colombia;RPB 1942;Daykitin;3;Arrival
+25-Dec-2019;5:34 AM;Copa Airlines Colombia;RPB 3946;Myhove;13;Exit
+06-Jul-2019;3:50 AM;Viva Colombia;VVP 4237;Mahaplag;15;Exit
+01-Jun-2019;10:23 AM;Avianca;AVA 8456;Casal do Relvas;13;Arrival
+29-Oct-2019;7:45 AM;Latam;ARE 6417;Ciheras;12;Arrival
+04-Oct-2019;5:51 AM;Copa Airlines Colombia;RPB 3884;Guanchao;15;Arrival
+11-Aug-2019;3:07 PM;Satena;NSE 1050;Nashtā Rūd;3;Arrival
+10-Aug-2019;11:33 PM;Latam;ARE 2040;Wenheng;13;Exit
+29-Oct-2019;12:48 AM;Viva Colombia;VVP 1637;Ayagoz;12;Exit
+30-Jun-2019;2:22 PM;Satena;NSE 3903;Požarevac;3;Exit
+22-May-2019;10:33 AM;Latam;ARE 3613;Sanjiangkou;4;Arrival
+17-Aug-2019;4:18 AM;Satena;NSE 8825;Lysice;2;Arrival
+12-Nov-2019;11:01 PM;Viva Colombia;VVP 2011;Strezhevoy;8;Arrival
+23-Jun-2019;11:00 AM;Wingo;RPB 7713;Ichuña;1;Exit
+30-May-2019;6:10 AM;Satena;NSE 6767;Bobonan;9;Arrival
+27-Apr-2019;1:08 PM;Satena;NSE 1662;Ardabīl;8;Exit
+19-Dec-2019;3:42 PM;Avianca;AVA 6812;Kawungsari;7;Exit
+25-Jun-2019;10:34 AM;Viva Colombia;VVP 7771;Thị Trấn Nghèn;4;Arrival
+08-Aug-2019;3:40 AM;Wingo;RPB 7399;Congkar;1;Exit
+24-Aug-2019;12:39 PM;Latam;ARE 1103;Billdal;13;Arrival
+07-Nov-2019;2:21 AM;Wingo;RPB 1099;Cibitung;14;Exit
+11-Apr-2019;6:39 PM;Wingo;RPB 2611;Praia do Ribatejo;15;Exit
+21-Oct-2019;7:15 AM;Satena;NSE 1250;Sangali;10;Exit
+07-May-2019;1:12 PM;Wingo;RPB 2892;Sendangagung;9;Exit
+19-Oct-2019;11:55 PM;Latam;ARE 1346;Minas de Matahambre;15;Exit
+09-Aug-2019;9:21 AM;Wingo;RPB 3363;Bunia;3;Exit
+27-Jun-2019;6:53 AM;Wingo;RPB 6369;Xinxi;6;Arrival
+04-Dec-2019;12:30 PM;Avianca;AVA 6438;Vallentuna;11;Arrival
+21-Sep-2019;8:56 PM;Satena;NSE 5435;Jingzi;13;Exit
+15-Sep-2019;6:01 PM;Latam;ARE 6489;Benger;13;Arrival
+16-Jun-2019;8:54 AM;Latam;ARE 5754;Telhado;3;Arrival
+22-Sep-2019;3:53 AM;Wingo;RPB 6164;Mendoza;2;Exit
+29-Nov-2019;4:28 PM;Satena;NSE 8278;Kannus;15;Exit
+02-Dec-2019;1:37 PM;Satena;NSE 4878;Dengtang;1;Arrival
+02-Jul-2019;3:54 AM;Latam;ARE 7431;Sacramento;1;Exit
+10-Jul-2019;8:07 AM;Wingo;RPB 2293;Les Clayes-sous-Bois;7;Arrival
+23-Nov-2019;6:04 PM;Avianca;AVA 5936;Xianyi;3;Arrival
+22-Dec-2019;3:15 AM;Avianca;AVA 5333;Coaticook;1;Exit
+07-Nov-2019;9:16 PM;Wingo;RPB 8565;Dallas;8;Exit
+11-Apr-2019;5:01 AM;Avianca;AVA 7978;Wyśmierzyce;11;Arrival
+31-May-2019;2:06 PM;Latam;ARE 8569;Chinandega;1;Exit
+07-Dec-2019;11:18 AM;Viva Colombia;VVP 3343;Zhouji;10;Exit
+18-May-2019;8:43 AM;Latam;ARE 1905;Ibitinga;4;Exit
+28-Nov-2019;4:50 AM;Avianca;AVA 5366;San Lorenzo;10;Arrival
+18-Sep-2019;4:09 AM;Satena;NSE 1786;Ordzhonikidzevskaya;8;Arrival
+12-Apr-2019;6:14 AM;Avianca;AVA 3748;Valada;12;Exit
+31-Aug-2019;5:05 PM;Viva Colombia;VVP 1342;Tukuyu;11;Arrival
+10-Sep-2019;9:02 AM;Copa Airlines Colombia;RPB 6669;Aknoul;15;Exit
+14-Jun-2019;1:29 PM;Viva Colombia;VVP 4760;Varpaisjärvi;14;Arrival
+15-Dec-2019;4:21 AM;Copa Airlines Colombia;RPB 5202;Kamiiso;15;Exit
+22-Oct-2019;11:00 AM;Copa Airlines Colombia;RPB 2651;Zouérat;9;Arrival
+28-Sep-2019;9:06 AM;Satena;NSE 2289;Dayin;13;Exit
+04-Sep-2019;3:48 AM;Wingo;RPB 8649;Donggaohuang;9;Exit
+12-Aug-2019;3:06 AM;Viva Colombia;VVP 6680;Neiba;2;Arrival
+26-Dec-2019;3:13 AM;Viva Colombia;VVP 8301;Concepción;6;Exit
+06-Nov-2019;5:49 AM;Wingo;RPB 8803;São Roque;3;Exit
+29-Dec-2019;12:13 PM;Wingo;RPB 1271;Torres;14;Arrival
+19-Apr-2019;3:43 AM;Latam;ARE 8766;Vitrolles;9;Arrival
+20-Jun-2019;1:17 PM;Latam;ARE 7130;Moanemani;15;Exit
+17-Aug-2019;4:16 AM;Latam;ARE 5869;Fatumnasi;3;Arrival
+06-Aug-2019;3:01 AM;Satena;NSE 3816;Arrabal;4;Arrival
+10-Aug-2019;4:56 PM;Satena;NSE 5538;Bazhu;3;Arrival
+17-Aug-2019;2:15 AM;Copa Airlines Colombia;RPB 4321;Plakhtiyivka;3;Arrival
+04-Dec-2019;4:56 PM;Copa Airlines Colombia;RPB 7559;Zengjia;3;Arrival
+17-Nov-2019;8:50 PM;Copa Airlines Colombia;RPB 6989;Lomba do Loução;8;Arrival
+10-Dec-2019;2:32 AM;Latam;ARE 2825;Campoalegre;14;Exit
+09-Aug-2019;9:11 PM;Copa Airlines Colombia;RPB 6292;Zhenxi;14;Exit
+23-Oct-2019;3:50 PM;Wingo;RPB 6609;Shuangpu;5;Arrival
+01-Oct-2019;4:17 AM;Latam;ARE 6584;Songjianghe;3;Exit
+08-Aug-2019;3:43 AM;Avianca;AVA 2985;Kotabunan;11;Arrival
+28-Apr-2019;12:17 PM;Avianca;AVA 8426;Dinititi;13;Exit
+03-Sep-2019;6:52 PM;Wingo;RPB 1931;Jinja;12;Exit
+19-Sep-2019;1:13 PM;Wingo;RPB 6397;Waiholo;6;Exit
+17-Sep-2019;7:03 PM;Wingo;RPB 7036;Cruces;6;Arrival
+17-Jun-2019;12:24 AM;Wingo;RPB 7163;Firavitoba;15;Arrival
+30-Apr-2019;2:05 PM;Satena;NSE 4323;Ciudad Ojeda;4;Exit
+28-May-2019;9:46 AM;Viva Colombia;VVP 3071;Hougaoshizhuang;5;Exit
+31-May-2019;5:07 AM;Latam;ARE 6406;Dhangarhi;9;Exit
+28-Nov-2019;12:54 PM;Satena;NSE 6650;Oruro;2;Exit
+20-Jun-2019;2:43 PM;Latam;ARE 1551;Amaury;8;Exit
+04-Jun-2019;8:26 PM;Satena;NSE 7746;Netrakona;11;Arrival
+17-Dec-2019;10:50 AM;Copa Airlines Colombia;RPB 4328;Tuplice;2;Arrival
+09-Dec-2019;5:39 PM;Copa Airlines Colombia;RPB 4306;Beppu;7;Exit
+20-Aug-2019;4:06 PM;Copa Airlines Colombia;RPB 4591;Angren;14;Exit
+28-Jun-2019;6:46 PM;Avianca;AVA 2395;Chenzhou;15;Arrival
+17-Dec-2019;12:53 PM;Latam;ARE 1983;Teseney;6;Exit
+21-Sep-2019;9:11 PM;Copa Airlines Colombia;RPB 7990;Dupnitsa;5;Arrival
+10-Dec-2019;8:54 AM;Viva Colombia;VVP 4740;Nijmegen;8;Arrival
+11-Apr-2019;12:40 AM;Latam;ARE 1939;Iaçu;14;Exit
+10-Aug-2019;6:26 PM;Latam;ARE 4570;Tarui;14;Exit
+26-Aug-2019;6:28 PM;Wingo;RPB 3470;Changle;13;Exit
+08-Dec-2019;6:45 PM;Viva Colombia;VVP 3766;Shangshaleng;13;Arrival
+04-Nov-2019;11:24 AM;Copa Airlines Colombia;RPB 6139;Xinzhou;13;Exit
+09-Aug-2019;1:15 PM;Copa Airlines Colombia;RPB 4374;Alfenas;3;Arrival
+21-Apr-2019;3:23 PM;Wingo;RPB 6453;Brondong;8;Arrival
+22-Oct-2019;8:01 AM;Viva Colombia;VVP 7279;Ciela Lebak;4;Arrival
+12-Nov-2019;8:30 AM;Avianca;AVA 1889;Inari;11;Exit
+14-Jul-2019;11:14 PM;Satena;NSE 2701;Xiali;10;Exit
+30-Nov-2019;5:21 PM;Satena;NSE 8569;Nikísiani;14;Arrival
+12-Aug-2019;11:30 PM;Copa Airlines Colombia;RPB 2747;Sam Roi Yot;5;Exit
+05-Aug-2019;10:30 AM;Copa Airlines Colombia;RPB 1583;Probolinggo;11;Arrival
+17-Jun-2019;10:48 PM;Copa Airlines Colombia;RPB 8023;Futian;15;Arrival
+22-Nov-2019;3:27 PM;Viva Colombia;VVP 6277;Bagani;7;Arrival
+03-Jul-2019;7:16 PM;Avianca;AVA 4629;Shijiazhuang;4;Exit
+26-Apr-2019;2:30 AM;Wingo;RPB 5448;Huangma;12;Arrival
+29-Dec-2019;12:59 AM;Viva Colombia;VVP 1212;Dajanrurung;9;Arrival
+23-Jun-2019;6:05 AM;Avianca;AVA 2333;Kamiichi;10;Arrival
+25-Sep-2019;6:36 PM;Satena;NSE 8876;Benhong;15;Exit
+05-Jul-2019;10:57 AM;Satena;NSE 5111;Lotoshino;14;Arrival
+02-Dec-2019;10:17 AM;Avianca;AVA 3278;Sinajana Village;10;Arrival
+08-May-2019;10:22 PM;Copa Airlines Colombia;RPB 1600;Berbérati;13;Exit
+25-Nov-2019;7:47 AM;Copa Airlines Colombia;RPB 6394;Baon;7;Exit
+15-Aug-2019;2:40 PM;Copa Airlines Colombia;RPB 5200;Ryjewo;3;Exit
+30-Dec-2019;8:20 AM;Avianca;AVA 8598;Jinlong;1;Arrival
+14-Oct-2019;2:01 PM;Latam;ARE 8048;Sandouping;15;Arrival
+15-May-2019;12:00 PM;Avianca;AVA 8386;Mongar;14;Arrival
+30-Apr-2019;6:14 PM;Wingo;RPB 6368;Zhaotong;5;Exit
+10-May-2019;12:46 AM;Viva Colombia;VVP 3221;Sayaq;9;Arrival
+26-Dec-2019;10:26 PM;Wingo;RPB 1396;Rychnov nad Kněžnou;9;Exit
+26-Jun-2019;5:37 PM;Viva Colombia;VVP 6181;Zhizhong;9;Arrival
+09-Nov-2019;2:35 PM;Avianca;AVA 6567;Al Qāmishlī;14;Exit
+03-Jul-2019;8:39 AM;Viva Colombia;VVP 8786;Hengdong Chengguanzhen;1;Exit
+12-Apr-2019;4:46 PM;Copa Airlines Colombia;RPB 4807;Khŭjand;10;Exit
+13-Jul-2019;2:23 PM;Avianca;AVA 6975;Castanheiro do Sul;13;Arrival
+08-Aug-2019;10:05 AM;Wingo;RPB 1075;Nanzhao Chengguanzhen;3;Exit
+22-Sep-2019;8:20 PM;Satena;NSE 5163;Nihaona;8;Arrival
+18-Jul-2019;7:27 PM;Satena;NSE 5452;Limache;6;Exit
+03-May-2019;8:20 AM;Latam;ARE 8365;Cát Bà;5;Exit
+29-Jul-2019;4:30 PM;Latam;ARE 6326;Zalesnoye;5;Exit
+17-Jun-2019;8:41 AM;Satena;NSE 3104;Watrous;4;Arrival
+09-Jul-2019;1:54 AM;Avianca;AVA 3492;Belas;9;Exit
+28-Apr-2019;9:38 AM;Avianca;AVA 2532;Huntsville;6;Exit
+22-Sep-2019;2:18 PM;Latam;ARE 7520;New Orleans;8;Arrival
+27-May-2019;4:15 PM;Copa Airlines Colombia;RPB 6426;Inčukalns;9;Arrival
+27-Oct-2019;11:35 AM;Avianca;AVA 6586;Sohag;2;Arrival
+26-Jun-2019;5:43 PM;Wingo;RPB 4532;Al Ḩarf;1;Arrival
+18-Nov-2019;3:34 PM;Latam;ARE 8648;Ang Thong;3;Exit
+13-Jun-2019;10:31 PM;Wingo;RPB 1080;Águas Formosas;13;Exit
+02-Oct-2019;9:52 AM;Viva Colombia;VVP 1865;Kirawsk;13;Exit
+04-Sep-2019;7:37 PM;Copa Airlines Colombia;RPB 2923;Santiago Nonualco;2;Exit
+09-Jun-2019;2:29 AM;Satena;NSE 1866;Encañada;15;Exit
+26-Jun-2019;3:22 PM;Wingo;RPB 5660;Tanrake Village;10;Arrival
+05-Aug-2019;9:57 AM;Wingo;RPB 5216;Puerto Cabezas;13;Arrival
+14-Jul-2019;2:43 PM;Viva Colombia;VVP 3535;San Nicolas;10;Exit
+09-Jul-2019;4:43 AM;Copa Airlines Colombia;RPB 3823;Oslo;4;Arrival
+04-Aug-2019;3:18 PM;Satena;NSE 5060;Kutamandarakan;1;Exit
+18-Aug-2019;10:02 PM;Copa Airlines Colombia;RPB 5445;Tillabéri;9;Arrival
+20-Apr-2019;4:46 AM;Satena;NSE 4612;Khuzdār;4;Arrival
+10-May-2019;3:54 PM;Avianca;AVA 8068;Lubuagan;10;Arrival
+16-Oct-2019;4:57 PM;Avianca;AVA 4931;Tongtuan;5;Arrival
+13-Apr-2019;9:18 PM;Copa Airlines Colombia;RPB 8134;Wasilków;15;Exit
+20-Oct-2019;12:37 AM;Copa Airlines Colombia;RPB 6476;Altkirch;8;Arrival
+07-Aug-2019;9:52 PM;Latam;ARE 8035;Constanza;2;Exit
+27-May-2019;6:36 PM;Satena;NSE 4682;Pulaupanggung;11;Exit
+28-Oct-2019;3:34 PM;Viva Colombia;VVP 1545;Mrzezino;7;Exit
+28-Jul-2019;10:20 AM;Avianca;AVA 4216;Cavalões;4;Exit
+16-Jul-2019;3:51 PM;Latam;ARE 8523;Xiliu;5;Exit
+11-Dec-2019;5:46 PM;Satena;NSE 3735;Markham;1;Arrival
+26-Sep-2019;12:26 PM;Viva Colombia;VVP 4878;Granja;9;Exit
+12-Jul-2019;10:57 AM;Viva Colombia;VVP 5860;Parawan;15;Arrival
+10-Jun-2019;10:25 PM;Satena;NSE 6104;Linköping;9;Exit
+21-May-2019;5:06 AM;Wingo;RPB 2800;Ziyuan;5;Arrival
+18-Jun-2019;5:37 PM;Satena;NSE 1460;Baohe;11;Arrival
+10-Dec-2019;5:37 AM;Viva Colombia;VVP 5550;Berón de Astrada;4;Exit
+19-May-2019;6:28 AM;Wingo;RPB 3135;Ust’-Uda;10;Arrival
+16-Jun-2019;9:42 AM;Wingo;RPB 7549;Ouango;13;Arrival
+29-Jul-2019;2:32 AM;Avianca;AVA 7494;Jianggao;2;Exit
+20-Sep-2019;5:55 AM;Copa Airlines Colombia;RPB 8936;Lianhe;11;Exit
+16-Jun-2019;5:12 AM;Wingo;RPB 7336;Le Blanc-Mesnil;3;Arrival
+15-Dec-2019;3:18 PM;Avianca;AVA 2696;Rivera;3;Exit
+03-May-2019;10:00 AM;Wingo;RPB 5284;Zhaojia;1;Exit
+09-Sep-2019;5:16 PM;Copa Airlines Colombia;RPB 5296;Lérida;8;Arrival
+02-Nov-2019;8:52 PM;Satena;NSE 6407;Villa Nueva;6;Exit
+04-Aug-2019;2:51 PM;Viva Colombia;VVP 4762;‘Awaj;3;Arrival
+11-Aug-2019;8:15 PM;Viva Colombia;VVP 7383;Boca Raton;10;Exit
+17-Sep-2019;7:45 AM;Latam;ARE 4519;Ińsko;6;Arrival
+26-Jul-2019;6:25 AM;Avianca;AVA 8976;Guisijan;7;Arrival
+30-Sep-2019;12:22 AM;Viva Colombia;VVP 8999;Ol Kalou;10;Arrival
+31-Oct-2019;12:45 PM;Wingo;RPB 5590;Salon-de-Provence;13;Exit
+27-Jul-2019;10:39 AM;Satena;NSE 6136;Choloma;9;Arrival
+28-Sep-2019;4:24 AM;Avianca;AVA 5520;Novo-Peredelkino;4;Arrival
+03-Sep-2019;1:02 AM;Viva Colombia;VVP 5217;Manhush;4;Arrival
+06-Aug-2019;9:00 AM;Copa Airlines Colombia;RPB 1535;Rovira;15;Arrival
+12-Sep-2019;12:36 AM;Wingo;RPB 2651;Linköping;7;Arrival
+19-Dec-2019;12:11 AM;Wingo;RPB 8235;Longshan;6;Exit
+22-Apr-2019;11:29 PM;Satena;NSE 8489;Ban Na San;5;Exit
+09-Dec-2019;7:45 AM;Satena;NSE 5190;Verkhniy Avzyan;8;Exit
+07-Nov-2019;6:58 AM;Viva Colombia;VVP 3462;Lanpelan;9;Arrival
+07-Oct-2019;10:30 AM;Latam;ARE 3783;Fangcun;11;Exit
+13-Apr-2019;1:53 AM;Copa Airlines Colombia;RPB 5159;Igarra;5;Exit
+10-Apr-2019;5:29 PM;Viva Colombia;VVP 3648;Bangilan;3;Exit
+02-Nov-2019;3:12 AM;Copa Airlines Colombia;RPB 4593;Estancia;3;Exit
+15-May-2019;3:16 PM;Avianca;AVA 8362;Balitai;7;Exit
+01-Nov-2019;12:12 AM;Viva Colombia;VVP 4234;Venëv;9;Exit
+20-Nov-2019;10:09 PM;Viva Colombia;VVP 5543;Longqiao;15;Arrival
+24-Oct-2019;5:54 AM;Satena;NSE 6863;León;11;Exit
+26-Nov-2019;4:00 PM;Wingo;RPB 1601;Sukamahi Satu;15;Arrival
+29-Jul-2019;5:31 AM;Latam;ARE 1669;Lyon;2;Exit
+21-Apr-2019;7:43 AM;Viva Colombia;VVP 5826;Strážná;7;Arrival
+24-Jun-2019;5:19 AM;Copa Airlines Colombia;RPB 6669;Ngujuran;9;Exit
+10-Jun-2019;3:45 AM;Copa Airlines Colombia;RPB 8929;Lučina;4;Exit
+25-Dec-2019;2:32 PM;Satena;NSE 1592;Juatuba;7;Arrival
+22-Apr-2019;1:15 PM;Satena;NSE 7760;Danghara;8;Exit
+25-Jun-2019;1:40 PM;Satena;NSE 4854;Kebonkai;10;Arrival
+10-Aug-2019;11:45 PM;Satena;NSE 4525;Södertälje;15;Exit
+30-Jul-2019;5:05 AM;Viva Colombia;VVP 2854;Frösön;6;Arrival
+24-Jul-2019;5:34 AM;Avianca;AVA 4230;Manlio Fabio Altamirano;13;Arrival
+22-Jul-2019;3:27 AM;Copa Airlines Colombia;RPB 8499;Moengo;3;Exit
+27-Apr-2019;7:31 AM;Viva Colombia;VVP 1861;Eshowe;12;Exit
+31-Jul-2019;4:12 AM;Wingo;RPB 6644;Makale;8;Exit
+14-Sep-2019;4:24 PM;Viva Colombia;VVP 1535;La Montañita;15;Arrival
+02-Dec-2019;2:30 PM;Wingo;RPB 3913;Tabio;2;Exit
+23-May-2019;7:14 AM;Viva Colombia;VVP 3087;Túquerres;9;Exit
+02-Nov-2019;1:29 AM;Wingo;RPB 2655;Esik;3;Arrival
+06-Jun-2019;5:24 PM;Avianca;AVA 8448;Amphoe Sikhiu;13;Arrival
+15-Dec-2019;12:50 AM;Satena;NSE 6340;Dobřív;14;Exit
+24-Nov-2019;4:19 PM;Viva Colombia;VVP 3124;Sonta;6;Arrival
+28-Oct-2019;3:10 PM;Copa Airlines Colombia;RPB 7271;Mondlo;7;Exit
+04-May-2019;1:27 PM;Copa Airlines Colombia;RPB 7726;Богданци;14;Arrival
+11-Aug-2019;9:44 AM;Latam;ARE 6073;Guajará Mirim;10;Arrival
+30-Nov-2019;7:45 AM;Satena;NSE 8770;Sanguinheira;7;Arrival
+12-Aug-2019;7:46 AM;Latam;ARE 8671;Houxi;5;Exit
+20-Oct-2019;6:56 PM;Satena;NSE 5594;Štitar;12;Exit
+12-Jul-2019;12:51 PM;Satena;NSE 1165;Jiujie;14;Arrival
+23-May-2019;3:00 AM;Satena;NSE 8549;Sosnovka;4;Exit
+17-Aug-2019;7:34 AM;Latam;ARE 8349;Al Qūşīyah;2;Exit
+10-Jun-2019;6:36 AM;Viva Colombia;VVP 1642;Khujirt;9;Exit
+30-Oct-2019;5:33 PM;Viva Colombia;VVP 2898;Kokhanava;12;Arrival
+16-Apr-2019;7:08 AM;Copa Airlines Colombia;RPB 3890;Skomlin;9;Exit
+19-Jun-2019;12:32 PM;Copa Airlines Colombia;RPB 7872;Osiek;12;Arrival
+10-Oct-2019;3:34 PM;Latam;ARE 7772;Mashi;4;Arrival
+08-Oct-2019;6:58 AM;Copa Airlines Colombia;RPB 8063;Valera;15;Arrival
+30-Oct-2019;7:48 PM;Copa Airlines Colombia;RPB 7070;Boundiali;10;Exit
+29-Jun-2019;6:59 AM;Satena;NSE 1948;Gjinkar;3;Arrival
+11-Oct-2019;11:39 PM;Copa Airlines Colombia;RPB 6954;Tongyang;4;Arrival
+12-Sep-2019;4:23 PM;Latam;ARE 3863;Phoenix;7;Exit
+19-Sep-2019;9:26 PM;Viva Colombia;VVP 2069;Kanturk;14;Exit
+25-May-2019;12:09 AM;Latam;ARE 6659;Lomme;11;Exit
+01-Nov-2019;11:21 PM;Viva Colombia;VVP 3902;Kotingnatagete;3;Exit
+07-Nov-2019;7:32 PM;Copa Airlines Colombia;RPB 5703;Jerusalem;12;Arrival
+28-Oct-2019;1:33 PM;Viva Colombia;VVP 7819;Sabá;14;Arrival
+13-Nov-2019;7:16 PM;Copa Airlines Colombia;RPB 7562;Nikol’skoye;1;Arrival
+19-Aug-2019;9:52 AM;Avianca;AVA 3508;Milín;6;Arrival
+12-Sep-2019;7:30 PM;Latam;ARE 1493;São João da Boa Vista;7;Exit
+02-May-2019;3:08 PM;Avianca;AVA 1236;Barapas;5;Exit
+24-Apr-2019;8:24 PM;Satena;NSE 6711;Santa Catalina;5;Arrival
+26-Nov-2019;11:05 PM;Latam;ARE 2744;Anin;8;Arrival
+05-Oct-2019;2:42 PM;Latam;ARE 3898;Pisarzowice;9;Exit
+10-Dec-2019;6:23 AM;Copa Airlines Colombia;RPB 8713;Xinshi;7;Arrival
+17-Oct-2019;10:10 AM;Satena;NSE 1058;Trajouce;5;Arrival
+08-Nov-2019;10:25 AM;Wingo;RPB 8073;Cigaluh;3;Arrival
+22-Nov-2019;5:40 AM;Copa Airlines Colombia;RPB 4482;Shuanggang;15;Arrival
+04-May-2019;4:44 PM;Viva Colombia;VVP 5539;Brzączowice;5;Exit
+11-May-2019;10:22 AM;Avianca;AVA 8794;Qingshanhu;6;Arrival
+11-Jun-2019;12:21 AM;Avianca;AVA 5159;Diofior;9;Arrival
+30-Aug-2019;10:36 PM;Wingo;RPB 2334;Songkan;7;Arrival
+20-Aug-2019;8:47 PM;Avianca;AVA 6069;Bodø;4;Arrival
+03-Oct-2019;8:13 PM;Wingo;RPB 3739;Curitibanos;8;Arrival
+06-Jul-2019;8:49 PM;Satena;NSE 5541;Benito Juarez;3;Arrival
+25-May-2019;10:08 AM;Wingo;RPB 1398;Skelleftehamn;4;Exit
+09-Dec-2019;2:24 PM;Satena;NSE 6004;Nyima;3;Arrival
+03-May-2019;9:12 AM;Wingo;RPB 7254;Vrsi;10;Arrival
+22-Jun-2019;2:02 AM;Avianca;AVA 3810;Växjö;15;Arrival
+09-Sep-2019;1:24 PM;Copa Airlines Colombia;RPB 7442;Queimados;7;Exit
+28-Apr-2019;2:03 AM;Wingo;RPB 5181;Weekombaka;7;Arrival
+16-Apr-2019;4:36 AM;Latam;ARE 1680;Talā;6;Arrival
+29-Sep-2019;10:29 PM;Copa Airlines Colombia;RPB 5807;Telč;3;Arrival
+12-Jun-2019;9:35 AM;Copa Airlines Colombia;RPB 5499;Poręba Spytkowska;12;Exit
+03-Dec-2019;12:15 AM;Latam;ARE 8988;Yangambi;7;Exit
+02-Jun-2019;4:50 AM;Avianca;AVA 6949;Xieqiao;4;Arrival
+19-Aug-2019;11:29 PM;Copa Airlines Colombia;RPB 5504;Korczew;10;Arrival
+01-Aug-2019;5:28 PM;Viva Colombia;VVP 5968;Tianning;12;Arrival
+29-Jun-2019;3:08 PM;Avianca;AVA 8562;Chile Chico;4;Arrival
+19-Oct-2019;6:43 AM;Satena;NSE 4728;Qingtaiping;9;Exit
+26-Jun-2019;12:34 AM;Viva Colombia;VVP 4271;Cali;2;Arrival
+11-Apr-2019;3:40 PM;Satena;NSE 4206;Carvalho;1;Exit
+27-Apr-2019;6:12 PM;Viva Colombia;VVP 5939;Myronivka;14;Arrival
+01-Nov-2019;11:22 AM;Avianca;AVA 7878;Bandar Pusat Jengka;6;Exit
+28-Apr-2019;6:18 PM;Wingo;RPB 6666;Paraíso de Chabasquén;10;Arrival
+30-Jul-2019;4:18 PM;Wingo;RPB 7483;Sulūk;13;Exit
+17-Sep-2019;2:41 PM;Avianca;AVA 2340;Cibebek;14;Arrival
+29-May-2019;3:35 PM;Latam;ARE 6023;Tetyushi;8;Arrival
+27-Jul-2019;12:40 PM;Copa Airlines Colombia;RPB 6290;Ozërsk;7;Arrival
+04-Jun-2019;5:11 PM;Viva Colombia;VVP 2273;Jiaqiao;10;Exit
+21-May-2019;10:13 PM;Wingo;RPB 4505;Lyudinovo;6;Exit
+08-Aug-2019;1:42 AM;Avianca;AVA 7660;Tikiw;9;Arrival
+15-Dec-2019;9:58 PM;Viva Colombia;VVP 5987;Pudoc;6;Arrival
+19-Dec-2019;3:47 AM;Avianca;AVA 6422;Shatalovo;14;Exit
+22-Dec-2019;6:09 AM;Avianca;AVA 8332;Wuli;14;Exit
+18-Nov-2019;5:21 PM;Wingo;RPB 8367;Longwu;5;Arrival
+20-Apr-2019;8:16 PM;Avianca;AVA 3747;Cumanacoa;11;Exit
+07-Jun-2019;1:04 AM;Latam;ARE 1165;Zhutian;1;Arrival
+21-Dec-2019;12:58 AM;Satena;NSE 4575;Ardino;8;Exit
+20-Oct-2019;3:53 AM;Latam;ARE 3561;Ust’-Isha;5;Exit
+07-May-2019;3:28 AM;Latam;ARE 1834;Mojocoya;13;Exit
+14-Jun-2019;12:41 AM;Viva Colombia;VVP 4706;Venlo;2;Arrival
+27-Oct-2019;5:13 AM;Latam;ARE 4511;Kokkónion;3;Exit
+18-Oct-2019;7:37 AM;Wingo;RPB 4530;Cametá;3;Arrival
+24-May-2019;7:34 PM;Viva Colombia;VVP 7538;Ea T’ling;11;Exit
+07-Jun-2019;12:02 AM;Copa Airlines Colombia;RPB 8468;Kanganpur;11;Arrival
+26-Jul-2019;6:14 PM;Viva Colombia;VVP 8422;Lidingö;15;Arrival
+11-Apr-2019;7:49 PM;Satena;NSE 2050;Mesógi;6;Exit
+06-Dec-2019;8:35 PM;Latam;ARE 2072;Hutag;1;Exit
+11-Apr-2019;8:08 PM;Satena;NSE 1020;Yumbe;6;Exit
+28-Sep-2019;7:46 AM;Satena;NSE 7435;Aniso;13;Exit
+05-Oct-2019;5:19 AM;Viva Colombia;VVP 3745;Labney;12;Arrival
+05-May-2019;11:04 PM;Latam;ARE 2749;Qiaosi;1;Arrival
+05-Dec-2019;5:56 PM;Latam;ARE 7653;Yamaranguila;1;Arrival
+15-Oct-2019;5:05 AM;Latam;ARE 1753;Hollola;1;Exit
+05-Oct-2019;7:14 PM;Latam;ARE 4366;Inriville;1;Arrival
+26-Sep-2019;10:59 AM;Latam;ARE 1137;Santiago del Torno;8;Arrival
+27-Sep-2019;2:33 AM;Avianca;AVA 7186;Henglishan;7;Arrival
+24-Jul-2019;6:35 AM;Latam;ARE 7360;Aoqiao;12;Exit
+04-Sep-2019;8:07 PM;Satena;NSE 1695;Weepangali;7;Exit
+11-Aug-2019;2:36 PM;Copa Airlines Colombia;RPB 6124;Bestovje;4;Exit
+28-Oct-2019;2:09 PM;Viva Colombia;VVP 8320;Balakhta;15;Arrival
+21-Oct-2019;12:21 PM;Latam;ARE 4084;Larkird;11;Exit
+05-Nov-2019;10:10 AM;Avianca;AVA 6548;Gontar;1;Arrival
+02-Nov-2019;2:11 AM;Avianca;AVA 6564;Werang;4;Arrival
+15-May-2019;1:44 AM;Avianca;AVA 7075;Ozëry;11;Arrival
+08-Dec-2019;4:31 AM;Avianca;AVA 4560;Nangkaruka;15;Exit
+04-Jun-2019;1:24 AM;Copa Airlines Colombia;RPB 3395;Haradzyeya;11;Arrival
+22-Dec-2019;10:17 PM;Satena;NSE 2896;Rokietnica;10;Arrival
+11-Nov-2019;6:14 AM;Wingo;RPB 1380;Teplice;2;Exit
+06-Sep-2019;7:39 PM;Latam;ARE 3927;Krasnaya Gorka;8;Exit
+22-May-2019;10:28 AM;Copa Airlines Colombia;RPB 2365;Wanfang;6;Exit
+24-Aug-2019;1:30 AM;Satena;NSE 1043;Tuojiang;10;Exit
+07-Nov-2019;2:38 PM;Avianca;AVA 1816;Mancos;4;Arrival
+24-Dec-2019;9:21 PM;Viva Colombia;VVP 2884;Aix-en-Provence;12;Exit
+07-Aug-2019;12:15 PM;Avianca;AVA 7362;Maleevsk;7;Exit
+11-Oct-2019;11:01 AM;Satena;NSE 7372;Longfeng;5;Exit
+24-Dec-2019;11:13 AM;Wingo;RPB 1685;Pinega;14;Exit
+08-Aug-2019;1:08 PM;Wingo;RPB 8389;Awsīm;3;Arrival
+11-Sep-2019;6:53 PM;Satena;NSE 6676;Lazurne;12;Exit
+10-Dec-2019;6:18 PM;Avianca;AVA 8882;Chakaray;12;Arrival
+15-Oct-2019;2:57 AM;Viva Colombia;VVP 3778;Banjar Jabejero;9;Exit
+07-Nov-2019;2:52 PM;Wingo;RPB 6013;Prozor;8;Arrival
+26-Dec-2019;6:36 AM;Copa Airlines Colombia;RPB 1372;Aban;2;Arrival
+05-Jun-2019;8:21 AM;Copa Airlines Colombia;RPB 8806;Zekou;6;Arrival
+11-Jul-2019;12:56 AM;Latam;ARE 8924;Duru;2;Arrival
+23-May-2019;5:44 PM;Viva Colombia;VVP 4285;Shazi;15;Exit
+25-Dec-2019;10:23 AM;Wingo;RPB 1999;Garcia Hernandez;9;Arrival
+13-Apr-2019;9:10 PM;Viva Colombia;VVP 7166;Palopat;1;Arrival
+11-Jul-2019;8:30 PM;Copa Airlines Colombia;RPB 7513;Dublin;12;Arrival
+02-Sep-2019;5:44 PM;Satena;NSE 6886;Mēga;13;Arrival
+01-Dec-2019;10:26 PM;Latam;ARE 8439;Shchigry;7;Arrival
+17-May-2019;6:00 AM;Viva Colombia;VVP 3508;Chonghe;5;Arrival
+30-Jun-2019;7:35 AM;Copa Airlines Colombia;RPB 2548;Osby;12;Exit
+06-Sep-2019;4:32 PM;Latam;ARE 7697;Krásná Hora nad Vltavou;7;Exit
+28-Dec-2019;10:15 AM;Avianca;AVA 4641;Duczki;5;Arrival
+09-Jul-2019;3:04 PM;Viva Colombia;VVP 2138;São Félix do Xingu;7;Arrival
+25-May-2019;2:49 AM;Satena;NSE 6890;Overyata;14;Arrival
+09-Sep-2019;8:31 PM;Copa Airlines Colombia;RPB 1585;Xinjian;3;Arrival
+24-Apr-2019;6:32 PM;Avianca;AVA 1383;Libertad;6;Arrival
+22-Jul-2019;10:14 PM;Satena;NSE 3238;Houston;11;Arrival
+30-Sep-2019;6:20 AM;Satena;NSE 7409;Dao’er;10;Arrival
+07-Nov-2019;9:06 PM;Wingo;RPB 2453;Wutan;2;Exit
+30-Dec-2019;4:20 AM;Viva Colombia;VVP 1047;Évry;6;Exit
+12-Nov-2019;3:52 AM;Latam;ARE 4383;Svetlanovskiy;12;Exit
+05-Jul-2019;11:36 AM;Copa Airlines Colombia;RPB 6124;Catriel;6;Exit
+15-May-2019;9:13 AM;Viva Colombia;VVP 4457;Philipsburg;12;Arrival
+07-Dec-2019;6:35 AM;Satena;NSE 7739;Norak;15;Arrival
+26-Dec-2019;11:49 PM;Viva Colombia;VVP 4910;Chengbei;6;Exit
+08-Nov-2019;6:39 AM;Latam;ARE 7586;Pôsto Fiscal Rolim de Moura;1;Arrival
+22-Aug-2019;4:40 AM;Wingo;RPB 7555;Panay;7;Arrival
+24-Oct-2019;5:48 PM;Latam;ARE 5516;Pasto;7;Exit
+10-Sep-2019;8:02 AM;Avianca;AVA 4529;Oklahoma City;4;Arrival
+20-Jul-2019;4:25 PM;Satena;NSE 4436;Zamarski;4;Arrival
+05-May-2019;5:22 PM;Satena;NSE 2865;Niutang;5;Arrival
+06-Dec-2019;8:40 AM;Wingo;RPB 2732;Heilangkou;9;Arrival
+14-Oct-2019;12:08 PM;Wingo;RPB 2068;Hainan;12;Exit
+26-Aug-2019;2:13 AM;Satena;NSE 2654;Gande;8;Arrival
+14-Aug-2019;3:48 AM;Viva Colombia;VVP 2603;Jilma;14;Arrival
+20-Oct-2019;12:32 PM;Satena;NSE 3757;Huanshan;1;Arrival
+20-Apr-2019;1:19 AM;Latam;ARE 4779;Air Bangis;2;Exit
+08-Jul-2019;5:19 PM;Satena;NSE 8196;Huandiqiao;12;Arrival
+10-May-2019;8:32 AM;Copa Airlines Colombia;RPB 5200;Muyinga;2;Arrival
+26-Jul-2019;12:13 PM;Avianca;AVA 1683;Calzada Larga;4;Exit
+30-Aug-2019;6:46 AM;Satena;NSE 4256;Saint-Amand-les-Eaux;3;Exit
+05-Aug-2019;7:52 PM;Latam;ARE 7818;Xiayang;2;Arrival
+25-May-2019;2:24 AM;Avianca;AVA 8900;Suwa;4;Arrival
+14-Jun-2019;3:23 AM;Latam;ARE 5077;Primorsko;11;Arrival
+25-Oct-2019;2:53 AM;Satena;NSE 1850;Liuduzhai;4;Exit
+05-Dec-2019;8:14 PM;Satena;NSE 8309;Gradizhsk;12;Exit
+31-Oct-2019;8:22 AM;Viva Colombia;VVP 8799;Mistřice;5;Exit
+28-Jul-2019;11:38 AM;Satena;NSE 8051;Chervonoarmiys’k;7;Arrival
+14-Jun-2019;2:31 AM;Viva Colombia;VVP 4182;Moramanga;2;Exit
+09-Nov-2019;7:07 PM;Viva Colombia;VVP 1548;Stockholm;4;Arrival
+04-May-2019;3:00 PM;Satena;NSE 3667;Cliza;14;Arrival
+25-Sep-2019;3:09 PM;Latam;ARE 8146;Lindong;8;Exit
+14-May-2019;5:37 PM;Latam;ARE 3247;Jacksonville;14;Arrival
+29-May-2019;10:03 PM;Satena;NSE 6630;Mulanje;15;Arrival
+19-Jun-2019;7:30 AM;Avianca;AVA 3020;Alebtong;15;Exit
+04-Jun-2019;1:35 AM;Satena;NSE 2084;Da’an;7;Exit
+01-May-2019;4:46 PM;Viva Colombia;VVP 5063;Yu’erhong;7;Exit
+25-Dec-2019;3:28 PM;Copa Airlines Colombia;RPB 6337;Cidadap;3;Arrival
+16-Nov-2019;11:10 PM;Copa Airlines Colombia;RPB 1072;Siluman;14;Arrival
+03-Nov-2019;6:18 PM;Wingo;RPB 6546;Costa de Rios Frios;9;Exit
+07-Nov-2019;1:33 PM;Avianca;AVA 3361;La Colorada;5;Exit
+24-Dec-2019;1:10 PM;Viva Colombia;VVP 2007;Hangchuan;6;Exit
+02-Sep-2019;7:35 AM;Satena;NSE 3571;Lazaro Cardenas;10;Arrival
+18-Sep-2019;8:44 PM;Viva Colombia;VVP 3574;Winseler;8;Arrival
+10-Jun-2019;12:23 AM;Copa Airlines Colombia;RPB 6113;Kangaslampi;13;Exit
+23-Nov-2019;12:19 PM;Latam;ARE 5395;Papágou;8;Arrival
+12-May-2019;12:05 AM;Latam;ARE 7339;Aksu;1;Exit
+03-Aug-2019;8:09 PM;Latam;ARE 2421;Nové Strašecí;3;Exit
+17-Oct-2019;11:03 AM;Avianca;AVA 2592;Hantara;4;Arrival
+14-Jun-2019;4:33 PM;Latam;ARE 8937;Arnprior;4;Exit
+15-Nov-2019;11:25 AM;Viva Colombia;VVP 1187;Grand-Bassam;13;Exit
+31-Aug-2019;1:43 PM;Wingo;RPB 4887;Hazlov;2;Arrival
+19-Oct-2019;8:26 PM;Avianca;AVA 4541;San Sebastián;14;Arrival
+16-Dec-2019;5:37 PM;Viva Colombia;VVP 7211;Trinidad;12;Exit
+04-May-2019;10:54 PM;Latam;ARE 8400;Doko;3;Exit
+23-Sep-2019;12:15 AM;Wingo;RPB 2185;A’yi Take;10;Arrival
+31-Aug-2019;2:50 AM;Copa Airlines Colombia;RPB 7850;Nakhchivan;3;Exit
+23-May-2019;2:50 PM;Copa Airlines Colombia;RPB 2143;Mejdan - Obilićevo;8;Arrival
+22-May-2019;5:29 AM;Satena;NSE 4763;Al Ḩajar al Aswad;4;Arrival
+09-Jul-2019;8:28 PM;Copa Airlines Colombia;RPB 2021;Montaneza;11;Arrival
+20-Jun-2019;5:21 PM;Satena;NSE 3643;Meirinhas;13;Arrival
+05-Dec-2019;4:47 AM;Copa Airlines Colombia;RPB 7242;Radashkovichy;3;Arrival
+17-Dec-2019;12:33 PM;Viva Colombia;VVP 7071;Verkhniy Rohachyk;9;Arrival
+15-Oct-2019;7:59 AM;Viva Colombia;VVP 8052;Rajadesa;14;Arrival
+17-Dec-2019;5:06 PM;Satena;NSE 6265;Cockburn Town;5;Arrival
+29-May-2019;6:33 PM;Satena;NSE 3405;Pantin;2;Arrival
+15-Jul-2019;1:48 PM;Copa Airlines Colombia;RPB 8400;Suwaru;13;Exit
+14-Sep-2019;7:50 PM;Satena;NSE 5253;San Isidro;3;Exit
+16-Oct-2019;2:44 AM;Latam;ARE 7359;Hekou;12;Arrival
+28-Dec-2019;5:39 AM;Avianca;AVA 8793;Krzykosy;15;Exit
+19-Oct-2019;8:07 PM;Latam;ARE 3469;Alfena;2;Exit
+01-Jun-2019;1:45 AM;Satena;NSE 2502;Sūrak;7;Arrival
+18-Oct-2019;9:42 PM;Avianca;AVA 3303;Aija;10;Exit
+29-Aug-2019;9:36 AM;Wingo;RPB 1444;Savitaipale;15;Exit
+28-Jun-2019;12:19 PM;Satena;NSE 3572;Shuitou;9;Exit
+20-Jul-2019;1:22 AM;Latam;ARE 5489;Cimonyong;13;Arrival
+21-May-2019;11:49 PM;Copa Airlines Colombia;RPB 2060;Nijmegen;6;Exit
+14-May-2019;9:52 PM;Wingo;RPB 5109;Huaizhong;2;Exit
+10-May-2019;4:55 AM;Copa Airlines Colombia;RPB 5992;Dunkerque;5;Exit
+24-May-2019;8:03 PM;Wingo;RPB 4037;Nanping;5;Arrival
+27-Nov-2019;8:12 AM;Viva Colombia;VVP 1902;Yopal;7;Arrival
+09-Jun-2019;7:01 PM;Latam;ARE 3386;Błonie;1;Arrival
+14-Oct-2019;11:03 PM;Latam;ARE 2417;Oliveira;14;Arrival
+06-Dec-2019;4:55 AM;Copa Airlines Colombia;RPB 4331;Bordeaux;15;Arrival
+20-Sep-2019;9:28 PM;Copa Airlines Colombia;RPB 7855;Thị Trấn Quảng Uyên;11;Exit
+01-Sep-2019;4:13 PM;Avianca;AVA 7100;Kaishantun;3;Exit
+21-Jun-2019;3:02 AM;Copa Airlines Colombia;RPB 2920;Tongda;1;Arrival
+02-Jun-2019;9:42 PM;Satena;NSE 4172;Antwerpen;8;Arrival
+03-Jul-2019;5:19 AM;Satena;NSE 6540;Al Ḩāmūl;4;Exit
+14-Jul-2019;8:41 PM;Latam;ARE 4833;Santa Bárbara de Padrões;7;Arrival
+30-Oct-2019;11:14 AM;Wingo;RPB 3097;Cicurug;6;Exit
+03-May-2019;1:28 AM;Latam;ARE 5932;Avignon;2;Exit
+06-Jul-2019;3:22 AM;Latam;ARE 4746;Veisiejai;15;Arrival
+12-Oct-2019;5:24 PM;Avianca;AVA 3550;Balong;14;Exit
+15-Aug-2019;2:00 AM;Latam;ARE 3241;Ngala;6;Exit
+03-Sep-2019;2:46 PM;Satena;NSE 1967;Karlovy Vary;14;Exit
+11-Apr-2019;10:05 AM;Viva Colombia;VVP 2532;Betim;1;Arrival
+04-Jul-2019;7:41 AM;Copa Airlines Colombia;RPB 7077;Fonte Boa dos Nabos;10;Exit
+23-Nov-2019;8:29 PM;Wingo;RPB 3222;Pueblo Nuevo;13;Arrival
+03-Jun-2019;10:04 PM;Latam;ARE 6125;Stodolishche;10;Exit
+17-Nov-2019;5:18 PM;Satena;NSE 3918;Zheleznogorsk;3;Arrival
+17-May-2019;9:02 AM;Copa Airlines Colombia;RPB 7238;Chengdong;6;Arrival
+30-Dec-2019;9:02 PM;Copa Airlines Colombia;RPB 2112;Ciechanów;9;Arrival
+13-Sep-2019;2:50 AM;Viva Colombia;VVP 2390;Mendes;3;Exit
+27-Sep-2019;9:11 PM;Latam;ARE 3158;Punta Hermosa;5;Exit
+18-Aug-2019;9:12 PM;Avianca;AVA 6562;Manadhoo;8;Arrival
+21-Jun-2019;12:01 PM;Viva Colombia;VVP 3402;El Zapotal del Norte;1;Exit
+10-Apr-2019;1:14 PM;Avianca;AVA 7553;Huangduobu;1;Exit
+16-Sep-2019;7:41 PM;Latam;ARE 2673;Santo Amaro da Imperatriz;6;Exit
+19-Jun-2019;9:24 PM;Avianca;AVA 2566;Shilaoren;4;Exit
+05-May-2019;5:50 AM;Latam;ARE 5122;Gornyak;8;Exit
+21-Aug-2019;6:47 AM;Viva Colombia;VVP 7211;Ciudian;4;Arrival
+23-Jul-2019;5:02 AM;Latam;ARE 7122;Neglasari;7;Arrival
+17-Jul-2019;10:35 AM;Viva Colombia;VVP 7866;Patani;2;Exit
+12-Jul-2019;2:58 AM;Satena;NSE 4367;Taipingxi;5;Arrival
+10-Sep-2019;6:47 AM;Satena;NSE 7982;Lianhe;2;Arrival
+02-Jul-2019;9:01 PM;Satena;NSE 8539;Yaosai;6;Arrival
+14-Nov-2019;4:12 PM;Latam;ARE 2551;Visaginas;12;Arrival
+10-Sep-2019;12:19 AM;Latam;ARE 5173;Waterloo;14;Arrival
+04-Sep-2019;8:16 PM;Wingo;RPB 8948;Wissembourg;8;Exit
+25-Aug-2019;6:03 PM;Viva Colombia;VVP 1920;Paradyż;14;Exit
+09-May-2019;6:25 PM;Avianca;AVA 3385;Omoku;1;Exit
+03-Dec-2019;8:29 PM;Satena;NSE 3503;Villa Santa Rita;6;Arrival
+05-May-2019;12:55 AM;Avianca;AVA 6251;Gandara;7;Exit
+17-Dec-2019;2:18 PM;Latam;ARE 3521;Francisco I Madero;5;Arrival
+24-Jun-2019;7:49 PM;Viva Colombia;VVP 8623;Pubal;15;Arrival
+09-Dec-2019;5:47 PM;Satena;NSE 7380;Dongjiang Matoukou;8;Exit
+04-Sep-2019;5:23 PM;Viva Colombia;VVP 5355;Itapissuma;13;Arrival
+06-Sep-2019;3:01 PM;Copa Airlines Colombia;RPB 7118;Jalālpur;14;Arrival
+27-Apr-2019;2:38 AM;Viva Colombia;VVP 3798;Stockholm;9;Exit
+08-Sep-2019;11:27 AM;Viva Colombia;VVP 2133;Shanghudi;7;Exit
+18-Apr-2019;5:18 AM;Copa Airlines Colombia;RPB 1127;Al Bājūr;11;Arrival
+30-Jul-2019;7:42 PM;Viva Colombia;VVP 8113;Cujillo;11;Exit
+14-Jul-2019;6:23 AM;Satena;NSE 5148;Manyava;3;Arrival
+21-Jul-2019;10:33 PM;Latam;ARE 6981;Lubin;6;Exit
+23-May-2019;4:30 PM;Wingo;RPB 7497;Maria;1;Exit
+05-Nov-2019;11:50 AM;Latam;ARE 1340;Weibin;1;Arrival
+05-Jun-2019;3:58 AM;Avianca;AVA 7137;Tākestān;11;Exit
+16-Apr-2019;10:36 AM;Satena;NSE 6626;Greenville;11;Arrival
+12-Jul-2019;6:18 AM;Wingo;RPB 3914;Riangderi;14;Arrival
+28-Apr-2019;6:03 AM;Viva Colombia;VVP 5396;Balungkopi;1;Exit
+18-Aug-2019;1:40 AM;Satena;NSE 8135;Amga;5;Exit
+09-Dec-2019;1:54 AM;Wingo;RPB 6377;Puqian;14;Exit
+15-Sep-2019;1:23 AM;Viva Colombia;VVP 5923;Pantin;11;Exit
+18-Nov-2019;2:11 PM;Copa Airlines Colombia;RPB 8825;Nacala;7;Exit
+15-Jun-2019;12:56 AM;Copa Airlines Colombia;RPB 8561;Spitsevka;13;Arrival
+01-Jun-2019;9:35 PM;Satena;NSE 6619;Santai;8;Exit
+10-Dec-2019;8:42 PM;Avianca;AVA 4901;Sawahan;14;Exit
+22-Oct-2019;4:14 AM;Latam;ARE 5686;Cibeureum;12;Exit
+26-Apr-2019;6:48 AM;Copa Airlines Colombia;RPB 3398;Zhonggongmiao;10;Arrival
+02-May-2019;9:49 PM;Satena;NSE 1228;Samut Songkhram;6;Exit
+26-Jul-2019;4:34 AM;Wingo;RPB 1846;Az Zarqā;7;Exit
+22-Aug-2019;4:12 AM;Latam;ARE 5390;Balsas;2;Exit
+11-Sep-2019;6:09 PM;Avianca;AVA 4694;Sayang Lauq;3;Exit
+22-Sep-2019;6:35 PM;Viva Colombia;VVP 1722;Driyorejo;6;Arrival
+03-Aug-2019;4:13 AM;Latam;ARE 4361;Paris 16;8;Exit
+27-Apr-2019;3:38 AM;Satena;NSE 6924;Newton;6;Arrival
+14-Sep-2019;3:40 AM;Latam;ARE 1818;Osięciny;15;Arrival
+04-Jul-2019;7:20 PM;Satena;NSE 2695;Yinglan;4;Arrival
+11-Jul-2019;9:22 PM;Viva Colombia;VVP 8967;Alcala;3;Exit
+29-Apr-2019;1:04 PM;Latam;ARE 2078;Kołbiel;5;Arrival
+12-Apr-2019;9:14 PM;Viva Colombia;VVP 8845;Opatov;9;Arrival
+20-Jul-2019;7:24 AM;Satena;NSE 5636;Jiuhu;5;Arrival
+19-Apr-2019;6:17 AM;Avianca;AVA 2600;Qala i Naw;2;Arrival
+21-Sep-2019;2:48 PM;Wingo;RPB 3164;Guyang;9;Exit
+08-Dec-2019;2:47 AM;Viva Colombia;VVP 4835;Welibo;10;Arrival
+01-May-2019;12:44 PM;Satena;NSE 6299;Sufang;13;Arrival
+06-Jul-2019;2:45 AM;Viva Colombia;VVP 1136;Ganlin;13;Arrival
+27-Dec-2019;11:09 PM;Wingo;RPB 5565;Néa Péramos;2;Arrival
+06-Nov-2019;6:32 PM;Wingo;RPB 5131;Rājo Khanāni;14;Arrival
+16-May-2019;5:58 AM;Avianca;AVA 3972;Masjed Soleymān;3;Exit
+16-Sep-2019;12:10 PM;Avianca;AVA 5455;Stará Huť;5;Exit
+08-Dec-2019;9:55 PM;Avianca;AVA 2369;Armamar;1;Arrival
+08-Aug-2019;11:24 AM;Latam;ARE 8451;Atocha;13;Arrival
+21-Aug-2019;10:19 AM;Latam;ARE 7505;Guaraciaba do Norte;4;Exit
+27-Jul-2019;9:36 PM;Avianca;AVA 1902;Lampang;10;Arrival
+10-Dec-2019;7:45 PM;Latam;ARE 8735;Jiujiang;10;Exit
+01-Sep-2019;8:32 PM;Avianca;AVA 2202;Wanlongshan;12;Arrival
+16-Sep-2019;5:34 AM;Satena;NSE 5837;Aserrío de Gariché;9;Arrival
+24-Oct-2019;10:26 PM;Avianca;AVA 7930;Concepción de La Vega;5;Arrival
+05-Dec-2019;6:11 AM;Viva Colombia;VVP 4666;Rolante;2;Arrival
+12-Apr-2019;10:18 AM;Viva Colombia;VVP 2862;Kauniainen;15;Arrival
+29-Nov-2019;4:26 AM;Viva Colombia;VVP 5991;Russas;7;Exit
+05-May-2019;9:14 AM;Viva Colombia;VVP 7658;Balma;14;Exit
+10-Jul-2019;6:21 PM;Wingo;RPB 2424;Rochester;6;Exit
+09-Apr-2019;2:34 PM;Wingo;RPB 6677;Belo Blato;6;Arrival
+23-Nov-2019;12:12 PM;Wingo;RPB 8089;Dongting;15;Exit
+04-Nov-2019;4:33 PM;Viva Colombia;VVP 8525;Thị Trấn Thất Khê;15;Exit
+21-Jun-2019;3:11 PM;Satena;NSE 8606;Lugulu;5;Exit
+29-Aug-2019;1:15 AM;Satena;NSE 7723;København;3;Arrival
+21-Sep-2019;9:53 PM;Latam;ARE 2001;Staré Město;7;Exit
+30-May-2019;8:46 AM;Avianca;AVA 1429;El Paso;7;Arrival
+16-Oct-2019;5:35 PM;Avianca;AVA 3150;Tangkolo;8;Arrival
+13-Aug-2019;9:17 AM;Satena;NSE 2670;Cloyne;11;Arrival
+16-Jul-2019;9:14 AM;Satena;NSE 7208;São Paulo;5;Arrival
+11-Sep-2019;1:58 AM;Satena;NSE 7975;Pujijie;12;Arrival
+06-Sep-2019;12:00 AM;Avianca;AVA 3653;Changtan;3;Arrival
+02-May-2019;12:23 AM;Satena;NSE 1959;Sijiu;6;Arrival
+12-Aug-2019;1:43 AM;Avianca;AVA 4189;Sabanitas;15;Arrival
+23-Nov-2019;11:15 AM;Satena;NSE 5492;Gala;5;Arrival
+07-Jun-2019;5:16 AM;Viva Colombia;VVP 7832;Petropavlovka;13;Exit
+04-Sep-2019;6:53 PM;Copa Airlines Colombia;RPB 8878;Bafatá;8;Arrival
+04-Jun-2019;3:37 AM;Latam;ARE 2153;Kabale;13;Arrival
+29-Sep-2019;10:50 AM;Copa Airlines Colombia;RPB 5948;Kurayoshi;12;Arrival
+04-Jun-2019;1:35 PM;Copa Airlines Colombia;RPB 1220;San Nicolás;8;Arrival
+15-Oct-2019;8:56 PM;Viva Colombia;VVP 6872;Labuhanlalar;6;Exit
+07-Jul-2019;3:56 PM;Wingo;RPB 8860;Payao;5;Arrival
+05-Jul-2019;1:23 PM;Viva Colombia;VVP 3249;Tarui;15;Arrival
+07-Jul-2019;3:51 PM;Latam;ARE 5296;Kosti;4;Arrival
+27-May-2019;2:19 PM;Wingo;RPB 3056;Heqiao;14;Arrival
+16-Aug-2019;12:38 AM;Wingo;RPB 4160;Esperança;2;Exit
+13-Apr-2019;11:25 AM;Wingo;RPB 1802;Encantado;7;Arrival
+12-Jul-2019;12:57 AM;Viva Colombia;VVP 6791;São Julião do Tojal;11;Exit
+25-Oct-2019;7:26 AM;Viva Colombia;VVP 5419;San Rafael;5;Exit
+26-Aug-2019;4:14 PM;Satena;NSE 5554;Barcelona;9;Arrival
+05-Jul-2019;12:30 PM;Satena;NSE 8907;Ventspils;2;Exit
+09-Aug-2019;12:30 PM;Latam;ARE 2403;Kebonan;3;Arrival
+28-Oct-2019;8:55 PM;Viva Colombia;VVP 7561;Bayt al ‘Awābī;4;Arrival
+26-May-2019;9:13 PM;Wingo;RPB 8134;Cielmice;12;Exit
+04-Oct-2019;3:35 PM;Latam;ARE 1138;Batuna Satu;3;Arrival
+16-Sep-2019;6:13 AM;Copa Airlines Colombia;RPB 2458;Pappadátes;15;Arrival
+21-Jul-2019;4:20 AM;Avianca;AVA 6506;Kālābāgh;14;Arrival
+27-Apr-2019;9:15 AM;Satena;NSE 4409;San Ramon;7;Arrival
+26-Sep-2019;4:47 AM;Wingo;RPB 8551;Sulak;11;Exit
+06-Jun-2019;5:22 PM;Satena;NSE 4925;Kobylí;4;Exit
+19-Nov-2019;5:33 AM;Latam;ARE 1759;Maronge;15;Exit
+21-Jul-2019;4:20 PM;Avianca;AVA 5320;Shibata;12;Exit
+16-May-2019;9:49 AM;Copa Airlines Colombia;RPB 4428;Naryn;9;Arrival
+08-Dec-2019;9:05 PM;Latam;ARE 4381;Tazemmourt;1;Arrival
+15-Jun-2019;3:30 AM;Satena;NSE 1734;Xiaomian;8;Exit
+28-May-2019;3:17 AM;Viva Colombia;VVP 5883;Paris 09;10;Arrival
+13-Nov-2019;2:59 AM;Viva Colombia;VVP 1437;Gelsenkirchen;13;Exit
+28-May-2019;8:04 AM;Satena;NSE 1795;Tulu Bolo;11;Arrival
+26-Sep-2019;4:38 PM;Copa Airlines Colombia;RPB 8818;Stamboliyski;12;Exit
+03-Jul-2019;10:45 AM;Wingo;RPB 7959;Fayzabad;2;Arrival
+27-Jul-2019;9:43 AM;Satena;NSE 4771;Yousheng;5;Exit
+15-Jun-2019;5:10 PM;Avianca;AVA 3786;Dingle;13;Arrival
+08-Jun-2019;6:55 AM;Viva Colombia;VVP 5261;Spring;12;Exit
+04-May-2019;7:18 AM;Satena;NSE 7680;Olenyok;7;Arrival
+18-Dec-2019;7:51 AM;Latam;ARE 4718;Shuitian;12;Exit
+13-Sep-2019;9:58 PM;Wingo;RPB 5729;Buyende;10;Exit
+12-Aug-2019;9:10 AM;Wingo;RPB 2217;Muyuka;2;Arrival
+24-Nov-2019;2:10 AM;Wingo;RPB 1734;Beaufort;6;Arrival
+21-Apr-2019;12:27 PM;Wingo;RPB 4017;Kangin;3;Arrival
+12-Aug-2019;10:18 AM;Wingo;RPB 2516;Al ‘Aqabah;12;Arrival
+08-Aug-2019;3:18 PM;Wingo;RPB 4656;Kemendung;7;Arrival
+21-Apr-2019;3:49 AM;Satena;NSE 4220;Mendoza;3;Arrival
+23-Dec-2019;1:03 AM;Satena;NSE 8711;La Tebaida;10;Exit
+21-Nov-2019;1:38 AM;Satena;NSE 4305;Lagoa Seca;10;Exit
+01-Jul-2019;9:37 AM;Wingo;RPB 8309;Podbrdo;14;Exit
+08-Jun-2019;10:27 PM;Avianca;AVA 1921;Sremčica;5;Arrival
+16-Jul-2019;4:29 PM;Satena;NSE 4017;Godong;11;Exit
+18-Oct-2019;3:56 PM;Copa Airlines Colombia;RPB 4111;Zhixia;8;Arrival
+14-Nov-2019;6:33 AM;Viva Colombia;VVP 3585;Loket;14;Arrival
+02-Jun-2019;4:00 AM;Satena;NSE 6048;Pingtan;13;Exit
+27-Jun-2019;6:43 PM;Viva Colombia;VVP 7540;Kabaty;3;Arrival
+18-Aug-2019;2:02 PM;Copa Airlines Colombia;RPB 7893;Basel;9;Exit
+07-Jun-2019;8:46 AM;Latam;ARE 6583;Kabarnet;5;Arrival
+27-Jul-2019;6:26 PM;Avianca;AVA 8030;Safonovo;9;Arrival
+24-May-2019;11:33 PM;Avianca;AVA 4832;Lewotukan;4;Exit
+17-Dec-2019;8:07 PM;Avianca;AVA 1523;Markaryd;14;Arrival
+18-Nov-2019;7:03 AM;Viva Colombia;VVP 4727;San Buenaventura;8;Exit
+09-May-2019;7:27 PM;Satena;NSE 2199;Cergy-Pontoise;12;Exit
+14-Dec-2019;4:24 PM;Avianca;AVA 6697;Lianglin;13;Exit
+10-Oct-2019;4:36 AM;Satena;NSE 1238;Vacoas;15;Arrival
+11-Oct-2019;8:29 PM;Wingo;RPB 3240;Ngã Bảy;8;Arrival
+23-Jun-2019;12:16 PM;Avianca;AVA 5126;Fengqiao;2;Arrival
+21-Apr-2019;3:17 PM;Wingo;RPB 1747;Trélazé;10;Exit
+15-Jun-2019;1:56 PM;Wingo;RPB 1608;Ulanov;7;Arrival
+11-Sep-2019;8:19 AM;Latam;ARE 1952;Chichinales;11;Arrival
+11-May-2019;3:06 PM;Viva Colombia;VVP 2454;Kariya;4;Exit
+24-Sep-2019;6:37 AM;Wingo;RPB 7015;Gândara;5;Exit
+07-Dec-2019;5:49 AM;Viva Colombia;VVP 4078;Oslo;6;Exit
+10-Sep-2019;2:01 PM;Latam;ARE 2971;Onsala;11;Exit
+12-Oct-2019;6:35 AM;Avianca;AVA 1747;Fuquan;8;Arrival
+26-Oct-2019;11:10 AM;Avianca;AVA 5220;Komprachcice;12;Arrival
+04-Sep-2019;2:40 AM;Copa Airlines Colombia;RPB 8797;Kozje;6;Arrival
+23-May-2019;6:44 AM;Viva Colombia;VVP 8187;Stockholm;3;Arrival
+30-Oct-2019;3:46 AM;Latam;ARE 5522;Amaraji;11;Arrival
+15-Jun-2019;3:13 AM;Avianca;AVA 2517;Temizhbekskaya;10;Exit
+26-Aug-2019;4:10 AM;Satena;NSE 4260;Arroyo Seco;10;Arrival
+22-Dec-2019;8:57 AM;Satena;NSE 3382;Montréal;14;Exit
+02-Aug-2019;5:44 AM;Wingo;RPB 4545;Huangjin;11;Exit
+31-Jul-2019;9:26 AM;Wingo;RPB 5442;Stavropol’;6;Arrival
+16-Aug-2019;3:12 AM;Wingo;RPB 7984;Gubskaya;6;Arrival
+17-Jun-2019;6:25 AM;Viva Colombia;VVP 1549;Dingchang;10;Arrival
+26-Jul-2019;7:11 PM;Wingo;RPB 2781;Jevišovice;5;Exit
+24-May-2019;4:41 AM;Copa Airlines Colombia;RPB 5895;Cañaveral;13;Exit
+31-Jul-2019;1:33 PM;Latam;ARE 2292;Shijiang;2;Arrival
+06-Jun-2019;5:56 AM;Wingo;RPB 5581;Tashtagol;8;Arrival
+09-Aug-2019;5:13 AM;Wingo;RPB 5456;Annopol;2;Arrival
+16-Dec-2019;4:33 PM;Viva Colombia;VVP 1962;Guicheng;12;Arrival
+30-Oct-2019;2:28 PM;Viva Colombia;VVP 8269;Mertzig;4;Arrival
+08-Jul-2019;7:05 AM;Wingo;RPB 7682;Nova Petrópolis;1;Arrival
+09-Sep-2019;9:04 PM;Latam;ARE 6028;Longde Chengguanzhen;5;Exit
+11-Apr-2019;3:56 AM;Copa Airlines Colombia;RPB 5988;Mae Ramat;11;Exit
+21-Sep-2019;7:13 PM;Viva Colombia;VVP 3133;Leles;2;Arrival
+17-Apr-2019;4:03 PM;Wingo;RPB 8353;Ishiki;4;Arrival
+03-Jun-2019;5:24 AM;Latam;ARE 6259;Jincun;13;Arrival
+08-Aug-2019;9:30 AM;Viva Colombia;VVP 8913;Gang;6;Arrival
+05-Aug-2019;5:32 PM;Avianca;AVA 4889;Xiuyu;6;Exit
+12-Jun-2019;10:05 AM;Copa Airlines Colombia;RPB 6189;Saint-Louis du Sud;9;Arrival
+22-Jul-2019;2:27 AM;Satena;NSE 8084;Gaspar Hernández;13;Exit
+26-Nov-2019;12:22 AM;Latam;ARE 4962;Bancal;6;Exit
+02-Aug-2019;4:45 AM;Viva Colombia;VVP 6645;Luowan;5;Arrival
+19-Oct-2019;2:06 AM;Satena;NSE 8549;Talok;5;Exit
+11-Sep-2019;7:15 AM;Latam;ARE 5495;Palkovice;8;Exit
+19-Jun-2019;7:25 PM;Latam;ARE 6449;Conima;13;Arrival
+26-Nov-2019;11:11 AM;Viva Colombia;VVP 1260;Hulín;9;Arrival
+15-Dec-2019;8:08 PM;Wingo;RPB 8282;Rennes;1;Arrival
+16-May-2019;6:26 AM;Copa Airlines Colombia;RPB 6929;Gálvez;10;Arrival
+24-Aug-2019;11:03 AM;Avianca;AVA 4974;Kensington;9;Exit
+03-May-2019;12:16 PM;Wingo;RPB 2175;Avaré;1;Arrival
+24-May-2019;7:07 AM;Viva Colombia;VVP 8753;Bala Murghab;8;Exit
+05-Jun-2019;10:52 PM;Satena;NSE 1831;La Esperanza;14;Arrival
+10-Oct-2019;3:22 AM;Avianca;AVA 8650;Espinal;11;Exit
+25-May-2019;9:32 PM;Satena;NSE 8681;Sidareja;12;Exit
+06-Dec-2019;5:52 PM;Latam;ARE 4063;Miaoya;1;Arrival
+17-Jun-2019;12:57 AM;Latam;ARE 6645;Bendosari;14;Exit
+18-Aug-2019;7:36 AM;Copa Airlines Colombia;RPB 4859;Changsha;2;Arrival
+15-May-2019;6:59 AM;Viva Colombia;VVP 3373;Mosar;15;Arrival
+12-Dec-2019;2:40 PM;Latam;ARE 7349;Tanahmerah;14;Arrival
+01-Nov-2019;3:44 AM;Latam;ARE 1529;Yudai;7;Exit
+09-Nov-2019;11:25 AM;Wingo;RPB 4081;Firminy;11;Exit
+05-Jun-2019;12:12 PM;Latam;ARE 2989;Lisovi Sorochyntsi;12;Exit
+14-Nov-2019;7:53 PM;Satena;NSE 7698;Dianbu;9;Arrival
+22-Jun-2019;2:32 PM;Latam;ARE 1594;Niamtougou;6;Arrival
+20-Jun-2019;2:18 PM;Latam;ARE 5253;Sonina;12;Arrival
+07-Nov-2019;2:59 PM;Latam;ARE 8281;Trzcińsko Zdrój;12;Exit
+03-Oct-2019;11:35 AM;Viva Colombia;VVP 8325;Jeponkrajan;11;Arrival
+10-Jun-2019;12:26 PM;Viva Colombia;VVP 4955;Berlín;3;Arrival
+29-Nov-2019;10:59 PM;Satena;NSE 8863;Jabal os Saraj;7;Arrival
+25-Jun-2019;5:41 AM;Copa Airlines Colombia;RPB 1401;Namioka;5;Arrival
+12-Sep-2019;5:40 PM;Avianca;AVA 6094;Parreira;2;Exit
+16-May-2019;10:05 PM;Wingo;RPB 1208;Łapczyca;14;Arrival
+21-May-2019;4:32 AM;Avianca;AVA 6537;Rizhao;11;Arrival
+09-Aug-2019;9:07 AM;Wingo;RPB 1494;Nelazskoye;4;Arrival
+07-Oct-2019;10:07 AM;Wingo;RPB 9000;Sindangrasa;9;Exit
+22-Apr-2019;9:21 PM;Copa Airlines Colombia;RPB 5903;Yuecheng;15;Exit
+01-May-2019;2:59 AM;Copa Airlines Colombia;RPB 4547;Ji’an;2;Arrival
+13-Aug-2019;11:55 PM;Satena;NSE 7709;Binguang;9;Arrival
+13-Jun-2019;9:19 AM;Copa Airlines Colombia;RPB 6772;Duwe;5;Arrival
+01-Sep-2019;11:40 PM;Wingo;RPB 1428;Huaribamba;3;Exit
+07-Oct-2019;7:34 AM;Avianca;AVA 7255;Hellevoetsluis;13;Arrival
+25-Jun-2019;1:13 AM;Copa Airlines Colombia;RPB 2390;Pidigan;7;Exit
+12-May-2019;12:38 AM;Latam;ARE 6446;Saint-Augustin;8;Arrival
+30-Dec-2019;12:49 PM;Latam;ARE 8147;Gutalac;1;Arrival
+25-Aug-2019;11:07 AM;Wingo;RPB 4402;Marseille;7;Arrival
+11-Sep-2019;9:38 PM;Wingo;RPB 1573;Zubin Potok;1;Arrival
+13-Apr-2019;1:33 AM;Copa Airlines Colombia;RPB 5691;Copán;4;Arrival
+08-Jul-2019;5:08 AM;Copa Airlines Colombia;RPB 8027;Kolodenka;6;Exit
+05-Sep-2019;12:42 AM;Latam;ARE 2483;Rungis;11;Exit
+30-Oct-2019;11:12 AM;Latam;ARE 5291;Rancabungur;15;Exit
+01-Aug-2019;1:10 AM;Copa Airlines Colombia;RPB 1155;Laingsburg;5;Arrival
+13-Jul-2019;4:15 AM;Viva Colombia;VVP 5485;Prozor;3;Exit
+08-Oct-2019;6:13 AM;Satena;NSE 1691;Spasskoye-Lutovinovo;12;Exit
+24-Jun-2019;11:50 PM;Satena;NSE 8125;Chapimarca;4;Arrival
+16-Oct-2019;6:13 PM;Copa Airlines Colombia;RPB 2986;Khalīlābād;5;Exit
+18-Aug-2019;1:50 AM;Copa Airlines Colombia;RPB 2337;Brody;1;Exit
+11-Sep-2019;5:29 AM;Satena;NSE 6992;Kafr Baţnā;4;Arrival
+19-Nov-2019;2:05 AM;Satena;NSE 4642;Krajandadapmulyo;9;Exit
+11-Sep-2019;1:36 AM;Latam;ARE 3188;Ballyboden;11;Arrival
+09-Apr-2019;8:30 PM;Satena;NSE 5787;Florida;12;Exit
+22-Oct-2019;2:26 PM;Latam;ARE 5859;Beigang;11;Exit
+24-May-2019;7:43 PM;Avianca;AVA 7842;Māmu Kānjan;13;Exit
+06-May-2019;6:13 AM;Viva Colombia;VVP 7234;Baraguá;1;Arrival
+02-Oct-2019;10:19 AM;Latam;ARE 6512;Sidokumpul;11;Arrival
+05-Nov-2019;12:51 PM;Wingo;RPB 3397;Nekla;12;Exit
+01-Oct-2019;5:14 AM;Avianca;AVA 5948;Boucinhas;12;Exit
+02-Sep-2019;12:00 AM;Avianca;AVA 5640;Santo Amaro da Imperatriz;2;Exit
+20-Oct-2019;3:02 AM;Avianca;AVA 7500;Gushan;15;Arrival
+04-Dec-2019;2:10 PM;Viva Colombia;VVP 2374;Calabugao;5;Arrival
+07-Aug-2019;10:44 PM;Copa Airlines Colombia;RPB 6831;Nikolina Gora;15;Arrival
+17-Jun-2019;4:35 PM;Satena;NSE 7227;Villa Santa Rosa;5;Exit
+28-Jun-2019;8:52 PM;Avianca;AVA 3051;Xushangqiao;15;Arrival
+05-Oct-2019;11:21 AM;Latam;ARE 5352;Damawato;1;Exit
+18-Apr-2019;10:41 PM;Avianca;AVA 8692;Sukaharja;6;Exit
+02-Jun-2019;7:42 AM;Latam;ARE 3983;Kebloran;12;Exit
+22-Sep-2019;7:07 PM;Avianca;AVA 2089;Anan;6;Arrival
+21-Sep-2019;10:18 AM;Latam;ARE 2930;Ōmura;7;Arrival
+21-Apr-2019;4:45 AM;Avianca;AVA 5633;Christchurch;13;Arrival
+09-Jun-2019;11:34 PM;Wingo;RPB 6361;Ojos de Agua;5;Exit
+16-Dec-2019;4:46 AM;Copa Airlines Colombia;RPB 7651;Bussum;13;Arrival
+08-Sep-2019;12:49 PM;Copa Airlines Colombia;RPB 3527;Puyan;6;Arrival
+28-Oct-2019;8:53 AM;Latam;ARE 6003;Wuluhan;8;Exit
+17-Oct-2019;5:16 AM;Latam;ARE 8876;Yizhang Chengguanzhen;9;Arrival
+04-Sep-2019;11:58 AM;Copa Airlines Colombia;RPB 7724;Wesoła;5;Arrival
+19-Jun-2019;3:04 PM;Copa Airlines Colombia;RPB 6798;Liugong;6;Arrival
+14-Jul-2019;11:42 AM;Latam;ARE 2832;Simod;2;Arrival
+22-Jul-2019;11:04 PM;Wingo;RPB 6060;Juan Adrián;1;Arrival
+27-May-2019;3:25 PM;Wingo;RPB 8975;Leer;9;Arrival
+25-Jun-2019;6:07 PM;Copa Airlines Colombia;RPB 5809;Ersekë;7;Exit
+27-Nov-2019;4:23 PM;Wingo;RPB 7072;Nantes;9;Arrival
+22-Sep-2019;4:33 AM;Wingo;RPB 8176;Poxi;10;Arrival
+14-Aug-2019;7:55 PM;Wingo;RPB 1218;Voznesenskaya;6;Exit
+21-Aug-2019;9:58 PM;Wingo;RPB 1259;Szydłowo;14;Exit
+22-Nov-2019;8:32 PM;Wingo;RPB 5692;Sakurai;13;Arrival
+14-Jul-2019;2:15 AM;Avianca;AVA 2291;San Onofre;1;Arrival
+07-Jun-2019;8:39 PM;Satena;NSE 2143;Melita;4;Arrival
+28-Sep-2019;11:28 AM;Viva Colombia;VVP 1240;Llano de Piedra;9;Exit
+30-Sep-2019;9:46 PM;Wingo;RPB 5371;Bato;4;Exit
+02-Dec-2019;3:20 PM;Copa Airlines Colombia;RPB 7623;Nałęczów;5;Arrival
+20-Aug-2019;11:34 AM;Copa Airlines Colombia;RPB 4935;Balading;11;Arrival
+15-Oct-2019;3:00 PM;Viva Colombia;VVP 4965;Xianglong;1;Exit
+02-Sep-2019;8:39 AM;Wingo;RPB 1239;Djibo;11;Arrival
+03-Jul-2019;1:49 PM;Avianca;AVA 2093;Calmar;10;Exit
+10-Oct-2019;1:42 PM;Avianca;AVA 6506;Gunem;2;Arrival
+26-Oct-2019;10:56 PM;Satena;NSE 6942;Los Angeles;12;Arrival
+24-Jun-2019;5:22 PM;Viva Colombia;VVP 6425;Trần Văn Thời;12;Arrival
+17-May-2019;1:41 AM;Avianca;AVA 5981;Madona;10;Exit
+01-Sep-2019;5:02 PM;Avianca;AVA 5054;Ḩajjah;14;Arrival
+31-Aug-2019;4:19 AM;Viva Colombia;VVP 2393;Prómachoi;10;Exit
+29-Dec-2019;7:16 AM;Copa Airlines Colombia;RPB 8264;Managua;12;Exit
+14-May-2019;7:13 PM;Copa Airlines Colombia;RPB 8954;Młynary;15;Exit
+27-Nov-2019;2:25 AM;Latam;ARE 4336;Jimeta;11;Arrival
+26-Apr-2019;3:46 AM;Avianca;AVA 8124;Pili;7;Arrival
+13-Aug-2019;6:09 AM;Latam;ARE 4782;Mucumpiz;1;Arrival
+02-May-2019;2:07 AM;Satena;NSE 6240;Skhodnya;15;Exit
+15-Aug-2019;12:51 AM;Copa Airlines Colombia;RPB 6506;San Antonio;5;Exit
+30-Aug-2019;7:41 PM;Avianca;AVA 5287;Xinsheng;6;Exit
+09-May-2019;2:04 AM;Avianca;AVA 3357;Shuozhou;9;Exit
+22-Sep-2019;7:01 AM;Latam;ARE 3190;Tāngāil;8;Exit
+07-Jul-2019;10:27 PM;Latam;ARE 1612;Abade de Vermoim;3;Exit
+10-Jun-2019;10:01 AM;Avianca;AVA 1426;Dresden;11;Arrival
+02-Jun-2019;10:58 PM;Wingo;RPB 1535;Tumbi;11;Exit
+21-Dec-2019;2:18 AM;Copa Airlines Colombia;RPB 4397;Sabtang;6;Arrival
+17-May-2019;11:22 AM;Wingo;RPB 4136;Cagliari;4;Exit
+14-May-2019;1:40 AM;Wingo;RPB 6007;Huangqi;4;Exit
+29-Jul-2019;7:32 PM;Viva Colombia;VVP 5330;Ol’ginskaya;14;Exit
+24-Dec-2019;2:03 AM;Wingo;RPB 1540;Danzao;15;Exit
+28-Aug-2019;10:41 AM;Latam;ARE 3454;Oemollo;9;Exit
+13-Sep-2019;4:21 AM;Viva Colombia;VVP 3461;Glotovka;5;Arrival
+21-Jun-2019;9:45 AM;Copa Airlines Colombia;RPB 6630;Ning’an;7;Exit
+03-Aug-2019;5:31 PM;Avianca;AVA 6354;Offenbach;15;Arrival
+24-Dec-2019;12:52 AM;Avianca;AVA 2052;Ko Pha Ngan;12;Arrival
+30-Aug-2019;12:24 PM;Copa Airlines Colombia;RPB 7883;Singosari;5;Exit
+24-Apr-2019;10:39 PM;Avianca;AVA 2047;Verin Artashat;4;Exit
+16-May-2019;2:24 PM;Satena;NSE 2414;Anjozorobe;12;Exit
+17-Oct-2019;1:57 PM;Wingo;RPB 6331;Washington;8;Arrival
+29-Jun-2019;12:32 AM;Satena;NSE 4322;Francisco Beltrão;2;Exit
+09-Aug-2019;9:11 PM;Viva Colombia;VVP 1346;‘Arīqah;3;Arrival
+14-Oct-2019;10:54 PM;Copa Airlines Colombia;RPB 5949;Tangchi;12;Exit
+19-Apr-2019;8:16 AM;Viva Colombia;VVP 5602;Houping;5;Exit
+24-Nov-2019;12:43 PM;Satena;NSE 5487;Rukungiri;12;Arrival
+21-Oct-2019;6:40 AM;Copa Airlines Colombia;RPB 8193;Cimo de Vila;9;Arrival
+14-Nov-2019;7:36 AM;Avianca;AVA 1177;Ponoka;10;Exit
+28-Apr-2019;2:51 AM;Viva Colombia;VVP 2672;Voskresenskoye;11;Arrival
+10-Jun-2019;10:11 AM;Avianca;AVA 6675;Thanh Ba;1;Arrival
+30-Oct-2019;10:40 AM;Satena;NSE 6915;Paris 08;12;Exit
+31-Aug-2019;5:47 PM;Copa Airlines Colombia;RPB 5599;Luleå;3;Arrival
+28-Nov-2019;5:48 PM;Latam;ARE 5801;Liufu;14;Exit
+20-May-2019;8:12 AM;Latam;ARE 7560;Tongjin;5;Exit
+27-Jul-2019;9:05 AM;Copa Airlines Colombia;RPB 1007;Nowa Sól;10;Exit
+08-Nov-2019;7:59 AM;Wingo;RPB 5959;Ngaoundéré;8;Exit
+13-Dec-2019;9:50 PM;Copa Airlines Colombia;RPB 2237;Karangsuko;14;Exit
+08-Sep-2019;9:33 PM;Wingo;RPB 7989;Јегуновце;13;Exit
