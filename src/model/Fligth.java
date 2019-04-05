@@ -2,11 +2,14 @@ package model;
 
 import java.util.Comparator;
 
+// Class
 public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
 
+    // Constantes
     public final static String EXIT = "Exit";
     public final static String ARRIVAL = "Arrival";
 
+    // Atributes
     private String date;
     private String time;
     private String airline;
@@ -15,7 +18,7 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
     private int gate;
     private String state;
 
-
+    // Constructor
     public Fligth(String date, String time, String airline, String codeFligth, String city, int gate, String state) {
         this.date = date;
         this.time = time;
@@ -26,6 +29,7 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
         this.state = state;
     }
 
+    // Methods
     public String getDate() {
         return date;
     }
@@ -96,6 +100,7 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
 
     @Override
     public int compare(Fligth o1, Fligth o2) {
+
         return 0;
     }
 }
