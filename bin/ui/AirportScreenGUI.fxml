@@ -16,7 +16,7 @@
       <TableView fx:id="tvScreen" editable="true" prefHeight="407.0" prefWidth="749.0" BorderPane.alignment="CENTER">
         <columns>
           <TableColumn fx:id="tcDate" prefWidth="94.0" sortable="false" text="Date" />
-          <TableColumn fx:id="tcDepartureTime" prefWidth="98.0" sortable="false" text="Departure Time" />
+          <TableColumn fx:id="tcTime" prefWidth="98.0" sortable="false" text="Departure Time" />
             <TableColumn fx:id="tcAirline" prefWidth="160.0" sortable="false" text="Airline" />
             <TableColumn fx:id="tcFligth" prefWidth="102.0" sortable="false" text="Fligth" />
             <TableColumn fx:id="tcCity" prefWidth="158.0" sortable="false" text="City" />
@@ -67,7 +67,7 @@
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByDepartureTime" mnemonicParsing="false" onAction="#controlBtSortByDepartureTime" text="Sort by Departure Time">
+                  <Button fx:id="btSortByTime" mnemonicParsing="false" onAction="#controlBtSortByTime" text="Sort by Departure Time">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>

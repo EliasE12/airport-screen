@@ -5,25 +5,21 @@ import java.util.Comparator;
 // Class
 public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
 
-    // Constantes
-    public final static String EXIT = "Exit";
-    public final static String ARRIVAL = "Arrival";
-
     // Atributes
     private String date;
     private String time;
     private String airline;
-    private String codeFligth;
+    private String fligth;
     private String city;
     private int gate;
     private String state;
 
     // Constructor
-    public Fligth(String date, String time, String airline, String codeFligth, String city, int gate, String state) {
+    public Fligth(String date, String time, String airline, String fligth, String city, int gate, String state) {
         this.date = date;
         this.time = time;
         this.airline = airline;
-        this.codeFligth = codeFligth;
+        this.fligth = fligth;
         this.city = city;
         this.gate = gate;
         this.state = state;
@@ -54,12 +50,12 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
         this.airline = airline;
     }
 
-    public String getCodeFligth() {
-        return codeFligth;
+    public String getFligth() {
+        return fligth;
     }
 
-    public void setCodeFligth(String codeFligth) {
-        this.codeFligth = codeFligth;
+    public void setFligth(String fligth) {
+        this.fligth = fligth;
     }
 
     public String getCity() {
@@ -88,18 +84,30 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
 
     @Override
     public int compareTo(Fligth fligth) {
-        int comparations;
-        if(this.time.compareTo(fligth.time)>0)
-            comparations = 1;
-        else if(this.time.compareTo(fligth.time)<0){
-            comparations = -1;
+        int comparation;
+        if(this.date.compareTo(fligth.date)>0)
+            comparation = 1;
+        else if(this.date.compareTo(fligth.date)<0){
+            comparation = -1;
         }else
-            comparations = 0;
-        return comparations;
+            comparation = 0;
+        return comparation;
+    }
+
+    public int compareToTime(Fligth fligth){
+        int comparation;
+        if (this.time.compareTo(fligth.time)>0)
+            comparation = 1;
+        else if(this.time.compareTo(fligth.time)<0)
+            comparation = -1;
+        else
+            comparation = 1;
+
+        return comparation;
     }
 
     @Override
-    public int compare(Fligth o1, Fligth o2) {
+    public int compare(Fligth fligth1, Fligth fligth2) {
 
         return 0;
     }

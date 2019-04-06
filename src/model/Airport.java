@@ -6,19 +6,21 @@ import javafx.collections.ObservableList;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
+// Class
 public class Airport {
-
+    // Constants
     public static final String PATH_DATA = "data/AirportScreenData.txt";
-    public enum Criteria {DATE,DEPARTURE_TIME,AIRLINE,CODE_FLIGTH,CITY,GATE,STATE};
-
+    public enum Criteria {DATE,TIME,AIRLINE,FLIGTH,CITY,GATE,STATE};
+    // Atributes
     private long timeSearch;
     private Criteria criteria;
     private List<Fligth> fligths;
-
-    private List<Fligth> auxFligths;
-
+    // List of atributes
     private List<String> dates;
     private List<String> times;
     private List<String> airlines;
@@ -27,12 +29,11 @@ public class Airport {
     private List<Integer> gates;
     private List<String> states;
 
+    // Constructor
     public Airport(){
-        auxFligths = new ArrayList<Fligth>();
         timeSearch = 0;
         criteria = null;
         fligths = new ArrayList<Fligth>();
-
         dates = new ArrayList<String>();
         times = new ArrayList<String>();
         airlines = new ArrayList<String>();
@@ -40,39 +41,16 @@ public class Airport {
         cities = new ArrayList<String>();
         gates = new ArrayList<Integer>();
         states = new ArrayList<String>();
-
     }
 
-
-    public void loadData(){
-        try {
-            BufferedReader br = new BufferedReader(new FileReader(PATH_DATA));
-            String line = br.readLine();
-            while (line != null) {
-                    String[] parts = line.split(";");
-                    String date = parts[0];
-                    String dTime = parts[1];
-                    String nAirline = parts[2];
-                    String cFligth = parts[3];
-                    String city = parts[4];
-                    int gate = Integer.parseInt(parts[5]);
-                    String state = parts[6];
-                    Fligth newFligth = new Fligth(date, dTime, nAirline, cFligth, city, gate, state);
-                    auxFligths.add(newFligth);
-                line = br.readLine();
-            }
-            br.close();
-        }catch (IOException ioe){
-            ioe.printStackTrace();
-        }
-    }
-
+    // Methods
     public void loadDates(){
         try {
             BufferedReader br = new BufferedReader(new FileReader("data/dates.txt"));
             String line = br.readLine();
             while (line != null) {
                 dates.add(line);
+                line = br.readLine();
             }
             br.close();
         }catch (IOException ioe){
@@ -86,6 +64,7 @@ public class Airport {
             String line = br.readLine();
             while (line != null) {
                 times.add(line);
+                line = br.readLine();
             }
             br.close();
         }catch (IOException ioe){
@@ -99,14 +78,13 @@ public class Airport {
             String line = br.readLine();
             while (line != null) {
                 airlines.add(line);
+                line = br.readLine();
             }
             br.close();
         }catch (IOException ioe){
             ioe.printStackTrace();
         }
     }
-
-    public void loadCodeFligths(){}
 
     public void loadCities(){
         try {
@@ -114,14 +92,13 @@ public class Airport {
             String line = br.readLine();
             while (line != null) {
                 cities.add(line);
+                line = br.readLine();
             }
             br.close();
         }catch (IOException ioe){
             ioe.printStackTrace();
         }
     }
-
-    public void generateGates(){}
 
     public void loadStates(){
         try {
@@ -129,6 +106,7 @@ public class Airport {
             String line = br.readLine();
             while (line != null) {
                 states.add(line);
+                line = br.readLine();
             }
             br.close();
         }catch (IOException ioe){
@@ -136,25 +114,63 @@ public class Airport {
         }
     }
 
+    public void genereteRandomFligths(int numberFligths) {
 
+        loadDates(); loadTimes(); loadAirlines(); loadCities(); loadStates();
 
-    public void genereteRandomFligths(int numberFligths){
-        while(fligths.size() <= numberFligths){
-            String date = dates.get((int) Math.random()*dates.size()+1);
-            String time = times.get((int) Math.random()*times.size()+1);
-            String airline = airlines.get((int) Math.random()*airlines.size()+1);
-            
-            Fligth otherNew = new Fligth(,,,,,,);
+        while (fligths.size() <= numberFligths) {
+            // Generete the random atributes
+            String date = dates.get((int) Math.random() * dates.size() + 1);
+            String time = times.get((int) Math.random() * times.size() + 1);
+            String airline = airlines.get((int) Math.random() * airlines.size() + 1);
+            String fligth = null;
+            String city = cities.get((int) Math.random() * cities.size() + 1);
+            int gate = (int) Math.random() * 25 + 1;
+            String state = states.get((int) Math.random() * states.size() + 1);
+            // Create the code fligth
+            int numbCode = (int) Math.floor(Math.random() * (1000 - (9000 + 1)) + (9000));
+            switch (airline) {
+                case "AVIANCA":
+                    fligth = "AVA " + numbCode;
+                    break;
+                case "LATAM":
+                    fligth = "LA " + numbCode;
+                    break;
+                case "COPA AIRLINES":
+                    fligth = "ARE " + numbCode;
+                    break;
+                case "COLOMBIA":
+                    fligth = "RPB " + numbCode;
+                    break;
+                case "VIVA COLOMBIA":
+                    fligth = "VVP " + numbCode;
+                    break;
+                case "WINGO":
+                    fligth = "RPB " + numbCode;
+                    break;
+                case "SATENA":
+                    fligth = "NSE " + numbCode;
+                    break;
+                case "LAN COLOMBIA":
+                    fligth = "4C " + numbCode;
+                    break;
+                case "LANCO":
+                    fligth = "L7 " + numbCode;
+                    break;
+                case "TAMPA CARGO":
+                    fligth = "QT " + numbCode;
+                    break;
+            }
+
+            // Create and add a new fligth to de list
+            Fligth otherNew = new Fligth(date, time, airline, fligth, city, gate, state);
             fligths.add(otherNew);
         }
     }
 
     public ObservableList<Fligth> observableFligths(){
-        ObservableList<Fligth> list = FXCollections.observableArrayList();
-        for (Fligth current: fligths) {
-            list.add(current);
-        }
-        return list;
+        ObservableList<Fligth> observableListFligths = FXCollections.observableArrayList(fligths);
+        return observableListFligths;
     }
 
     public void nextPage(){}
@@ -167,12 +183,11 @@ public class Airport {
     }
 
     // With Bubble
-    public void sortByDate(){
-
+    public void sortByTime(){
         Fligth aux = null;
         for (int i = 0; i<fligths.size()-1; i++){
             for (int j = 0; j<fligths.size()-i-1; j++){
-                if (fligths.get(j).getDate().compareTo(fligths.get(j+1).getDate())>0){
+                if (fligths.get(j).compareToTime(fligths.get(j+1))>0){
                     aux = fligths.get(j);
                     fligths.set(j,fligths.get(j+1));
                     fligths.set(j+1,aux);
@@ -183,11 +198,10 @@ public class Airport {
 
     // With Selection
     public void sortByAirline(){
-
         for (int i = 0; i < fligths.size()-1; i++) {
             int min = i;
             for (int j = i + 1; j < fligths.size(); j++) {
-                if (fligths.get(j).getAirline().getName().compareTo(fligths.get(min).getAirline().getName()) < 0) {
+                if (fligths.get(j).getAirline().compareTo(fligths.get(min).getAirline()) < 0) {
                     min = j;
                 }
             }
@@ -197,27 +211,24 @@ public class Airport {
         }
     }
 
-    public void sortByCodeFligth(){
-
+    public void sortByFligth(){
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
             public int compare(Fligth fligth1, Fligth fligth2) {
-                int comparations;
-                if (fligth1.getCodeFligth().compareTo(fligth2.getCodeFligth()) > 0)
-                    comparations = 1;
-                else if (fligth1.getCodeFligth().compareTo(fligth2.getCodeFligth()) < 0)
-                    comparations = -1;
+                int comparation;
+                if (fligth1.getFligth().compareTo(fligth2.getFligth()) > 0)
+                    comparation = 1;
+                else if (fligth1.getFligth().compareTo(fligth2.getFligth()) < 0)
+                    comparation = -1;
                 else
-                    comparations = 0;
-
-                return comparations;
+                    comparation = 0;
+                return comparation;
             }
         });
     }
 
     // With insertion
     public void sortByCity(){
-
         for (int i = 1; i < fligths.size(); i++) {
             Fligth current = fligths.get(i);
             int j = i;
@@ -232,150 +243,373 @@ public class Airport {
     public void sortByGate(){
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
-            public int compare(Fligth fligth1, Fligth fligth2) {
-                return (fligth1.getGate() - fligth2.getGate());
+            public int compare(Fligth o1, Fligth o2) {
+                return (o1.getGate()-o2.getGate());
             }
         });
     }
 
-    public void sortByState(){}
-
+    public void sortByState(){
+        Collections.sort(fligths, new Comparator<Fligth>() {
+            @Override
+            public int compare(Fligth fligth1, Fligth fligth2) {
+                int comparation;
+                if (fligth1.getState().compareTo(fligth2.getState())>0)
+                    comparation = 1;
+                else if (fligth1.getState().compareTo(fligth2.getState())<0)
+                    comparation = -1;
+                else
+                    comparation = 0;
+                return comparation;
+            }
+        });
+    }
 
     public Fligth searchBySequentialSearch(String criteria, String valueSearch){
         Fligth searched = null;
-        boolean found = false;
-        int i = 0;
-        long start,end;
         switch (criteria){
             case "DATE":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getDate().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+                searched = lsDate(valueSearch);
             break;
-            case "DEPARTURE_TIME":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getTime().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+            case "TIME":
+                searched = lsTime(valueSearch);
             break;
             case "AIRLINE":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getAirline().getName().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+                searched = lsAirline(valueSearch);
             break;
-            case "CODE_FLIGTH":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getCodeFligth().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+            case "FLIGTH":
+                searched = lsFligth(valueSearch);
             break;
             case "CITY":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getCity().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+                searched = lsCity(valueSearch);
             break;
             case "GATE":
-                start = System.currentTimeMillis();
-                int gate = Integer.parseInt(valueSearch);
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getGate() == gate){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+                searched = lsGate(valueSearch);
             break;
             case "STATE":
-                start = System.currentTimeMillis();
-                while (i<fligths.size() && !found){
-                    if(fligths.get(i).getState().equals(valueSearch)){
-                        searched = fligths.get(i);
-                        found = true;
-                    }
-                }
-                end = System.currentTimeMillis();
-                timeSearch = (end-start);
+                searched = lsState(valueSearch);
             break;
         }
         return searched;
     }
 
+    private Fligth lsDate(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getDate().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsTime(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getTime().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsAirline(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getAirline().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsFligth(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getFligth().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsCity(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getCity().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsGate(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getGate() == Integer.parseInt(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth lsState(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int i = 0;
+        start = System.currentTimeMillis();
+        while (i<fligths.size() && !found){
+            if(fligths.get(i).getState().equals(value)){
+                s = fligths.get(i);
+                found = true;
+            }
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
 
     public Fligth searchByBinarySearch(String criteria, String valueSearch){
-        return null;
+        Fligth searched = null;
+        switch (criteria){
+            case "Date":
+                searched = bsDate(valueSearch);
+            break;
+            case "TIME":
+                searched = bsTime(valueSearch);
+            break;
+            case "AIRLINE":
+                searched = bsAirline(valueSearch);
+            break;
+            case "FLIGTH":
+                searched = bsFligth(valueSearch);
+            break;
+            case "CITY":
+                searched = bsCity(valueSearch);
+            break;
+            case "GATE":
+                searched = bsGate(valueSearch);
+            break;
+            case "STATE":
+                searched = bsState(valueSearch);
+            break;
+        }
+        return searched;
     }
 
-    public long calculateTimeSearch(){
-        return 0;
+    private Fligth bsDate(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getDate().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getDate().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
     }
 
-
-
-    public Screen getScreen() {
-        return screen;
+    private Fligth bsTime(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getTime().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getTime().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
     }
 
-    public void setScreen(Screen screen) {
-        this.screen = screen;
+    private Fligth bsAirline(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getAirline().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getAirline().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
     }
 
-    public List<Fligth> getAuxFligths() {
-        return auxFligths;
+    private Fligth bsFligth(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getFligth().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getTime().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
     }
 
-    public void setAuxFligths(List<Fligth> auxFligths) {
-        this.auxFligths = auxFligths;
+    private Fligth bsCity(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getCity().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getCity().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth bsGate(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getGate() == Integer.parseInt(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getGate() > Integer.parseInt(value)){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
+    }
+
+    private Fligth bsState(String value){
+        long start,end;
+        Fligth s = null;
+        boolean found = false;
+        int low = 0;
+        int high = fligths.size()-1;
+        start = System.currentTimeMillis();
+        while(low<=high && !found){
+            int mid = (low+high)/2;
+            if (fligths.get(mid).getState().equals(value)){
+                s = fligths.get(mid);
+                found = true;
+            }else if (fligths.get(mid).getState().compareTo(value)>0){
+                high = mid-1;
+            }else
+                low = mid+1;
+        }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+        return s;
     }
 
     public long getTimeSearch() {
         return timeSearch;
     }
-
     public void setTimeSearch(long timeSearch) {
         this.timeSearch = timeSearch;
     }
-
     public Criteria getCriteria() {
         return criteria;
     }
-
     public void setCriteria(Criteria criteria) {
         this.criteria = criteria;
     }
-
     public List<Fligth> getFligths() {
         return fligths;
     }
-
     public void setFligths(List<Fligth> fligths) {
         this.fligths = fligths;
     }
