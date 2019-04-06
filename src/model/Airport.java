@@ -1,25 +1,23 @@
 package model;
 
+import exceptions.FlitgthNoExistException;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 // Class
 public class Airport {
     // Constants
-    public static final String PATH_DATA = "data/AirportScreenData.txt";
     public enum Criteria {DATE,TIME,AIRLINE,FLIGTH,CITY,GATE,STATE};
     // Atributes
     private long timeSearch;
     private Criteria criteria;
     private List<Fligth> fligths;
+    private Random generatorRandom;
     // List of atributes
     private List<String> dates;
     private List<String> times;
@@ -33,6 +31,7 @@ public class Airport {
     public Airport(){
         timeSearch = 0;
         criteria = null;
+        generatorRandom = new Random();
         fligths = new ArrayList<Fligth>();
         dates = new ArrayList<String>();
         times = new ArrayList<String>();
@@ -114,57 +113,71 @@ public class Airport {
         }
     }
 
-    public void genereteRandomFligths(int numberFligths) {
+    public void genereteRandomFligths(int numberFligths) throws NegativeArraySizeException {
 
-        loadDates(); loadTimes(); loadAirlines(); loadCities(); loadStates();
+        if (numberFligths <= 0) {
+            throw new NegativeArraySizeException();
+        } else {
+            loadDates();
+            loadTimes();
+            loadAirlines();
+            loadCities();
+            loadStates();
+            int index = 0;
+            while (fligths.size() < numberFligths) {
+                // Generete the random atributes
+                index = (int) generatorRandom.nextInt(dates.size());
+                String date = dates.get((index));
+                index = (int) generatorRandom.nextInt(times.size());
+                String time = times.get(index);
+                index = (int) generatorRandom.nextInt(airlines.size());
+                String airline = airlines.get(index);
+                String fligth = null;
+                index = (int) generatorRandom.nextInt(cities.size());
+                String city = cities.get(index);
+                int gate = (int) generatorRandom.nextInt(25) + 1;
+                index = (int) generatorRandom.nextInt(states.size());
+                String state = states.get(index);
+                // Create the code fligth
+                int numbCode = (int) Math.floor(Math.random() * (1000 - (9000 + 1)) + (9000));
+                switch (airline) {
+                    case "AVIANCA":
+                        fligth = "AVA " + numbCode;
+                        break;
+                    case "LATAM":
+                        fligth = "LA " + numbCode;
+                        break;
+                    case "COPA AIRLINES":
+                        fligth = "ARE " + numbCode;
+                        break;
+                    case "COLOMBIA":
+                        fligth = "RPB " + numbCode;
+                        break;
+                    case "VIVA COLOMBIA":
+                        fligth = "VVP " + numbCode;
+                        break;
+                    case "WINGO":
+                        fligth = "RPB " + numbCode;
+                        break;
+                    case "SATENA":
+                        fligth = "NSE " + numbCode;
+                        break;
+                    case "LAN COLOMBIA":
+                        fligth = "4C " + numbCode;
+                        break;
+                    case "LANCO":
+                        fligth = "L7 " + numbCode;
+                        break;
+                    case "TAMPA CARGO":
+                        fligth = "QT " + numbCode;
+                        break;
+                }
 
-        while (fligths.size() <= numberFligths) {
-            // Generete the random atributes
-            String date = dates.get((int) Math.random() * dates.size() + 1);
-            String time = times.get((int) Math.random() * times.size() + 1);
-            String airline = airlines.get((int) Math.random() * airlines.size() + 1);
-            String fligth = null;
-            String city = cities.get((int) Math.random() * cities.size() + 1);
-            int gate = (int) Math.random() * 25 + 1;
-            String state = states.get((int) Math.random() * states.size() + 1);
-            // Create the code fligth
-            int numbCode = (int) Math.floor(Math.random() * (1000 - (9000 + 1)) + (9000));
-            switch (airline) {
-                case "AVIANCA":
-                    fligth = "AVA " + numbCode;
-                    break;
-                case "LATAM":
-                    fligth = "LA " + numbCode;
-                    break;
-                case "COPA AIRLINES":
-                    fligth = "ARE " + numbCode;
-                    break;
-                case "COLOMBIA":
-                    fligth = "RPB " + numbCode;
-                    break;
-                case "VIVA COLOMBIA":
-                    fligth = "VVP " + numbCode;
-                    break;
-                case "WINGO":
-                    fligth = "RPB " + numbCode;
-                    break;
-                case "SATENA":
-                    fligth = "NSE " + numbCode;
-                    break;
-                case "LAN COLOMBIA":
-                    fligth = "4C " + numbCode;
-                    break;
-                case "LANCO":
-                    fligth = "L7 " + numbCode;
-                    break;
-                case "TAMPA CARGO":
-                    fligth = "QT " + numbCode;
-                    break;
+                // Create and add a new fligth to de list
+                Fligth otherNew = new Fligth(date, time, airline, fligth, city, gate, state);
+                fligths.add(otherNew);
             }
-
-            // Create and add a new fligth to de list
-            Fligth otherNew = new Fligth(date, time, airline, fligth, city, gate, state);
-            fligths.add(otherNew);
+            sortByNaturalOrder();
         }
     }
 
@@ -177,17 +190,18 @@ public class Airport {
 
     public void backPage(){}
 
+
     // With Comparable
     public void sortByNaturalOrder(){
         Collections.sort(fligths);
     }
 
     // With Bubble
-    public void sortByTime(){
+    public void sortByDate(){
         Fligth aux = null;
-        for (int i = 0; i<fligths.size()-1; i++){
+        for (int i = 0; i<fligths.size(); i++){
             for (int j = 0; j<fligths.size()-i-1; j++){
-                if (fligths.get(j).compareToTime(fligths.get(j+1))>0){
+                if (fligths.get(j).compareToDate(fligths.get(j+1))>0){
                     aux = fligths.get(j);
                     fligths.set(j,fligths.get(j+1));
                     fligths.set(j+1,aux);
@@ -211,6 +225,7 @@ public class Airport {
         }
     }
 
+    // With Comparator
     public void sortByFligth(){
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
@@ -240,6 +255,7 @@ public class Airport {
         }
     }
 
+    // With comparator
     public void sortByGate(){
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
@@ -249,6 +265,7 @@ public class Airport {
         });
     }
 
+    // With Comparator
     public void sortByState(){
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
@@ -265,9 +282,10 @@ public class Airport {
         });
     }
 
-    public Fligth searchBySequentialSearch(String criteria, String valueSearch){
+    // Sequential Search
+    public Fligth searchBySequentialSearch(String criter, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
-        switch (criteria){
+        switch (criter){
             case "DATE":
                 searched = lsDate(valueSearch);
             break;
@@ -290,7 +308,12 @@ public class Airport {
                 searched = lsState(valueSearch);
             break;
         }
-        return searched;
+
+        if(searched == null){
+            throw new FlitgthNoExistException();
+        }else {
+            return searched;
+        }
     }
 
     private Fligth lsDate(String value){
@@ -304,6 +327,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -321,6 +345,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -338,6 +363,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -355,6 +381,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -372,6 +399,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -389,6 +417,7 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
@@ -406,14 +435,15 @@ public class Airport {
                 s = fligths.get(i);
                 found = true;
             }
+            i++;
         }
         end = System.currentTimeMillis();
         timeSearch = (end-start);
         return s;
     }
 
-
-    public Fligth searchByBinarySearch(String criteria, String valueSearch){
+    // Binary Search
+    public Fligth searchByBinarySearch(String criteria, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
         switch (criteria){
             case "Date":
@@ -438,7 +468,11 @@ public class Airport {
                 searched = bsState(valueSearch);
             break;
         }
-        return searched;
+        if(searched == null){
+            throw new FlitgthNoExistException();
+        }else {
+            return searched;
+        }
     }
 
     private Fligth bsDate(String value){

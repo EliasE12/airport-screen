@@ -85,24 +85,24 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
     @Override
     public int compareTo(Fligth fligth) {
         int comparation;
-        if(this.date.compareTo(fligth.date)>0)
+        if(this.time.compareTo(fligth.time)>0)
             comparation = 1;
-        else if(this.date.compareTo(fligth.date)<0){
+        else if(this.time.compareTo(fligth.time)<0){
             comparation = -1;
         }else
             comparation = 0;
         return comparation;
     }
 
-    public int compareToTime(Fligth fligth){
+    public int compareToDate(Fligth fligth){
         int comparation;
-        if (this.time.compareTo(fligth.time)>0)
+        if (this.date.compareTo(fligth.date)>0) {
             comparation = 1;
-        else if(this.time.compareTo(fligth.time)<0)
+        }else if(this.date.compareTo(fligth.date)<0) {
             comparation = -1;
-        else
+        }else {
             comparation = 1;
-
+        }
         return comparation;
     }
 
@@ -110,5 +110,18 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
     public int compare(Fligth fligth1, Fligth fligth2) {
 
         return 0;
+    }
+
+    @Override
+    public String toString() {
+        return "Fligth{" +
+                       "date='" + date + '\'' +
+                       ", time='" + time + '\'' +
+                       ", airline='" + airline + '\'' +
+                       ", fligth='" + fligth + '\'' +
+                       ", city='" + city + '\'' +
+                       ", gate=" + gate +
+                       ", state='" + state + '\'' +
+                       '}';
     }
 }

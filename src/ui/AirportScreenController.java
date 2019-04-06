@@ -1,10 +1,12 @@
 package ui;
 
+import exceptions.FlitgthNoExistException;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.scene.layout.Pane;
 import model.Airport;
 import model.Fligth;
 
@@ -35,6 +37,8 @@ public class AirportScreenController implements Initializable {
     @FXML private Button btSortByState;
     @FXML private Button btBack;
     @FXML private Button btNext;
+    @FXML private Label lbTimeSearch;
+    @FXML private Button btCreateFligthsList;
 
     private Airport airport;
 
@@ -44,26 +48,54 @@ public class AirportScreenController implements Initializable {
         airport = new Airport();
         cbCriteria.getItems().addAll("DATE","TIME","AIRLINE","FLIGTH","CITY","GATE","STATE");
 
+        tcDate.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Date"));
+        tcTime.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Time"));
+        tcAirline.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Airline"));
+        tcFligth.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Fligth"));
+        tcCity.setCellValueFactory(new PropertyValueFactory<Fligth,String>("City"));
+        tcGate.setCellValueFactory(new PropertyValueFactory<Fligth,Integer>("Gate"));
+        tcState.setCellValueFactory(new PropertyValueFactory<Fligth,String>("State"));
+    }
+
+    @FXML
+    void controlBtCreateFligthsList(ActionEvent event) {
+
+        tvScreen.getItems().clear();
+
         TextInputDialog dialog = new TextInputDialog();
         dialog.setTitle("Welcome to the airport screen");
         dialog.setHeaderText("Enter the number of flights");
         dialog.setContentText("Please enter the number of flights");
         Optional<String> result = dialog.showAndWait();
         if (result.isPresent()) {
-            int numberFligths = Integer.parseInt(result.get());
-            airport.genereteRandomFligths(numberFligths);
+            try {
+                if(result.get().equals("")){
+                    throw new NullPointerException();
+                }else {
+                    int numberFligths = Integer.parseInt(result.get());
+                    airport.genereteRandomFligths(numberFligths);
+                    airport.sortByDate();
+                    printFligth();
+                }
+            }catch (NullPointerException e){
+                Alert men = new Alert(Alert.AlertType.WARNING);
+                men.setTitle("Warning !!!");
+                men.setHeaderText("Worthless");
+                men.setContentText("You have not entered any value.");
+                men.showAndWait();
+            }catch (NegativeArraySizeException e){
+                Alert men = new Alert(Alert.AlertType.WARNING);
+                men.setTitle("Warning !!!");
+                men.setHeaderText("Negative number");
+                men.setContentText("You must enter a positive integer.");
+                men.showAndWait();
+            }
         }
 
-        tcDate.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Date"));
-        tcTime.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Departure Time"));
-        tcAirline.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Airline"));
-        tcFligth.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Fligth"));
-        tcCity.setCellValueFactory(new PropertyValueFactory<Fligth,String>("City"));
-        tcGate.setCellValueFactory(new PropertyValueFactory<Fligth,Integer>("Gate"));
-        tcState.setCellValueFactory(new PropertyValueFactory<Fligth,String>("State"));
+    }
 
+    public void printFligth(){
         tvScreen.getItems().addAll(airport.observableFligths());
-
     }
 
     @FXML
@@ -71,18 +103,24 @@ public class AirportScreenController implements Initializable {
     @FXML
     void controlBtNext(ActionEvent event) {}
 
-
     @FXML
     void controlBtBinarySearch(ActionEvent event) {
-        String criteria = cbCriteria.getValue();
+        String criter = cbCriteria.getValue();
         String search = tfsearch.getText();
         try {
-           if (airport.searchByBinarySearch(criteria,search) != null){
-
-           }else{
-               throw new NullPointerException();
-           }
-       }catch (NullPointerException e){
+            if (tfsearch.getText().equals("")) {
+                throw new NullPointerException();
+            } else {
+                showFlightDetails(airport.searchByBinarySearch(criter, search));
+                lbTimeSearch.setText(airport.getTimeSearch() + "");
+            }
+        } catch (NullPointerException e) {
+            Alert men = new Alert(Alert.AlertType.WARNING);
+            men.setTitle("Warning !!!");
+            men.setHeaderText("Worthless");
+            men.setContentText("You have not entered any value.");
+            men.showAndWait();
+        } catch (FlitgthNoExistException e) {
             Alert men = new Alert(Alert.AlertType.WARNING);
             men.setTitle("Warning !!!");
             men.setHeaderText("Flight not found");
@@ -93,15 +131,22 @@ public class AirportScreenController implements Initializable {
 
     @FXML
     void controlBtSequentialSearch(ActionEvent event) {
-        String criteria = cbCriteria.getValue();
+        String criter = cbCriteria.getValue();
         String search = tfsearch.getText();
         try {
-            if (airport.searchBySequentialSearch(criteria,search) != null){
-
-            }else{
+            if (tfsearch.getText().equals("")) {
                 throw new NullPointerException();
+            } else {
+                showFlightDetails(airport.searchBySequentialSearch(criter, search));
+                lbTimeSearch.setText(airport.getTimeSearch() + "");
             }
-        }catch (NullPointerException e){
+        } catch (NullPointerException e) {
+            Alert men = new Alert(Alert.AlertType.WARNING);
+            men.setTitle("Warning !!!");
+            men.setHeaderText("Worthless");
+            men.setContentText("You have not entered any value.");
+            men.showAndWait();
+        } catch (FlitgthNoExistException e) {
             Alert men = new Alert(Alert.AlertType.WARNING);
             men.setTitle("Warning !!!");
             men.setHeaderText("Flight not found");
@@ -110,40 +155,73 @@ public class AirportScreenController implements Initializable {
         }
     }
 
+    public void showFlightDetails(Fligth searched){
+
+        Alert men = new Alert(Alert.AlertType.INFORMATION);
+        men.setTitle("Details");
+        men.setHeaderText(" ");
+        String details = "\n";
+
+        details += "Date : "+searched.getDate()+"\n";
+        details += "Time : "+searched.getTime()+"\n";
+        details += "Airline : "+searched.getAirline()+"\n";
+        details += "Fligth : "+searched.getFligth()+"\n";
+        details += "City : "+searched.getCity()+"\n";
+        details += "Gate : "+searched.getGate()+"\n";
+        details += "State : "+searched.getState()+"\n";
+
+        men.setContentText(details);
+        men.show();
+
+    }
 
     @FXML
     void controlBtSortByAirline(ActionEvent event) {
       airport.sortByAirline();
+      tvScreen.getItems().clear();
+      printFligth();
     }
 
     @FXML
     void controlBtSortByCity(ActionEvent event) {
         airport.sortByCity();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
     void controlBtSortByDate(ActionEvent event) {
-        airport.sortByNaturalOrder();
+        airport.sortByDate();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
     void controlBtSortByTime(ActionEvent event) {
-        airport.sortByTime();
+        airport.sortByNaturalOrder();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
     void controlBtSortByFligth(ActionEvent event) {
         airport.sortByFligth();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
     void controlBtSortByGate(ActionEvent event) {
         airport.sortByGate();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
     void controlBtSortByState(ActionEvent event) {
         airport.sortByState();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
 
