@@ -12,9 +12,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="899.0" style="-fx-background-color: #d1d3d6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AirportScreenController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="910.0" style="-fx-background-color: #d1d3d6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AirportScreenController">
    <center>
-      <TableView fx:id="tvScreen" editable="true" prefHeight="377.0" prefWidth="791.0" BorderPane.alignment="CENTER">
+      <TableView fx:id="tvScreen" editable="true" prefHeight="420.0" prefWidth="910.0" BorderPane.alignment="CENTER">
         <columns>
           <TableColumn fx:id="tcDate" prefWidth="113.0" sortable="false" text="Date" />
           <TableColumn fx:id="tcTime" prefWidth="100.0" sortable="false" text="Time" />
@@ -29,14 +29,16 @@
    <top>
       <BorderPane>
          <center>
-            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="749.0" spacing="8.0">
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="749.0" spacing="7.0">
                <children>
-                  <Button fx:id="btCreateFligthsList" mnemonicParsing="false" onAction="#controlBtCreateFligthsList" text="Create Fligths List" />
-                  <Separator opacity="0.16" orientation="VERTICAL" prefHeight="200.0" />
+                  <Button fx:id="btCreateFligthsList" mnemonicParsing="false" onAction="#controlBtCreateFligthsList" text="Create Fligths List">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font></Button>
                   <Separator opacity="0.16" orientation="VERTICAL" prefHeight="200.0" />
                   <Separator opacity="0.16" orientation="VERTICAL" prefHeight="200.0" />
                   <ComboBox fx:id="cbCriteria" prefWidth="150.0" promptText="Criteria" />
-                  <TextField fx:id="tfsearch" prefHeight="25.0" prefWidth="168.0" promptText="Insert your search" />
+                  <TextField fx:id="tfsearch" prefHeight="25.0" prefWidth="152.0" promptText="Insert your search" />
                   <Button fx:id="btSequentialSearch" mnemonicParsing="false" onAction="#controlBtSequentialSearch" text="Sequential Search">
                      <font>
                         <Font name="System Bold" size="12.0" />
@@ -48,11 +50,6 @@
                      </font>
                   </Button>
                   <Label text="Time search:">
-                     <font>
-                        <Font name="System Italic" size="12.0" />
-                     </font>
-                  </Label>
-                  <Label fx:id="lbTimeSearch">
                      <font>
                         <Font name="System Italic" size="12.0" />
                      </font>
@@ -70,6 +67,16 @@
                </font>
             </Label>
          </top>
+         <left>
+            <Label fx:id="lbClock" prefHeight="28.0" prefWidth="78.0" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <Label fx:id="lbTimeSearch" prefHeight="17.0" prefWidth="61.0" BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Italic" size="12.0" />
+               </font>
+            </Label>
+         </right>
       </BorderPane>
    </top>
    <bottom>

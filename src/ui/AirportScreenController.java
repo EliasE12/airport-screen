@@ -6,16 +6,16 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
-import javafx.scene.layout.Pane;
 import model.Airport;
 import model.Fligth;
 
 import java.net.URL;
 import java.util.Optional;
 import java.util.ResourceBundle;
-
+// Class
 public class AirportScreenController implements Initializable {
 
+    // Atributes
     @FXML private TableView<Fligth> tvScreen;
     @FXML private TableColumn<Fligth, String> tcDate;
     @FXML private TableColumn<Fligth, String> tcTime;
@@ -39,27 +39,31 @@ public class AirportScreenController implements Initializable {
     @FXML private Button btNext;
     @FXML private Label lbTimeSearch;
     @FXML private Button btCreateFligthsList;
+    @FXML private Label lbClock;
 
+
+    // Relation with main class of model
     private Airport airport;
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-
         airport = new Airport();
-        cbCriteria.getItems().addAll("DATE","TIME","AIRLINE","FLIGTH","CITY","GATE","STATE");
+        cbCriteria.getItems().addAll("DATE", "TIME", "AIRLINE", "FLIGTH", "CITY", "GATE", "STATE");
 
-        tcDate.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Date"));
-        tcTime.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Time"));
-        tcAirline.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Airline"));
-        tcFligth.setCellValueFactory(new PropertyValueFactory<Fligth,String>("Fligth"));
-        tcCity.setCellValueFactory(new PropertyValueFactory<Fligth,String>("City"));
-        tcGate.setCellValueFactory(new PropertyValueFactory<Fligth,Integer>("Gate"));
-        tcState.setCellValueFactory(new PropertyValueFactory<Fligth,String>("State"));
+        tcDate.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Date"));
+        tcTime.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Time"));
+        tcAirline.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Airline"));
+        tcFligth.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Fligth"));
+        tcCity.setCellValueFactory(new PropertyValueFactory<Fligth, String>("City"));
+        tcGate.setCellValueFactory(new PropertyValueFactory<Fligth, Integer>("Gate"));
+        tcState.setCellValueFactory(new PropertyValueFactory<Fligth, String>("State"));
     }
 
     @FXML
     void controlBtCreateFligthsList(ActionEvent event) {
 
+        airport.getFligths().clear();
+        airport.observableFligths().clear();
         tvScreen.getItems().clear();
 
         TextInputDialog dialog = new TextInputDialog();
@@ -69,24 +73,30 @@ public class AirportScreenController implements Initializable {
         Optional<String> result = dialog.showAndWait();
         if (result.isPresent()) {
             try {
-                if(result.get().equals("")){
+                if (result.get().equals("")) {
                     throw new NullPointerException();
-                }else {
+                } else {
                     int numberFligths = Integer.parseInt(result.get());
                     airport.genereteRandomFligths(numberFligths);
                     airport.sortByDate();
                     printFligth();
                 }
-            }catch (NullPointerException e){
+            } catch (NullPointerException e) {
                 Alert men = new Alert(Alert.AlertType.WARNING);
                 men.setTitle("Warning !!!");
                 men.setHeaderText("Worthless");
                 men.setContentText("You have not entered any value.");
                 men.showAndWait();
-            }catch (NegativeArraySizeException e){
+            } catch (NegativeArraySizeException e) {
                 Alert men = new Alert(Alert.AlertType.WARNING);
                 men.setTitle("Warning !!!");
                 men.setHeaderText("Negative number");
+                men.setContentText("You must enter a positive integer.");
+                men.showAndWait();
+            }catch (NumberFormatException e){
+                Alert men = new Alert(Alert.AlertType.WARNING);
+                men.setTitle("Warning !!!");
+                men.setHeaderText("No number");
                 men.setContentText("You must enter a positive integer.");
                 men.showAndWait();
             }
@@ -94,14 +104,17 @@ public class AirportScreenController implements Initializable {
 
     }
 
-    public void printFligth(){
+    public void printFligth() {
         tvScreen.getItems().addAll(airport.observableFligths());
     }
 
     @FXML
-    void controlBtBack(ActionEvent event) {}
+    void controlBtBack(ActionEvent event) {
+    }
+
     @FXML
-    void controlBtNext(ActionEvent event) {}
+    void controlBtNext(ActionEvent event) {
+    }
 
     @FXML
     void controlBtBinarySearch(ActionEvent event) {
@@ -111,8 +124,11 @@ public class AirportScreenController implements Initializable {
             if (tfsearch.getText().equals("")) {
                 throw new NullPointerException();
             } else {
-                showFlightDetails(airport.searchByBinarySearch(criter, search));
-                lbTimeSearch.setText(airport.getTimeSearch() + "");
+                tvScreen.getItems().clear();
+                tvScreen.getItems().addAll(airport.searchByBinarySearch(criter, search));
+                //showFlightDetails(airport.searchByBinarySearch(criter, search));
+                long time = airport.getTimeSearch();
+                lbTimeSearch.setText(time + "");
             }
         } catch (NullPointerException e) {
             Alert men = new Alert(Alert.AlertType.WARNING);
@@ -126,7 +142,14 @@ public class AirportScreenController implements Initializable {
             men.setHeaderText("Flight not found");
             men.setContentText("The flight looking does not exist.");
             men.showAndWait();
+        } catch (NumberFormatException e){
+            Alert men = new Alert(Alert.AlertType.WARNING);
+            men.setTitle("Warning !!!");
+            men.setHeaderText("No number");
+            men.setContentText("You must enter a positive integer.");
+            men.showAndWait();
         }
+
     }
 
     @FXML
@@ -137,7 +160,9 @@ public class AirportScreenController implements Initializable {
             if (tfsearch.getText().equals("")) {
                 throw new NullPointerException();
             } else {
-                showFlightDetails(airport.searchBySequentialSearch(criter, search));
+                tvScreen.getItems().clear();
+                tvScreen.getItems().addAll(airport.searchByBinarySearch(criter, search));
+                //showFlightDetails(airport.searchBySequentialSearch(criter, search));
                 lbTimeSearch.setText(airport.getTimeSearch() + "");
             }
         } catch (NullPointerException e) {
@@ -152,34 +177,40 @@ public class AirportScreenController implements Initializable {
             men.setHeaderText("Flight not found");
             men.setContentText("The flight looking does not exist.");
             men.showAndWait();
+        } catch (NumberFormatException e){
+            Alert men = new Alert(Alert.AlertType.WARNING);
+            men.setTitle("Warning !!!");
+            men.setHeaderText("No number");
+            men.setContentText("You must enter a positive integer.");
+            men.showAndWait();
         }
+
     }
 
-    public void showFlightDetails(Fligth searched){
+    public void showFlightDetails(Fligth searched) {
 
         Alert men = new Alert(Alert.AlertType.INFORMATION);
         men.setTitle("Details");
         men.setHeaderText(" ");
         String details = "\n";
 
-        details += "Date : "+searched.getDate()+"\n";
-        details += "Time : "+searched.getTime()+"\n";
-        details += "Airline : "+searched.getAirline()+"\n";
-        details += "Fligth : "+searched.getFligth()+"\n";
-        details += "City : "+searched.getCity()+"\n";
-        details += "Gate : "+searched.getGate()+"\n";
-        details += "State : "+searched.getState()+"\n";
+        details += "Date : " + searched.getDate() + "\n";
+        details += "Time : " + searched.getTime() + "\n";
+        details += "Airline : " + searched.getAirline() + "\n";
+        details += "Fligth : " + searched.getFligth() + "\n";
+        details += "City : " + searched.getCity() + "\n";
+        details += "Gate : " + searched.getGate() + "\n";
+        details += "State : " + searched.getState() + "\n";
 
         men.setContentText(details);
         men.show();
-
     }
 
     @FXML
     void controlBtSortByAirline(ActionEvent event) {
-      airport.sortByAirline();
-      tvScreen.getItems().clear();
-      printFligth();
+        airport.sortByAirline();
+        tvScreen.getItems().clear();
+        printFligth();
     }
 
     @FXML
@@ -223,6 +254,9 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         printFligth();
     }
+
+
+    public void upClockTreadGUI(){}
 
 
 }

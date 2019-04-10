@@ -29,7 +29,7 @@ public class Airport {
 
     // Constructor
     public Airport(){
-        timeSearch = 0;
+        //timeSearch = 0;
         criteria = null;
         generatorRandom = new Random();
         fligths = new ArrayList<Fligth>();
@@ -193,11 +193,17 @@ public class Airport {
 
     // With Comparable
     public void sortByNaturalOrder(){
+        long star,end;
+        star = System.currentTimeMillis();
         Collections.sort(fligths);
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With Bubble
     public void sortByDate(){
+        long star,end;
+        star = System.currentTimeMillis();
         Fligth aux = null;
         for (int i = 0; i<fligths.size(); i++){
             for (int j = 0; j<fligths.size()-i-1; j++){
@@ -208,10 +214,14 @@ public class Airport {
                 }
             }
         }
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With Selection
     public void sortByAirline(){
+        long star,end;
+        star = System.currentTimeMillis();
         for (int i = 0; i < fligths.size()-1; i++) {
             int min = i;
             for (int j = i + 1; j < fligths.size(); j++) {
@@ -223,10 +233,14 @@ public class Airport {
             fligths.set(i,fligths.get(min));
             fligths.set(min,aux);
         }
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With Comparator
     public void sortByFligth(){
+        long star,end;
+        star = System.currentTimeMillis();
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
             public int compare(Fligth fligth1, Fligth fligth2) {
@@ -240,10 +254,14 @@ public class Airport {
                 return comparation;
             }
         });
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With insertion
     public void sortByCity(){
+        long star,end;
+        star = System.currentTimeMillis();
         for (int i = 1; i < fligths.size(); i++) {
             Fligth current = fligths.get(i);
             int j = i;
@@ -253,20 +271,28 @@ public class Airport {
             }
             fligths.set(j,current);
         }
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With comparator
     public void sortByGate(){
+        long star = 0, end = 0;
+        star = System.currentTimeMillis();
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
             public int compare(Fligth o1, Fligth o2) {
                 return (o1.getGate()-o2.getGate());
             }
         });
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // With Comparator
     public void sortByState(){
+        long star,end;
+        star = System.currentTimeMillis();
         Collections.sort(fligths, new Comparator<Fligth>() {
             @Override
             public int compare(Fligth fligth1, Fligth fligth2) {
@@ -280,11 +306,15 @@ public class Airport {
                 return comparation;
             }
         });
+        end = System.currentTimeMillis();
+        timeSearch = (end-star);
     }
 
     // Sequential Search
     public Fligth searchBySequentialSearch(String criter, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
+        long start,end;
+        start = System.currentTimeMillis();
         switch (criter){
             case "DATE":
                 searched = lsDate(valueSearch);
@@ -308,6 +338,8 @@ public class Airport {
                 searched = lsState(valueSearch);
             break;
         }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
 
         if(searched == null){
             throw new FlitgthNoExistException();
@@ -317,11 +349,9 @@ public class Airport {
     }
 
     private Fligth lsDate(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getDate().equals(value)){
                 s = fligths.get(i);
@@ -329,17 +359,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsTime(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getTime().equals(value)){
                 s = fligths.get(i);
@@ -347,17 +373,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsAirline(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getAirline().equals(value)){
                 s = fligths.get(i);
@@ -365,17 +387,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsFligth(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getFligth().equals(value)){
                 s = fligths.get(i);
@@ -383,17 +401,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsCity(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getCity().equals(value)){
                 s = fligths.get(i);
@@ -401,17 +415,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsGate(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getGate() == Integer.parseInt(value)){
                 s = fligths.get(i);
@@ -419,17 +429,13 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth lsState(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int i = 0;
-        start = System.currentTimeMillis();
         while (i<fligths.size() && !found){
             if(fligths.get(i).getState().equals(value)){
                 s = fligths.get(i);
@@ -437,14 +443,14 @@ public class Airport {
             }
             i++;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     // Binary Search
     public Fligth searchByBinarySearch(String criteria, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
+        long start,end;
+        start = System.currentTimeMillis();
         switch (criteria){
             case "Date":
                 searched = bsDate(valueSearch);
@@ -468,6 +474,9 @@ public class Airport {
                 searched = bsState(valueSearch);
             break;
         }
+        end = System.currentTimeMillis();
+        timeSearch = (end-start);
+
         if(searched == null){
             throw new FlitgthNoExistException();
         }else {
@@ -476,12 +485,10 @@ public class Airport {
     }
 
     private Fligth bsDate(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getDate().equals(value)){
@@ -492,18 +499,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsTime(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getTime().equals(value)){
@@ -514,18 +517,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsAirline(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getAirline().equals(value)){
@@ -536,18 +535,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsFligth(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getFligth().equals(value)){
@@ -558,18 +553,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsCity(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getCity().equals(value)){
@@ -580,18 +571,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsGate(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getGate() == Integer.parseInt(value)){
@@ -602,18 +589,14 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
     private Fligth bsState(String value){
-        long start,end;
         Fligth s = null;
         boolean found = false;
         int low = 0;
         int high = fligths.size()-1;
-        start = System.currentTimeMillis();
         while(low<=high && !found){
             int mid = (low+high)/2;
             if (fligths.get(mid).getState().equals(value)){
@@ -624,8 +607,6 @@ public class Airport {
             }else
                 low = mid+1;
         }
-        end = System.currentTimeMillis();
-        timeSearch = (end-start);
         return s;
     }
 
