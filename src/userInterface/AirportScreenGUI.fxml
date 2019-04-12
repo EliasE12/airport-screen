@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="910.0" style="-fx-background-color: #d1d3d6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ui.AirportScreenController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="539.0" prefWidth="910.0" style="-fx-background-color: #d1d3d6;" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="userInterface.AirportScreenController">
    <center>
       <TableView fx:id="tvScreen" editable="true" prefHeight="420.0" prefWidth="910.0" BorderPane.alignment="CENTER">
         <columns>
@@ -27,31 +27,31 @@
       </TableView>
    </center>
    <top>
-      <BorderPane>
+      <BorderPane style="-fx-background-color: White;">
          <center>
-            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="749.0" spacing="7.0">
+            <HBox alignment="CENTER" prefHeight="42.0" prefWidth="749.0" spacing="7.0" style="-fx-background-color: #2861c9;">
                <children>
-                  <Button fx:id="btCreateFligthsList" mnemonicParsing="false" onAction="#controlBtCreateFligthsList" text="Create Fligths List">
+                  <Button fx:id="btCreateFligthsList" mnemonicParsing="false" onAction="#controlBtCreateFligthsList" style="-fx-background-color: White;" text="Create Fligths List">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font></Button>
                   <Separator opacity="0.16" orientation="VERTICAL" prefHeight="200.0" />
                   <Separator opacity="0.16" orientation="VERTICAL" prefHeight="200.0" />
-                  <ComboBox fx:id="cbCriteria" prefWidth="150.0" promptText="Criteria" />
-                  <TextField fx:id="tfsearch" prefHeight="25.0" prefWidth="152.0" promptText="Insert your search" />
-                  <Button fx:id="btSequentialSearch" mnemonicParsing="false" onAction="#controlBtSequentialSearch" text="Sequential Search">
+                  <ComboBox fx:id="cbCriteria" prefWidth="150.0" promptText="Criteria" style="-fx-background-color: White;" />
+                  <TextField fx:id="tfsearch" prefHeight="25.0" prefWidth="152.0" promptText="Insert your search" style="-fx-background-color: White;" />
+                  <Button fx:id="btSequentialSearch" mnemonicParsing="false" onAction="#controlBtSequentialSearch" style="-fx-background-color: White;" text="Sequential Search">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btBinarysearch" mnemonicParsing="false" onAction="#controlBtBinarySearch" text="Binary Search ">
+                  <Button fx:id="btBinarysearch" mnemonicParsing="false" onAction="#controlBtBinarySearch" style="-fx-background-color: White;" text="Binary Search ">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Label text="Time search:">
+                  <Label text="Time search:" textFill="WHITE">
                      <font>
-                        <Font name="System Italic" size="12.0" />
+                        <Font name="System Italic" size="13.0" />
                      </font>
                   </Label>
                </children>
@@ -68,10 +68,13 @@
             </Label>
          </top>
          <left>
-            <Label fx:id="lbClock" prefHeight="28.0" prefWidth="78.0" BorderPane.alignment="CENTER" />
+            <Label fx:id="lbClock" prefHeight="38.0" prefWidth="74.0" text=" " BorderPane.alignment="CENTER">
+               <font>
+                  <Font name="System Bold" size="17.0" />
+               </font></Label>
          </left>
          <right>
-            <Label fx:id="lbTimeSearch" prefHeight="17.0" prefWidth="61.0" BorderPane.alignment="CENTER">
+            <Label fx:id="lbTimeSearch" prefHeight="29.0" prefWidth="56.0" BorderPane.alignment="CENTER">
                <font>
                   <Font name="System Italic" size="12.0" />
                </font>
@@ -80,41 +83,41 @@
       </BorderPane>
    </top>
    <bottom>
-      <BorderPane>
+      <BorderPane style="-fx-background-color: White;">
          <center>
-            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="783.0" spacing="12.0">
+            <HBox alignment="CENTER" prefHeight="30.0" prefWidth="783.0" spacing="12.0" style="-fx-background-color: #2861c9;">
                <children>
-                  <Button fx:id="btSortByDate" mnemonicParsing="false" onAction="#controlBtSortByDate" text="Sort by Date">
+                  <Button fx:id="btSortByDate" mnemonicParsing="false" onAction="#controlBtSortByDate" style="-fx-background-color: White;" text="Sort by Date">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByTime" mnemonicParsing="false" onAction="#controlBtSortByTime" text="Sort by Time">
+                  <Button fx:id="btSortByTime" mnemonicParsing="false" onAction="#controlBtSortByTime" style="-fx-background-color: White;" text="Sort by Time">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByAirline" mnemonicParsing="false" onAction="#controlBtSortByAirline" text="Sort by Airline">
+                  <Button fx:id="btSortByAirline" mnemonicParsing="false" onAction="#controlBtSortByAirline" style="-fx-background-color: White;" text="Sort by Airline">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByFligth" mnemonicParsing="false" onAction="#controlBtSortByFligth" text="Sort by Fligth">
+                  <Button fx:id="btSortByFligth" mnemonicParsing="false" onAction="#controlBtSortByFligth" style="-fx-background-color: White;" text="Sort by Fligth">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByCity" mnemonicParsing="false" onAction="#controlBtSortByCity" text="Sort by City">
+                  <Button fx:id="btSortByCity" mnemonicParsing="false" onAction="#controlBtSortByCity" style="-fx-background-color: White;" text="Sort by City">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByGate" mnemonicParsing="false" onAction="#controlBtSortByGate" text="Sort by Gate">
+                  <Button fx:id="btSortByGate" mnemonicParsing="false" onAction="#controlBtSortByGate" style="-fx-background-color: White;" text="Sort by Gate">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
                   </Button>
-                  <Button fx:id="btSortByState" mnemonicParsing="false" onAction="#controlBtSortByState" text="Sort by State">
+                  <Button fx:id="btSortByState" mnemonicParsing="false" onAction="#controlBtSortByState" style="-fx-background-color: White;" text="Sort by State">
                      <font>
                         <Font name="System Bold" size="12.0" />
                      </font>
@@ -123,10 +126,10 @@
             </HBox>
          </center>
          <top>
-            <HBox alignment="CENTER" prefHeight="23.0" prefWidth="783.0" spacing="630.0">
+            <HBox alignment="CENTER" prefHeight="23.0" prefWidth="783.0" spacing="25.0" style="-fx-background-color: White;">
                <children>
-                  <Button fx:id="btBack" mnemonicParsing="false" onAction="#controlBtBack" text="&lt;&lt;" />
-                  <Button fx:id="btNext" alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#controlBtNext" text="&gt;&gt;" HBox.hgrow="ALWAYS" />
+                  <Button fx:id="btBack" mnemonicParsing="false" onAction="#controlBtBack" style="-fx-background-color: #dd1616;" text="&lt;&lt;" />
+                  <Button fx:id="btNext" alignment="CENTER_RIGHT" contentDisplay="RIGHT" mnemonicParsing="false" onAction="#controlBtNext" style="-fx-background-color: #dd1616;" text="&gt;&gt;" HBox.hgrow="ALWAYS" />
                </children>
             </HBox>
          </top>

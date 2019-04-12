@@ -11,41 +11,48 @@ import java.util.*;
 
 // Class
 public class Airport {
+
     // Constants
+    public final static String DATES_PATH = "data/dates.txt";
+    public final static String TIMES_PATH = "data/times.txt";
+    public final static String AIRLINES_PATH = "data/airlines.txt";
+    public final static String CITIES_PATH = "data/cities.txt";
+    public final static int ROWS_PER_PAGE = 20;
+
     public enum Criteria {DATE,TIME,AIRLINE,FLIGTH,CITY,GATE,STATE};
+
     // Atributes
     private long timeSearch;
     private Criteria criteria;
     private List<Fligth> fligths;
     private Random generatorRandom;
+
+
     // List of atributes
     private List<String> dates;
     private List<String> times;
     private List<String> airlines;
-    private List<String> codeFligths;
     private List<String> cities;
-    private List<Integer> gates;
     private List<String> states;
 
     // Constructor
     public Airport(){
-        //timeSearch = 0;
+        timeSearch = 0;
         criteria = null;
         generatorRandom = new Random();
-        fligths = new ArrayList<Fligth>();
-        dates = new ArrayList<String>();
-        times = new ArrayList<String>();
-        airlines = new ArrayList<String>();
-        codeFligths = new ArrayList<String>();
-        cities = new ArrayList<String>();
-        gates = new ArrayList<Integer>();
-        states = new ArrayList<String>();
+        fligths = new ArrayList<>();
+        dates = new ArrayList<>();
+        times = new ArrayList<>();
+        airlines = new ArrayList<>();
+        cities = new ArrayList<>();
+        states = new ArrayList<>();
+
     }
 
     // Methods
-    public void loadDates(){
+    public void loadDates(String pathDates){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("data/dates.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(pathDates));
             String line = br.readLine();
             while (line != null) {
                 dates.add(line);
@@ -57,11 +64,14 @@ public class Airport {
         }
     }
 
-    public void loadTimes(){
+    public void loadTimes(String pathTimes){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("data/times.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(pathTimes));
             String line = br.readLine();
             while (line != null) {
+                if(line.length()<8){
+                    line = "0"+line;
+                }
                 times.add(line);
                 line = br.readLine();
             }
@@ -71,9 +81,9 @@ public class Airport {
         }
     }
 
-    public void loadAirlines(){
+    public void loadAirlines(String pathAirlines){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("data/airlines.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(pathAirlines));
             String line = br.readLine();
             while (line != null) {
                 airlines.add(line);
@@ -85,9 +95,9 @@ public class Airport {
         }
     }
 
-    public void loadCities(){
+    public void loadCities(String pathCities){
         try {
-            BufferedReader br = new BufferedReader(new FileReader("data/cities.txt"));
+            BufferedReader br = new BufferedReader(new FileReader(pathCities));
             String line = br.readLine();
             while (line != null) {
                 cities.add(line);
@@ -99,45 +109,35 @@ public class Airport {
         }
     }
 
-    public void loadStates(){
-        try {
-            BufferedReader br = new BufferedReader(new FileReader("data/states.txt"));
-            String line = br.readLine();
-            while (line != null) {
-                states.add(line);
-                line = br.readLine();
-            }
-            br.close();
-        }catch (IOException ioe){
-            ioe.printStackTrace();
-        }
-    }
-
-    public void genereteRandomFligths(int numberFligths) throws NegativeArraySizeException {
+    public void generateRandomFligths(int numberFligths) throws NegativeArraySizeException {
 
         if (numberFligths <= 0) {
             throw new NegativeArraySizeException();
         } else {
-            loadDates();
-            loadTimes();
-            loadAirlines();
-            loadCities();
-            loadStates();
+            loadDates(DATES_PATH);
+            loadTimes(TIMES_PATH);
+            loadAirlines(AIRLINES_PATH);
+            loadCities(CITIES_PATH);
             int index = 0;
             while (fligths.size() < numberFligths) {
                 // Generete the random atributes
-                index = (int) generatorRandom.nextInt(dates.size());
+                index =  generatorRandom.nextInt(dates.size());
                 String date = dates.get((index));
-                index = (int) generatorRandom.nextInt(times.size());
+                index =  generatorRandom.nextInt(times.size());
                 String time = times.get(index);
-                index = (int) generatorRandom.nextInt(airlines.size());
+                index =  generatorRandom.nextInt(airlines.size());
                 String airline = airlines.get(index);
                 String fligth = null;
-                index = (int) generatorRandom.nextInt(cities.size());
+                index =  generatorRandom.nextInt(cities.size());
                 String city = cities.get(index);
-                int gate = (int) generatorRandom.nextInt(25) + 1;
-                index = (int) generatorRandom.nextInt(states.size());
-                String state = states.get(index);
+                int gate =  generatorRandom.nextInt(45) + 1;
+                index = (int) (Math.random()*2)+1;
+                String state;
+                if(index==1){
+                    state = "Exit";
+                }else{
+                    state = "Arrival";
+                }
                 // Create the code fligth
                 int numbCode = (int) Math.floor(Math.random() * (1000 - (9000 + 1)) + (9000));
                 switch (airline) {
@@ -172,24 +172,20 @@ public class Airport {
                         fligth = "QT " + numbCode;
                         break;
                 }
-
-                // Create and add a new fligth to de list
-                Fligth otherNew = new Fligth(date, time, airline, fligth, city, gate, state);
-                fligths.add(otherNew);
+                // Create and add a new fligth to de list.
+                Fligth newFligth = new Fligth(date, time, airline, fligth, city, gate, state);
+                fligths.add(newFligth);
             }
             sortByNaturalOrder();
         }
     }
 
-    public ObservableList<Fligth> observableFligths(){
-        ObservableList<Fligth> observableListFligths = FXCollections.observableArrayList(fligths);
-        return observableListFligths;
+    public int[] createPage(int pageIndex){
+        int fromIndex = pageIndex*ROWS_PER_PAGE;
+        int toIndex = Math.min(fromIndex+ROWS_PER_PAGE,fligths.size());
+        int[] indexs = {fromIndex,toIndex};
+        return indexs;
     }
-
-    public void nextPage(){}
-
-    public void backPage(){}
-
 
     // With Comparable
     public void sortByNaturalOrder(){
@@ -204,7 +200,7 @@ public class Airport {
     public void sortByDate(){
         long star,end;
         star = System.currentTimeMillis();
-        Fligth aux = null;
+        Fligth aux;
         for (int i = 0; i<fligths.size(); i++){
             for (int j = 0; j<fligths.size()-i-1; j++){
                 if (fligths.get(j).compareToDate(fligths.get(j+1))>0){
@@ -311,31 +307,31 @@ public class Airport {
     }
 
     // Sequential Search
-    public Fligth searchBySequentialSearch(String criter, String valueSearch) throws FlitgthNoExistException {
+    public Fligth searchBySequentialSearch(Criteria criter, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
         long start,end;
         start = System.currentTimeMillis();
         switch (criter){
-            case "DATE":
-                searched = lsDate(valueSearch);
+            case DATE:
+                searched = ssDate(valueSearch);
             break;
-            case "TIME":
-                searched = lsTime(valueSearch);
+            case TIME:
+                searched = ssTime(valueSearch);
             break;
-            case "AIRLINE":
-                searched = lsAirline(valueSearch);
+            case AIRLINE:
+                searched = ssAirline(valueSearch);
             break;
-            case "FLIGTH":
-                searched = lsFligth(valueSearch);
+            case FLIGTH:
+                searched = ssFligth(valueSearch);
             break;
-            case "CITY":
-                searched = lsCity(valueSearch);
+            case CITY:
+                searched = ssCity(valueSearch);
             break;
-            case "GATE":
-                searched = lsGate(valueSearch);
+            case GATE:
+                searched = ssGate(valueSearch);
             break;
-            case "STATE":
-                searched = lsState(valueSearch);
+            case STATE:
+                searched = ssState(valueSearch);
             break;
         }
         end = System.currentTimeMillis();
@@ -348,12 +344,12 @@ public class Airport {
         }
     }
 
-    private Fligth lsDate(String value){
+    private Fligth ssDate(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getDate().equals(value)){
+            if(fligths.get(i).getDate().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -362,12 +358,12 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsTime(String value){
+    private Fligth ssTime(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getTime().equals(value)){
+            if(fligths.get(i).getTime().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -376,12 +372,12 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsAirline(String value){
+    private Fligth ssAirline(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getAirline().equals(value)){
+            if(fligths.get(i).getAirline().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -390,12 +386,12 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsFligth(String value){
+    private Fligth ssFligth(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getFligth().equals(value)){
+            if(fligths.get(i).getFligth().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -404,12 +400,12 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsCity(String value){
+    private Fligth ssCity(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getCity().equals(value)){
+            if(fligths.get(i).getCity().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -418,7 +414,7 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsGate(String value){
+    private Fligth ssGate(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
@@ -432,12 +428,12 @@ public class Airport {
         return s;
     }
 
-    private Fligth lsState(String value){
+    private Fligth ssState(String value){
         Fligth s = null;
         boolean found = false;
         int i = 0;
         while (i<fligths.size() && !found){
-            if(fligths.get(i).getState().equals(value)){
+            if(fligths.get(i).getState().equalsIgnoreCase(value)){
                 s = fligths.get(i);
                 found = true;
             }
@@ -447,30 +443,30 @@ public class Airport {
     }
 
     // Binary Search
-    public Fligth searchByBinarySearch(String criteria, String valueSearch) throws FlitgthNoExistException {
+    public Fligth searchByBinarySearch(Criteria criteria, String valueSearch) throws FlitgthNoExistException {
         Fligth searched = null;
         long start,end;
         start = System.currentTimeMillis();
         switch (criteria){
-            case "Date":
+            case DATE:
                 searched = bsDate(valueSearch);
             break;
-            case "TIME":
+            case TIME:
                 searched = bsTime(valueSearch);
             break;
-            case "AIRLINE":
+            case AIRLINE:
                 searched = bsAirline(valueSearch);
             break;
-            case "FLIGTH":
+            case FLIGTH:
                 searched = bsFligth(valueSearch);
             break;
-            case "CITY":
+            case CITY:
                 searched = bsCity(valueSearch);
             break;
-            case "GATE":
+            case GATE:
                 searched = bsGate(valueSearch);
             break;
-            case "STATE":
+            case STATE:
                 searched = bsState(valueSearch);
             break;
         }
@@ -491,7 +487,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getDate().equals(value)){
+            if (fligths.get(mid).getDate().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getDate().compareTo(value)>0){
@@ -509,7 +505,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getTime().equals(value)){
+            if (fligths.get(mid).getTime().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getTime().compareTo(value)>0){
@@ -527,7 +523,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getAirline().equals(value)){
+            if (fligths.get(mid).getAirline().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getAirline().compareTo(value)>0){
@@ -545,7 +541,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getFligth().equals(value)){
+            if (fligths.get(mid).getFligth().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getTime().compareTo(value)>0){
@@ -563,7 +559,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getCity().equals(value)){
+            if (fligths.get(mid).getCity().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getCity().compareTo(value)>0){
@@ -599,7 +595,7 @@ public class Airport {
         int high = fligths.size()-1;
         while(low<=high && !found){
             int mid = (low+high)/2;
-            if (fligths.get(mid).getState().equals(value)){
+            if (fligths.get(mid).getState().equalsIgnoreCase(value)){
                 s = fligths.get(mid);
                 found = true;
             }else if (fligths.get(mid).getState().compareTo(value)>0){

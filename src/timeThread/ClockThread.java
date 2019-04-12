@@ -1,16 +1,21 @@
 package timeThread;
 
-import ui.AirportScreenController;
+import userInterface.AirportScreenController;
 
+// Class
 public class ClockThread extends Thread {
 
-    private AirportScreenController airportScreenController;
+    // Atribute
+    private AirportScreenController controller;
 
-    public ClockThread(AirportScreenController airportScreenController){
-        this.airportScreenController = airportScreenController;
+    // Constructor
+    public ClockThread(AirportScreenController controller){
+        this.controller = controller;
     }
 
-    public void run(){}
-
+    // Methods
+    public void run(){
+            controller.updateClock();
+    }
 
 }

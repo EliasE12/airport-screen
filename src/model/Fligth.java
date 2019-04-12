@@ -1,9 +1,7 @@
 package model;
 
-import java.util.Comparator;
-
 // Class
-public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
+public class Fligth implements Comparable<Fligth>{
 
     // Atributes
     private String date;
@@ -15,6 +13,8 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
     private String state;
 
     // Constructor
+    public Fligth(){}
+
     public Fligth(String date, String time, String airline, String fligth, String city, int gate, String state) {
         this.date = date;
         this.time = time;
@@ -104,12 +104,6 @@ public class Fligth implements Comparable<Fligth>, Comparator<Fligth> {
             comparation = 1;
         }
         return comparation;
-    }
-
-    @Override
-    public int compare(Fligth fligth1, Fligth fligth2) {
-
-        return 0;
     }
 
     @Override

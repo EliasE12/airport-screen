@@ -1,6 +1,8 @@
-package ui;
+package userInterface;
 
 import exceptions.FlitgthNoExistException;
+import javafx.collections.FXCollections;
+import javafx.collections.ObservableList;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
@@ -8,10 +10,11 @@ import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import model.Airport;
 import model.Fligth;
-
+import model.Airport.Criteria;
+import timeThread.UpdateClockThreadGUI;
 import java.net.URL;
-import java.util.Optional;
-import java.util.ResourceBundle;
+import java.util.*;
+
 // Class
 public class AirportScreenController implements Initializable {
 
@@ -26,29 +29,25 @@ public class AirportScreenController implements Initializable {
     @FXML private TableColumn<Fligth, String> tcState;
     @FXML private ComboBox<String> cbCriteria;
     @FXML private TextField tfsearch;
-    @FXML private Button btSequentialSearch;
-    @FXML private Button btBinarysearch;
-    @FXML private Button btSortByDate;
-    @FXML private Button btSortByTime;
-    @FXML private Button btSortByAirline;
-    @FXML private Button btSortByFligth;
-    @FXML private Button btSortByCity;
-    @FXML private Button btSortByGate;
-    @FXML private Button btSortByState;
     @FXML private Button btBack;
     @FXML private Button btNext;
     @FXML private Label lbTimeSearch;
-    @FXML private Button btCreateFligthsList;
     @FXML private Label lbClock;
 
+    private int pageNumber;
 
-    // Relation with main class of model
+    // Relation with de model
     private Airport airport;
 
+    // Methods
     @Override
     public void initialize(URL location, ResourceBundle resources) {
         airport = new Airport();
+        pageNumber =0;
         cbCriteria.getItems().addAll("DATE", "TIME", "AIRLINE", "FLIGTH", "CITY", "GATE", "STATE");
+
+        UpdateClockThreadGUI clockThreadGUI = new UpdateClockThreadGUI(this);
+        clockThreadGUI.start();
 
         tcDate.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Date"));
         tcTime.setCellValueFactory(new PropertyValueFactory<Fligth, String>("Time"));
@@ -63,7 +62,6 @@ public class AirportScreenController implements Initializable {
     void controlBtCreateFligthsList(ActionEvent event) {
 
         airport.getFligths().clear();
-        airport.observableFligths().clear();
         tvScreen.getItems().clear();
 
         TextInputDialog dialog = new TextInputDialog();
@@ -77,7 +75,7 @@ public class AirportScreenController implements Initializable {
                     throw new NullPointerException();
                 } else {
                     int numberFligths = Integer.parseInt(result.get());
-                    airport.genereteRandomFligths(numberFligths);
+                    airport.generateRandomFligths(numberFligths);
                     airport.sortByDate();
                     printFligth();
                 }
@@ -101,31 +99,73 @@ public class AirportScreenController implements Initializable {
                 men.showAndWait();
             }
         }
-
     }
 
     public void printFligth() {
-        tvScreen.getItems().addAll(airport.observableFligths());
+        int[] pages = airport.createPage(pageNumber);
+        if (pages[0]==0){
+            btBack.setDisable(true);
+        }else{
+            btBack.setDisable(false);
+        }
+        if (pages[1]==airport.getFligths().size()){
+            btNext.setDisable(true);
+        }else {
+            btNext.setDisable(false);
+        }
+
+        tvScreen.getItems().clear();
+        ObservableList<Fligth> fligthsList = FXCollections.observableArrayList(airport.getFligths().subList(airport.createPage(pageNumber)[0],airport.createPage(pageNumber)[1]));
+        tvScreen.getItems().addAll(fligthsList);
     }
+
 
     @FXML
     void controlBtBack(ActionEvent event) {
+        pageNumber--;
+        printFligth();
     }
 
     @FXML
     void controlBtNext(ActionEvent event) {
+        pageNumber++;
+        printFligth();
     }
 
     @FXML
     void controlBtBinarySearch(ActionEvent event) {
-        String criter = cbCriteria.getValue();
+        String value = cbCriteria.getValue();
+        Criteria criteria = null;
+        switch (value){
+            case "DATE":
+               criteria = Criteria.DATE;
+               break;
+            case "TIME":
+                criteria = Criteria.TIME;
+                break;
+            case "AIRLINE":
+                criteria = Criteria.AIRLINE;
+                break;
+            case "FLIGTH":
+                criteria = Criteria.FLIGTH;
+                break;
+            case "CITY":
+                criteria = Criteria.CITY;
+                break;
+            case "GATE":
+                criteria = Criteria.GATE;
+                break;
+            case "STATE":
+                criteria = Criteria.STATE;
+        }
+
         String search = tfsearch.getText();
         try {
             if (tfsearch.getText().equals("")) {
                 throw new NullPointerException();
             } else {
                 tvScreen.getItems().clear();
-                tvScreen.getItems().addAll(airport.searchByBinarySearch(criter, search));
+                tvScreen.getItems().addAll(airport.searchByBinarySearch(criteria, search));
                 //showFlightDetails(airport.searchByBinarySearch(criter, search));
                 long time = airport.getTimeSearch();
                 lbTimeSearch.setText(time + "");
@@ -149,20 +189,44 @@ public class AirportScreenController implements Initializable {
             men.setContentText("You must enter a positive integer.");
             men.showAndWait();
         }
-
+        btBack.setDisable(true);
+        btNext.setDisable(true);
     }
 
     @FXML
     void controlBtSequentialSearch(ActionEvent event) {
-        String criter = cbCriteria.getValue();
+        String value = cbCriteria.getValue();
+        Criteria criteria = null;
+        switch (value){
+            case "DATE":
+                criteria = Criteria.DATE;
+                break;
+            case "TIME":
+                criteria = Criteria.TIME;
+                break;
+            case "AIRLINE":
+                criteria = Criteria.AIRLINE;
+                break;
+            case "FLIGTH":
+                criteria = Criteria.FLIGTH;
+                break;
+            case "CITY":
+                criteria = Criteria.CITY;
+                break;
+            case "GATE":
+                criteria = Criteria.GATE;
+                break;
+            case "STATE":
+                criteria = Criteria.STATE;
+        }
+
         String search = tfsearch.getText();
         try {
             if (tfsearch.getText().equals("")) {
                 throw new NullPointerException();
             } else {
                 tvScreen.getItems().clear();
-                tvScreen.getItems().addAll(airport.searchByBinarySearch(criter, search));
-                //showFlightDetails(airport.searchBySequentialSearch(criter, search));
+                tvScreen.getItems().addAll(airport.searchBySequentialSearch(criteria, search));
                 lbTimeSearch.setText(airport.getTimeSearch() + "");
             }
         } catch (NullPointerException e) {
@@ -184,32 +248,16 @@ public class AirportScreenController implements Initializable {
             men.setContentText("You must enter a positive integer.");
             men.showAndWait();
         }
-
+        btBack.setDisable(true);
+        btNext.setDisable(true);
     }
 
-    public void showFlightDetails(Fligth searched) {
-
-        Alert men = new Alert(Alert.AlertType.INFORMATION);
-        men.setTitle("Details");
-        men.setHeaderText(" ");
-        String details = "\n";
-
-        details += "Date : " + searched.getDate() + "\n";
-        details += "Time : " + searched.getTime() + "\n";
-        details += "Airline : " + searched.getAirline() + "\n";
-        details += "Fligth : " + searched.getFligth() + "\n";
-        details += "City : " + searched.getCity() + "\n";
-        details += "Gate : " + searched.getGate() + "\n";
-        details += "State : " + searched.getState() + "\n";
-
-        men.setContentText(details);
-        men.show();
-    }
 
     @FXML
     void controlBtSortByAirline(ActionEvent event) {
         airport.sortByAirline();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -217,6 +265,7 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByCity(ActionEvent event) {
         airport.sortByCity();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -224,6 +273,7 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByDate(ActionEvent event) {
         airport.sortByDate();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -231,6 +281,7 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByTime(ActionEvent event) {
         airport.sortByNaturalOrder();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -238,6 +289,7 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByFligth(ActionEvent event) {
         airport.sortByFligth();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -245,6 +297,7 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByGate(ActionEvent event) {
         airport.sortByGate();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
@@ -252,11 +305,27 @@ public class AirportScreenController implements Initializable {
     void controlBtSortByState(ActionEvent event) {
         airport.sortByState();
         tvScreen.getItems().clear();
+        pageNumber = 0;
         printFligth();
     }
 
 
-    public void upClockTreadGUI(){}
+    public void updateClock(){
+        Calendar calendar = Calendar.getInstance();
+        String hour = calendar.get(Calendar.HOUR)+"";
+        String minute = calendar.get(Calendar.MINUTE)+"";
+        String secund = calendar.get(Calendar.SECOND)+"";
+
+        if(Integer.parseInt(hour)<10)
+            hour = "0"+hour;
+        if (Integer.parseInt(minute)<10)
+            minute = "0"+minute;
+        if (Integer.parseInt(secund)<10)
+            secund = "0"+secund;
+        if (hour.equals("00"))
+            hour = "12";
+        lbClock.setText(" "+hour+":"+minute+":"+secund);
+    }
 
 
 }
