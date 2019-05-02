@@ -1,15 +1,15 @@
-package timeThread;
+package clockThread;
 
-import userInterface.AirportScreenController;
+import userInterface.AirportScreenGUIController;
 
 // Class
 public class ClockThread extends Thread {
 
     // Atribute
-    private AirportScreenController controller;
+    private AirportScreenGUIController controller;
 
     // Constructor
-    public ClockThread(AirportScreenController controller){
+    public ClockThread(AirportScreenGUIController controller){
         this.controller = controller;
     }
 

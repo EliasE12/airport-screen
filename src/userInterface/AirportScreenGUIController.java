@@ -11,12 +11,12 @@ import javafx.scene.control.cell.PropertyValueFactory;
 import model.Airport;
 import model.Fligth;
 import model.Airport.Criteria;
-import timeThread.UpdateClockThreadGUI;
+import clockThread.UpdateClockThreadGUI;
 import java.net.URL;
 import java.util.*;
 
 // Class
-public class AirportScreenController implements Initializable {
+public class AirportScreenGUIController implements Initializable {
 
     // Atributes
     @FXML private TableView<Fligth> tvScreen;
@@ -166,9 +166,8 @@ public class AirportScreenController implements Initializable {
             } else {
                 tvScreen.getItems().clear();
                 tvScreen.getItems().addAll(airport.searchByBinarySearch(criteria, search));
-                //showFlightDetails(airport.searchByBinarySearch(criter, search));
-                long time = airport.getTimeSearch();
-                lbTimeSearch.setText(time + "");
+
+                lbTimeSearch.setText(" "+airport.getTimeSearch());
             }
         } catch (NullPointerException e) {
             Alert men = new Alert(Alert.AlertType.WARNING);
@@ -227,7 +226,7 @@ public class AirportScreenController implements Initializable {
             } else {
                 tvScreen.getItems().clear();
                 tvScreen.getItems().addAll(airport.searchBySequentialSearch(criteria, search));
-                lbTimeSearch.setText(airport.getTimeSearch() + "");
+                lbTimeSearch.setText(" "+airport.getTimeSearch());
             }
         } catch (NullPointerException e) {
             Alert men = new Alert(Alert.AlertType.WARNING);
@@ -259,6 +258,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -267,6 +267,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -275,6 +276,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -283,6 +285,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -291,6 +294,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -299,6 +303,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
     @FXML
@@ -307,6 +312,7 @@ public class AirportScreenController implements Initializable {
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
+        lbTimeSearch.setText(" "+airport.getTimeSearch());
     }
 
 

@@ -37,7 +37,7 @@ public class Airport {
 
     // Constructor
     public Airport(){
-        timeSearch = 0;
+       // timeSearch = 0;
         criteria = null;
         generatorRandom = new Random();
         fligths = new ArrayList<>();
@@ -193,7 +193,7 @@ public class Airport {
         star = System.currentTimeMillis();
         Collections.sort(fligths);
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With Bubble
@@ -211,7 +211,7 @@ public class Airport {
             }
         }
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With Selection
@@ -230,7 +230,7 @@ public class Airport {
             fligths.set(min,aux);
         }
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With Comparator
@@ -251,7 +251,7 @@ public class Airport {
             }
         });
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With insertion
@@ -268,7 +268,7 @@ public class Airport {
             fligths.set(j,current);
         }
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With comparator
@@ -282,7 +282,7 @@ public class Airport {
             }
         });
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // With Comparator
@@ -303,7 +303,7 @@ public class Airport {
             }
         });
         end = System.currentTimeMillis();
-        timeSearch = (end-star);
+        timeSearch = (end-star)/1000;
     }
 
     // Sequential Search
@@ -335,7 +335,7 @@ public class Airport {
             break;
         }
         end = System.currentTimeMillis();
-        timeSearch = (end-start);
+        timeSearch = (end-start)/1000;
 
         if(searched == null){
             throw new FlitgthNoExistException();
@@ -471,7 +471,7 @@ public class Airport {
             break;
         }
         end = System.currentTimeMillis();
-        timeSearch = (end-start);
+        timeSearch = (end-start)/1000;
 
         if(searched == null){
             throw new FlitgthNoExistException();

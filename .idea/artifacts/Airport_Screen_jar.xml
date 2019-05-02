@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Airport Screen:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Airport_Screen_jar</output-path>
+    <root id="archive" name="Airport Screen.jar">
+      <element id="module-output" name="Airport Screen" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../Librerias JavaFX/jfoenix-8.0.8.jar" path-in-jar="/" />
+      <element id="library" level="project" name="jfoenix-8.0.8" />
+    </root>
+  </artifact>
+</component>

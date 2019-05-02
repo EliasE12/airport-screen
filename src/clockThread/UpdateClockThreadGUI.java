@@ -1,7 +1,7 @@
-package timeThread;
+package clockThread;
 
 import javafx.application.Platform;
-import userInterface.AirportScreenController;
+import userInterface.AirportScreenGUIController;
 
 // Class
 public class UpdateClockThreadGUI extends Thread {
@@ -10,10 +10,10 @@ public class UpdateClockThreadGUI extends Thread {
     private final static long UPDATE_TIME = 1000;
 
     // Atribute
-    private AirportScreenController controller;
+    private AirportScreenGUIController controller;
 
     // Constructor
-    public UpdateClockThreadGUI(AirportScreenController controller){
+    public UpdateClockThreadGUI(AirportScreenGUIController controller){
         this.controller = controller;
     }
 

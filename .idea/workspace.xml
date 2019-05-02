@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Airport Screen:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Finalizing the edition of the code.">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Mudando estructura a lista enlazada">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/Airport_Screen_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/JUnit5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/jfoenix_8_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Diagram.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Diagram.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/Diseño.mdj" beforeDir="false" afterPath="$PROJECT_DIR$/docs/Diagram.mdj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Airport Screen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Airport Screen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bin/ui/AirportScreenGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/bin/ui/AirportScreenGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/META-INF/Airport Screen.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/META-INF/Airport Screen.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Airport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timeThread/ClockThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockThread/ClockThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/timeThread/UpdateClockThreadGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clockThread/UpdateClockThreadGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userInterface/AirportScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/userInterface/AirportScreenMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterface/AirportScreenMain.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -65,71 +81,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/FlitgthNoExistException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="8" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1308">
-              <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testModel/TestAirport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#9150#9151#0" expanded="true" />
-                <element signature="e#9181#9182#0" expanded="true" />
-                <element signature="e#9235#9236#0" expanded="true" />
-                <element signature="e#9266#9267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="135" column="19" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenMain.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testModel/TestFligth.java">
+        <entry file="file://$PROJECT_DIR$/src/model/Airport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
-              <caret line="22" selection-start-line="22" selection-end-line="23" />
+              <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -161,6 +129,11 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -188,11 +161,13 @@
         <option value="$PROJECT_DIR$/test/testModel/TestFligth.java" />
         <option value="$PROJECT_DIR$/test/testModel/TestAirport.java" />
         <option value="$PROJECT_DIR$/src/exceptions/FlitgthNoExistException.java" />
-        <option value="$PROJECT_DIR$/src/model/Airport.java" />
         <option value="$PROJECT_DIR$/src/model/Fligth.java" />
         <option value="$PROJECT_DIR$/src/timeThread/ClockThread.java" />
         <option value="$PROJECT_DIR$/src/timeThread/UpdateClockThreadGUI.java" />
         <option value="$PROJECT_DIR$/src/userInterface/AirportScreenController.java" />
+        <option value="$PROJECT_DIR$/src/userInterface/AirportScreenMain.java" />
+        <option value="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" />
+        <option value="$PROJECT_DIR$/src/model/Airport.java" />
       </list>
     </option>
   </component>
@@ -204,8 +179,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="140" />
-    <option name="y" value="41" />
+    <option name="x" value="69" />
+    <option name="y" value="26" />
     <option name="width" value="1196" />
     <option name="height" value="658" />
   </component>
@@ -220,7 +195,6 @@
     <panes>
       <pane id="Scope" />
       <pane id="Course" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -237,17 +211,13 @@
               <item name="Airport Screen" type="b2602c69:ProjectViewProjectNode" />
               <item name="Airport Screen" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="userInterface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Airport Screen" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Airport Screen" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -267,23 +237,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554010333838" />
     <property name="dynamic.classpath" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jfoenix-8.0.8.jar!/" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen\docs" />
-      <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen\test-data" />
       <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen\docs" />
       <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen\docs" />
+      <recent name="C:\Users\elias\Documents\IdeaProjects\Airport Screen" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,6 +323,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="All in Airport Screen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Airport Screen" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestAirport" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Airport Screen" />
       <extension name="coverage">
@@ -383,26 +365,6 @@
       <option name="PACKAGE_NAME" value="testModel" />
       <option name="MAIN_CLASS_NAME" value="testModel.TestAirport" />
       <option name="METHOD_NAME" value="testSearchBySequientialSearch" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestAirport.testSortByNaturalOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Airport Screen" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="testModel.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="testModel" />
-      <option name="MAIN_CLASS_NAME" value="testModel.TestAirport" />
-      <option name="METHOD_NAME" value="testSortByNaturalOrder" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -466,17 +428,17 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.AirportScreenMain" />
       <item itemvalue="JUnit.TestAirport" />
-      <item itemvalue="JUnit.TestAirport.testSortByNaturalOrder" />
       <item itemvalue="JUnit.TestAirport.testSearchBySequientialSearch" />
       <item itemvalue="JUnit.TestFligth" />
+      <item itemvalue="JUnit.All in Airport Screen" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AirportScreenMain" />
-        <item itemvalue="JUnit.TestAirport" />
-        <item itemvalue="JUnit.TestAirport.testSearchBySequientialSearch" />
+        <item itemvalue="JUnit.All in Airport Screen" />
         <item itemvalue="JUnit.TestFligth" />
-        <item itemvalue="JUnit.TestAirport.testSortByNaturalOrder" />
+        <item itemvalue="JUnit.TestAirport.testSearchBySequientialSearch" />
+        <item itemvalue="JUnit.TestAirport" />
+        <item itemvalue="Application.AirportScreenMain" />
       </list>
     </recent_temporary>
   </component>
@@ -523,19 +485,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555042530088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Tests implemented">
+      <created>1555065181345</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555065181345</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Ended !!">
+      <created>1555066145201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555066145201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestAirport - 2019.04.11 at 16h 57m 25s.xml">
-      <configuration name="TestAirport" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAirport - 2019.04.11 at 17h 07m 45s.xml">
-      <configuration name="TestAirport" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestAirport - 2019.04.11 at 17h 09m 16s.xml">
-      <configuration name="TestAirport" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestAirport - 2019.04.11 at 17h 10m 51s.xml">
       <configuration name="TestAirport" configurationId="JUnit" />
     </history-entry>
@@ -557,6 +524,15 @@
     <history-entry file="TestAirport - 2019.04.11 at 18h 44m 38s.xml">
       <configuration name="TestAirport" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_Airport_Screen - 2019.04.12 at 05h 44m 42s.xml">
+      <configuration name="All in Airport Screen" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestFligth - 2019.04.18 at 13h 26m 52s.xml">
+      <configuration name="TestFligth" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestAirport - 2019.04.18 at 13h 30m 15s.xml">
+      <configuration name="TestAirport" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="1302000" />
@@ -564,7 +540,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.1719457" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.18099548" />
       <window_info id="Favorites" order="1" weight="0.1561086" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -574,8 +550,8 @@
       <window_info id="Learn" order="7" weight="0.19909503" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.31" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.285" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.29833335" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36666667" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36833334" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -585,11 +561,11 @@
       <window_info anchor="bottom" id="Changes" order="10" />
       <window_info anchor="bottom" id="Profiler" order="11" />
       <window_info anchor="bottom" id="Event Log" order="12" weight="0.32833335" />
-      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32936507" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="14" />
-      <window_info anchor="bottom" id="Terminal" order="15" weight="0.585" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="15" visible="true" weight="0.29833335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.19457014" />
+      <window_info anchor="right" id="Structure" order="1" visible="true" weight="0.15233786" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962293" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="4" />
@@ -659,23 +635,38 @@
     <MESSAGE value="Search and sorting methods were corrected and implemented." />
     <MESSAGE value="controlled exceptions" />
     <MESSAGE value="Finalizing the edition of the code." />
-    <option name="LAST_COMMIT_MESSAGE" value="Finalizing the edition of the code." />
+    <MESSAGE value="Tests implemented" />
+    <MESSAGE value="Ended !!" />
+    <MESSAGE value="Mudando estructura a lista enlazada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Mudando estructura a lista enlazada" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/Airport.java</url>
+          <line>608</line>
+          <properties class="model.Airport" method="getTimeSearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/model/Airport.java</url>
+          <line>309</line>
+          <properties class="model.Airport" method="searchBySequentialSearch">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/com/sun/javafx/application/LauncherImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="916" column="30" selection-start-line="916" selection-start-column="30" selection-end-line="916" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Screen.java" />
-    <entry file="file://$PROJECT_DIR$/src/model/Airline.java" />
-    <entry file="file://$PROJECT_DIR$/data/code.txt" />
     <entry file="file://$PROJECT_DIR$/data/AirportScreenData.txt" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/beans/property/StringProperty.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -730,13 +721,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="144" column="45" selection-start-line="144" selection-start-column="45" selection-end-line="144" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Scene.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="3760" selection-start-line="3760" selection-end-line="3760" />
         </state>
       </provider>
     </entry>
@@ -835,20 +819,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="8411" selection-start-line="8411" selection-end-line="8411" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Button.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="186" selection-start-line="186" selection-end-line="186" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/TableView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
@@ -856,41 +826,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
-          <folding>
-            <element signature="e#66921#66922#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/Event.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="197" selection-start-line="197" selection-end-line="197" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Airport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="607" selection-start-line="607" selection-end-line="607" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
-          <caret line="119" column="5" selection-start-line="119" selection-start-column="5" selection-end-line="119" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/timeThread/ClockThread.java">
+    <entry file="file://$PROJECT_DIR$/src/clockThread/ClockThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
           <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
@@ -901,7 +837,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/timeThread/UpdateClockThreadGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/clockThread/UpdateClockThreadGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
@@ -918,25 +854,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/docs/Diagram.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/AirportScreenMain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4304">
+          <caret line="304" column="25" selection-start-line="304" selection-start-column="25" selection-end-line="304" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/AirportScreenGUI.fxml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/ui/AirportScreenController.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/testModel/TestFligth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="22" selection-start-line="22" selection-end-line="23" />
+        <state relative-caret-position="160">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
             <element signature="e#221#222#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/Diagram.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/testModel/TestAirport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-264">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#510#511#0" expanded="true" />
@@ -950,24 +906,79 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
+        <state relative-caret-position="398">
           <caret line="135" column="19" selection-start-line="135" selection-start-column="19" selection-end-line="135" selection-end-column="19" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="1657" selection-start-line="1657" selection-end-line="1657" />
+          <folding>
+            <element signature="e#66921#66922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="8411" selection-start-line="8411" selection-end-line="8411" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/control/Button.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2144">
+          <caret line="186" selection-start-line="186" selection-end-line="186" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/event/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/javafx-src.zip!/javafx/scene/Scene.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="3772" selection-start-line="3772" selection-end-line="3772" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="135" column="9" selection-start-line="135" selection-start-column="9" selection-end-line="135" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        <state relative-caret-position="64">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenController.java">
+    <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1308">
-          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        <state relative-caret-position="368">
+          <caret line="23" column="25" lean-forward="true" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Airport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="51" column="14" selection-start-line="51" selection-start-column="14" selection-end-line="51" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -976,8 +987,13 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor />
-          <last-edited>JavaFXApp</last-edited>
+          <artifact-editor>
+            <show-content>
+              <type id="library" />
+              <type id="artifact" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>Airport Screen:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1030,7 +1046,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -1038,6 +1053,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>JUnit5.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
