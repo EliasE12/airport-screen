@@ -1,10 +1,13 @@
 package model;
 
 import exceptions.FlitgthNoExistException;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
 // Class
 public class Airport {
@@ -205,17 +208,82 @@ public class Airport {
     }
 
 
-/**
+
+
     // With Comparable
     public void sortByNaturalOrder(){
         long star,end;
         star = System.currentTimeMillis();
-        //Collections.sort(fligths);
+
+        Fligth aux1, aux2, aux3, aux4, aux5;
+        aux1 = aux2 = firstFligth;
+        while (aux2.getNext() != null) {
+            aux3 = aux4 = aux2.getNext();
+            while (aux4 != null) {
+                if (aux2.compareTo(aux4) > 0) {
+                    if (aux2.getNext() == aux4) {
+                        if (aux2 == firstFligth) {
+                            aux2.setNext(aux4.getNext());
+                            aux4.setNext(aux2);
+                            aux5 = aux2;
+                            aux2 = aux4;
+                            aux4 = aux5;
+                            aux3 = aux4;
+                            firstFligth = aux2;
+                            aux4 = aux4.getNext();
+                        }
+                        else {
+                            aux2.setNext(aux4.getNext());
+                            aux4.setNext(aux2);
+                            aux1.setNext(aux4);
+                            aux5 = aux2;
+                            aux2 = aux4;
+                            aux4 = aux5;
+                            aux3 = aux4;
+                            aux4 = aux4.getNext();
+                        }
+                    }
+                    else {
+                        if (aux2 == firstFligth) {
+                            aux5 = aux2.getNext();
+                            aux2.setNext(aux4.getNext());
+                            aux4.setNext(aux5);
+                            aux3.setNext(aux2);
+                            aux5 = aux2;
+                            aux2 = aux4;
+                            aux4 = aux5;
+                            aux3 = aux4;
+                            aux4 = aux4.getNext();
+                            firstFligth = aux2;
+                        }
+                        else {
+                            aux5 = aux2.getNext();
+                            aux2.setNext(aux4.getNext());
+                            aux4.setNext(aux5);
+                            aux3.setNext(aux2);
+                            aux1.setNext(aux4);
+                            aux5 = aux2;
+                            aux2 = aux4;
+                            aux4 = aux5;
+                            aux3 = aux4;
+                            aux4 = aux4.getNext();
+                        }
+                    }
+                }
+                else {
+                    aux3 = aux4;
+                    aux4 = aux4.getNext();
+                }
+            }
+            aux1 = aux2;
+            aux2 = aux2.getNext();
+        }
+
+
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
 
- */
 
 
     // With Bubble
@@ -250,121 +318,233 @@ public class Airport {
             }
         }
 
-
-
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
 
-    /**
     // With Selection
     public void sortByAirline(){
         long star,end;
         star = System.currentTimeMillis();
-        for (int i = 0; i < fligths.size()-1; i++) {
-            int min = i;
-            for (int j = i + 1; j < fligths.size(); j++) {
-                if (fligths.get(j).getAirline().compareTo(fligths.get(min).getAirline()) < 0) {
-                    min = j;
+
+            Fligth aux1, aux2, aux3, aux4, aux5;
+            aux1 = aux2 = firstFligth;
+            while (aux2.getNext() != null) {
+                aux3 = aux4 = aux2.getNext();
+                while (aux4 != null) {
+                    if (aux2.getAirline().compareToIgnoreCase(aux4.getAirline()) > 0) {
+                        if (aux2.getNext() == aux4) {
+                            if (aux2 == firstFligth) {
+                                aux2.setNext(aux4.getNext());
+                                aux4.setNext(aux2);
+                                aux5 = aux2;
+                                aux2 = aux4;
+                                aux4 = aux5;
+                                aux3 = aux4;
+                                firstFligth = aux2;
+                                aux4 = aux4.getNext();
+                            }
+                            else {
+                                aux2.setNext(aux4.getNext());
+                                aux4.setNext(aux2);
+                                aux1.setNext(aux4);
+                                aux5 = aux2;
+                                aux2 = aux4;
+                                aux4 = aux5;
+                                aux3 = aux4;
+                                aux4 = aux4.getNext();
+                            }
+                        }
+                        else {
+                            if (aux2 == firstFligth) {
+                                aux5 = aux2.getNext();
+                                aux2.setNext(aux4.getNext());
+                                aux4.setNext(aux5);
+                                aux3.setNext(aux2);
+                                aux5 = aux2;
+                                aux2 = aux4;
+                                aux4 = aux5;
+                                aux3 = aux4;
+                                aux4 = aux4.getNext();
+                                firstFligth = aux2;
+                            }
+                            else {
+                                aux5 = aux2.getNext();
+                                aux2.setNext(aux4.getNext());
+                                aux4.setNext(aux5);
+                                aux3.setNext(aux2);
+                                aux1.setNext(aux4);
+                                aux5 = aux2;
+                                aux2 = aux4;
+                                aux4 = aux5;
+                                aux3 = aux4;
+                                aux4 = aux4.getNext();
+                            }
+                        }
+                    }
+                    else {
+                        aux3 = aux4;
+                        aux4 = aux4.getNext();
+                    }
                 }
+                aux1 = aux2;
+                aux2 = aux2.getNext();
             }
-            Fligth aux = fligths.get(i);
-            fligths.set(i,fligths.get(min));
-            fligths.set(min,aux);
-        }
+
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
 
-    // With Comparator
+    // With
     public void sortByFligth(){
         long star,end;
         star = System.currentTimeMillis();
-        Collections.sort(fligths, new Comparator<Fligth>() {
-            @Override
-            public int compare(Fligth fligth1, Fligth fligth2) {
-                int comparation;
-                if (fligth1.getFligth().compareTo(fligth2.getFligth()) > 0)
-                    comparation = 1;
-                else if (fligth1.getFligth().compareTo(fligth2.getFligth()) < 0)
-                    comparation = -1;
-                else
-                    comparation = 0;
-                return comparation;
+
+        if(firstFligth.getNext() != null){
+            Fligth p =firstFligth;
+            Fligth current = firstFligth.getNext();
+            Fligth prev = firstFligth;
+            while (current != null){
+                if(prev.getFligth().compareTo(current.getFligth()) <= 0){
+                    current = current.getNext();
+                    prev = prev.getNext();
+                }else {
+                    if (firstFligth.getFligth().compareTo(current.getFligth()) > 0){
+                        prev.setNext(current.getNext());
+                        current.setNext(firstFligth);
+                        firstFligth = current;
+                    }else {
+                        p = firstFligth;
+                        while (p.getNext() != null && p.getNext().getFligth().compareTo(current.getFligth()) < 0){
+                            p = p.getNext();
+                        }
+                        prev.setNext(current.getNext());
+                        current.setNext(p.getNext());
+                        p.setNext(current);
+                    }
+                }
+                current = current.getNext();
             }
-        });
+        }
+
+
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
-*/
+
     // With insertion
-    public void sortByCity(){
-        long star,end;
+    public void sortByCity() {
+
+        long star, end;
+        star = System.currentTimeMillis();
+
+        if(firstFligth.getNext() != null){
+            Fligth p =firstFligth;
+            Fligth current = firstFligth.getNext();
+            Fligth prev = firstFligth;
+            while (current != null){
+                if(prev.getCity().compareTo(current.getCity()) <= 0){
+                    current = current.getNext();
+                    prev = prev.getNext();
+                }else {
+                    if (firstFligth.getCity().compareTo(current.getCity()) > 0){
+                        prev.setNext(current.getNext());
+                        current.setNext(firstFligth);
+                        firstFligth = current;
+                    }else {
+                        p = firstFligth;
+                        while (p.getNext() != null && p.getNext().getCity().compareTo(current.getCity()) < 0){
+                            p = p.getNext();
+                        }
+                        prev.setNext(current.getNext());
+                        current.setNext(p.getNext());
+                        p.setNext(current);
+                    }
+                }
+                current = current.getNext();
+            }
+        }
+
+
+        end = System.currentTimeMillis();
+        timeSearch = (end - star) / 1000;
+    }
+
+    // With bubble
+    public void sortByGate(){
+        long star = 0, end = 0;
         star = System.currentTimeMillis();
 
         for (int i = 0; i < numberFligths; i++) {
             Fligth current = firstFligth;
             Fligth prev = null;
             Fligth next = firstFligth.getNext();
-            while (next != null && current.getCity().compareTo(next.getCity()) > 0){
-
+            while(next != null){
+                if(current.getGate() > next.getGate()){
+                    if (prev != null){
+                        Fligth auxNext = next.getNext();
+                        prev.setNext(next);
+                        next.setNext(current);
+                        current.setNext(auxNext);
+                    } else {
+                        Fligth auxNext = next.getNext();
+                        firstFligth = next;
+                        next.setNext(current);
+                        current.setNext(auxNext);
+                    }
+                    prev = next;
+                    next = current.getNext();
+                } else {
+                    prev = current;
+                    current = next;
+                    next = next.getNext();
+                }
             }
         }
 
-
-/**
-        for (int i = 1; i < fligths.size(); i++) {
-            Fligth current = fligths.get(i);
-            int j = i;
-            while (j > 0 && fligths.get(j-1).getCity().compareTo(current.getCity()) > 0) {
-                fligths.set(j, fligths.get(j-1));
-                j--;
-            }
-            fligths.set(j,current);
-        }
-*/
 
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
 
-/**
-    // With comparator
-    public void sortByGate(){
-        long star = 0, end = 0;
-        star = System.currentTimeMillis();
-        Collections.sort(fligths, new Comparator<Fligth>() {
-            @Override
-            public int compare(Fligth o1, Fligth o2) {
-                return (o1.getGate()-o2.getGate());
-            }
-        });
-        end = System.currentTimeMillis();
-        timeSearch = (end-star)/1000;
-    }
-
-    // With Comparator
+    // With
     public void sortByState(){
         long star,end;
         star = System.currentTimeMillis();
-        Collections.sort(fligths, new Comparator<Fligth>() {
-            @Override
-            public int compare(Fligth fligth1, Fligth fligth2) {
-                int comparation;
-                if (fligth1.getState().compareTo(fligth2.getState())>0)
-                    comparation = 1;
-                else if (fligth1.getState().compareTo(fligth2.getState())<0)
-                    comparation = -1;
-                else
-                    comparation = 0;
-                return comparation;
+
+        if(firstFligth.getNext() != null){
+            Fligth p =firstFligth;
+            Fligth current = firstFligth.getNext();
+            Fligth prev = firstFligth;
+            while (current != null){
+                if(prev.getState().compareTo(current.getState()) <= 0){
+                    current = current.getNext();
+                    prev = prev.getNext();
+                }else {
+                    if (firstFligth.getState().compareTo(current.getState()) > 0){
+                        prev.setNext(current.getNext());
+                        current.setNext(firstFligth);
+                        firstFligth = current;
+                    }else {
+                        p = firstFligth;
+                        while (p.getNext() != null && p.getNext().getState().compareTo(current.getState()) < 0){
+                            p = p.getNext();
+                        }
+                        prev.setNext(current.getNext());
+                        current.setNext(p.getNext());
+                        p.setNext(current);
+                    }
+                }
+                current = current.getNext();
             }
-        });
+        }
+
+
         end = System.currentTimeMillis();
         timeSearch = (end-star)/1000;
     }
 
-     */
+
 
     // Sequential Search
     public Fligth searchBySequentialSearch(Criteria criter, String valueSearch) throws FlitgthNoExistException {
@@ -442,7 +622,7 @@ public class Airport {
         if(firstFligth != null) {
             Fligth current = firstFligth;
             while (current != null && !found) {
-                if (current.getAirline().equalsIgnoreCase(value)) {
+                if (current.getCity().equalsIgnoreCase(value)) {
                     s = current;
                     found = true;
                 }

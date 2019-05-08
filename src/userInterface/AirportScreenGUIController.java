@@ -202,7 +202,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByAirline(ActionEvent event) {
-       // airport.sortByAirline();
+        airport.sortByAirline();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -211,7 +211,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByCity(ActionEvent event) {
-       // airport.sortByCity();
+        airport.sortByCity();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -229,7 +229,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByTime(ActionEvent event) {
-        //airport.sortByNaturalOrder();
+        airport.sortByNaturalOrder();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -238,7 +238,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByFligth(ActionEvent event) {
-        //airport.sortByFligth();
+        airport.sortByFligth();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -247,7 +247,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByGate(ActionEvent event) {
-      // airport.sortByGate();
+        airport.sortByGate();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -256,7 +256,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByState(ActionEvent event) {
-       // airport.sortByState();
+        airport.sortByState();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();

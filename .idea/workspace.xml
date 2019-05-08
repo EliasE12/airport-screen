@@ -6,21 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Mudando estructura a lista enlazada">
+    <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="Métodos de agregar y buscar adaptados a lista enlazada.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/META-INF/Airport Screen.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$Criteria.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport$Criteria.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/model/Airport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Airport Screen/model/Fligth.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Airport Screen/model/Fligth.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/Airport Screen/testModel/TestAirport.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/Airport Screen/testModel/TestAirport.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Airport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Airport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/Fligth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/Fligth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testModel/TestAirport.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/testModel/TestAirport.java" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -90,55 +84,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testModel/TestAirport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="229" selection-start-line="229" selection-end-line="229" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/testModel/TestFligth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-146">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#201#202#0" expanded="true" />
-                <element signature="e#221#222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3008">
-              <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1632">
-              <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-              <folding>
-                <element signature="e#1707#1708#0" expanded="true" />
-                <element signature="e#1734#1735#0" expanded="true" />
-                <element signature="e#1774#1775#0" expanded="true" />
-                <element signature="e#1806#1807#0" expanded="true" />
-                <element signature="e#1837#1838#0" expanded="true" />
-                <element signature="e#1864#1865#0" expanded="true" />
-                <element signature="e#1904#1905#0" expanded="true" />
-                <element signature="e#1936#1937#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="2233">
+              <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -146,29 +95,42 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/model/Airport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
+            <state relative-caret-position="1874">
+              <caret line="286" column="4" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#15987#15988#0" expanded="true" />
-                <element signature="e#16087#16088#0" expanded="true" />
-                <element signature="e#16160#16161#0" expanded="true" />
-                <element signature="e#16265#16266#0" expanded="true" />
-                <element signature="e#16333#16334#0" expanded="true" />
-                <element signature="e#16426#16427#0" expanded="true" />
-                <element signature="e#16493#16494#0" expanded="true" />
-                <element signature="e#16582#16583#0" expanded="true" />
+                <element signature="e#14190#14191#0" expanded="true" />
+                <element signature="e#14224#14225#0" expanded="true" />
+                <element signature="e#14278#14279#0" expanded="true" />
+                <element signature="e#14324#14325#0" expanded="true" />
+                <element signature="e#14361#14362#0" expanded="true" />
+                <element signature="e#14397#14398#0" expanded="true" />
+                <element signature="e#14452#14453#0" expanded="true" />
+                <element signature="e#14502#14503#0" expanded="true" />
+                <element signature="e#14537#14538#0" expanded="true" />
+                <element signature="e#14570#14571#0" expanded="true" />
+                <element signature="e#14619#14620#0" expanded="true" />
+                <element signature="e#14663#14664#0" expanded="true" />
+                <element signature="e#14699#14700#0" expanded="true" />
+                <element signature="e#14730#14731#0" expanded="true" />
+                <element signature="e#14779#14780#0" expanded="true" />
+                <element signature="e#14819#14820#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
+        <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2144">
-              <caret line="134" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="228">
+              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+              <folding>
+                <element signature="e#1707#1708#0" expanded="true" />
+                <element signature="e#1734#1735#0" expanded="true" />
+                <element signature="e#1774#1775#0" expanded="true" />
+                <element signature="e#1806#1807#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -188,9 +150,11 @@
       <find>#</find>
       <find>screen.getFligths()</find>
       <find>ls</find>
+      <find>getAirline()</find>
     </findStrings>
     <replaceStrings>
       <replace>fligths</replace>
+      <replace>getCity()</replace>
     </replaceStrings>
   </component>
   <component name="FindManager">
@@ -199,6 +163,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="EliasE12 &lt;simply753@gmail.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
@@ -236,8 +205,8 @@
         <option value="$PROJECT_DIR$/src/userInterface/AirportScreenController.java" />
         <option value="$PROJECT_DIR$/src/userInterface/AirportScreenMain.java" />
         <option value="$PROJECT_DIR$/test/testModel/TestAirport.java" />
-        <option value="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" />
         <option value="$PROJECT_DIR$/src/model/Fligth.java" />
+        <option value="$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java" />
         <option value="$PROJECT_DIR$/src/model/Airport.java" />
       </list>
     </option>
@@ -249,9 +218,9 @@
     </treeState>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="45" />
-    <option name="y" value="14" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="41" />
+    <option name="y" value="55" />
     <option name="width" value="1209" />
     <option name="height" value="677" />
   </component>
@@ -595,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556833460312</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Métodos de agregar y buscar adaptados a lista enlazada.">
+      <created>1557275666668</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557275666668</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -643,10 +619,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="41" y="55" width="1209" height="677" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6703755" visible="true" weight="0.17420815" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.6703755" weight="0.17420815" />
       <window_info id="Favorites" order="1" weight="0.1561086" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -663,16 +639,16 @@
       <window_info anchor="bottom" id="Run" order="6" weight="0.315" />
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Application Servers" order="8" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.69" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.6383333" />
       <window_info anchor="bottom" id="Problems" order="10" />
       <window_info anchor="bottom" id="Changes" order="11" />
       <window_info anchor="bottom" id="Profiler" order="12" />
-      <window_info anchor="bottom" id="Event Log" order="13" weight="0.285" />
+      <window_info anchor="bottom" id="Event Log" order="13" weight="0.24833333" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32833335" />
       <window_info anchor="bottom" id="Educational.CheckDetails" order="15" />
       <window_info anchor="bottom" id="Terminal" order="16" weight="0.29833335" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Structure" order="1" weight="0.26546004" />
+      <window_info anchor="right" id="Structure" order="1" weight="0.2643857" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962293" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="JetGradle" order="4" />
@@ -791,14 +767,15 @@
     <MESSAGE value="Tests implemented" />
     <MESSAGE value="Ended !!" />
     <MESSAGE value="Mudando estructura a lista enlazada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Mudando estructura a lista enlazada" />
+    <MESSAGE value="Métodos de agregar y buscar adaptados a lista enlazada." />
+    <option name="LAST_COMMIT_MESSAGE" value="Métodos de agregar y buscar adaptados a lista enlazada." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/model/Airport.java</url>
-          <line>369</line>
+          <line>549</line>
           <properties class="model.Airport" method="searchBySequentialSearch">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1066,11 +1043,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder" />
+    <entry file="file://$PROJECT_DIR$/test/testModel/TestFligth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2144">
-          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        <state relative-caret-position="-132">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#201#202#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,14 +1065,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/testModel/TestFligth.java">
+    <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUI.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-146">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="344">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#1707#1708#0" expanded="true" />
+            <element signature="e#1734#1735#0" expanded="true" />
+            <element signature="e#1774#1775#0" expanded="true" />
+            <element signature="e#1806#1807#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1105,42 +1095,33 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/userInterface/AirportScreenGUIController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3008">
-          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/Fligth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1632">
-          <caret line="130" column="5" lean-forward="true" selection-start-line="130" selection-start-column="5" selection-end-line="130" selection-end-column="5" />
-          <folding>
-            <element signature="e#1707#1708#0" expanded="true" />
-            <element signature="e#1734#1735#0" expanded="true" />
-            <element signature="e#1774#1775#0" expanded="true" />
-            <element signature="e#1806#1807#0" expanded="true" />
-            <element signature="e#1837#1838#0" expanded="true" />
-            <element signature="e#1864#1865#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
-            <element signature="e#1936#1937#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="2233">
+          <caret line="258" column="8" selection-start-line="258" selection-start-column="8" selection-end-line="258" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/Airport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="313" lean-forward="true" selection-start-line="313" selection-end-line="313" />
+        <state relative-caret-position="1874">
+          <caret line="286" column="4" selection-start-line="286" selection-start-column="4" selection-end-line="286" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#15987#15988#0" expanded="true" />
-            <element signature="e#16087#16088#0" expanded="true" />
-            <element signature="e#16160#16161#0" expanded="true" />
-            <element signature="e#16265#16266#0" expanded="true" />
-            <element signature="e#16333#16334#0" expanded="true" />
-            <element signature="e#16426#16427#0" expanded="true" />
-            <element signature="e#16493#16494#0" expanded="true" />
-            <element signature="e#16582#16583#0" expanded="true" />
+            <element signature="e#14190#14191#0" expanded="true" />
+            <element signature="e#14224#14225#0" expanded="true" />
+            <element signature="e#14278#14279#0" expanded="true" />
+            <element signature="e#14324#14325#0" expanded="true" />
+            <element signature="e#14361#14362#0" expanded="true" />
+            <element signature="e#14397#14398#0" expanded="true" />
+            <element signature="e#14452#14453#0" expanded="true" />
+            <element signature="e#14502#14503#0" expanded="true" />
+            <element signature="e#14537#14538#0" expanded="true" />
+            <element signature="e#14570#14571#0" expanded="true" />
+            <element signature="e#14619#14620#0" expanded="true" />
+            <element signature="e#14663#14664#0" expanded="true" />
+            <element signature="e#14699#14700#0" expanded="true" />
+            <element signature="e#14730#14731#0" expanded="true" />
+            <element signature="e#14779#14780#0" expanded="true" />
+            <element signature="e#14819#14820#0" expanded="true" />
           </folding>
         </state>
       </provider>

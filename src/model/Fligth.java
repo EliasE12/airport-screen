@@ -13,7 +13,6 @@ public class Fligth implements Comparable<Fligth>{
     private String state;
 
     private Fligth next;
-    private Fligth prev;
 
     // Constructor
     public Fligth(){}
@@ -28,7 +27,7 @@ public class Fligth implements Comparable<Fligth>{
         this.state = state;
 
         next = null;
-        prev = null;
+
     }
 
     // Methods
@@ -94,14 +93,6 @@ public class Fligth implements Comparable<Fligth>{
 
     public void setNext(Fligth next) {
         this.next = next;
-    }
-
-    public Fligth getPrev() {
-        return prev;
-    }
-
-    public void setPrev(Fligth prev) {
-        this.prev = prev;
     }
 
     @Override
