@@ -18,7 +18,7 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class TestAirport {
 
-
+/**
     private Airport airport;
 
 
@@ -227,13 +227,11 @@ class TestAirport {
         }catch (NegativeArraySizeException e){
             e.printStackTrace();
         }
-         **/
+
 
     }
 
 
-
-    //
     @Test
     public void testSortByNaturalOrder() {
         setupScenary3();
@@ -519,5 +517,5 @@ class TestAirport {
 
     }
 
-
+*/
 }

@@ -12,6 +12,9 @@ public class Fligth implements Comparable<Fligth>{
     private int gate;
     private String state;
 
+    private Fligth next;
+    private Fligth prev;
+
     // Constructor
     public Fligth(){}
 
@@ -23,6 +26,9 @@ public class Fligth implements Comparable<Fligth>{
         this.city = city;
         this.gate = gate;
         this.state = state;
+
+        next = null;
+        prev = null;
     }
 
     // Methods
@@ -82,6 +88,22 @@ public class Fligth implements Comparable<Fligth>{
         this.state = state;
     }
 
+    public Fligth getNext() {
+        return next;
+    }
+
+    public void setNext(Fligth next) {
+        this.next = next;
+    }
+
+    public Fligth getPrev() {
+        return prev;
+    }
+
+    public void setPrev(Fligth prev) {
+        this.prev = prev;
+    }
+
     @Override
     public int compareTo(Fligth fligth) {
         int comparation;
@@ -94,17 +116,6 @@ public class Fligth implements Comparable<Fligth>{
         return comparation;
     }
 
-    public int compareToDate(Fligth fligth){
-        int comparation;
-        if (this.date.compareTo(fligth.date)>0) {
-            comparation = 1;
-        }else if(this.date.compareTo(fligth.date)<0) {
-            comparation = -1;
-        }else {
-            comparation = 1;
-        }
-        return comparation;
-    }
 
     @Override
     public String toString() {

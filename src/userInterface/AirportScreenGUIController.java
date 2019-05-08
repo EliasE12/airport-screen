@@ -61,7 +61,7 @@ public class AirportScreenGUIController implements Initializable {
     @FXML
     void controlBtCreateFligthsList(ActionEvent event) {
 
-        airport.getFligths().clear();
+        airport.emptyList();
         tvScreen.getItems().clear();
 
         TextInputDialog dialog = new TextInputDialog();
@@ -76,7 +76,7 @@ public class AirportScreenGUIController implements Initializable {
                 } else {
                     int numberFligths = Integer.parseInt(result.get());
                     airport.generateRandomFligths(numberFligths);
-                    airport.sortByDate();
+                   // airport.sortByDate();
                     printFligth();
                 }
             } catch (NullPointerException e) {
@@ -108,17 +108,25 @@ public class AirportScreenGUIController implements Initializable {
         }else{
             btBack.setDisable(false);
         }
-        if (pages[1]==airport.getFligths().size()){
+        if (pages[1]==airport.getNumberFligths()){
             btNext.setDisable(true);
         }else {
             btNext.setDisable(false);
         }
 
         tvScreen.getItems().clear();
-        ObservableList<Fligth> fligthsList = FXCollections.observableArrayList(airport.getFligths().subList(airport.createPage(pageNumber)[0],airport.createPage(pageNumber)[1]));
-        tvScreen.getItems().addAll(fligthsList);
-    }
 
+        ObservableList<Fligth> fligthObservableListAux = FXCollections.observableArrayList();
+        Fligth current = airport.getFirstFligth();
+        while (current != null){
+            fligthObservableListAux.add(current);
+            current = current.getNext();
+        }
+
+        ObservableList<Fligth> fligthObservableList = FXCollections.observableList(fligthObservableListAux.subList(airport.createPage(pageNumber)[0],
+                airport.createPage(pageNumber)[1]));
+        tvScreen.getItems().addAll(fligthObservableList);
+    }
 
     @FXML
     void controlBtBack(ActionEvent event) {
@@ -130,66 +138,6 @@ public class AirportScreenGUIController implements Initializable {
     void controlBtNext(ActionEvent event) {
         pageNumber++;
         printFligth();
-    }
-
-    @FXML
-    void controlBtBinarySearch(ActionEvent event) {
-        String value = cbCriteria.getValue();
-        Criteria criteria = null;
-        switch (value){
-            case "DATE":
-               criteria = Criteria.DATE;
-               break;
-            case "TIME":
-                criteria = Criteria.TIME;
-                break;
-            case "AIRLINE":
-                criteria = Criteria.AIRLINE;
-                break;
-            case "FLIGTH":
-                criteria = Criteria.FLIGTH;
-                break;
-            case "CITY":
-                criteria = Criteria.CITY;
-                break;
-            case "GATE":
-                criteria = Criteria.GATE;
-                break;
-            case "STATE":
-                criteria = Criteria.STATE;
-        }
-
-        String search = tfsearch.getText();
-        try {
-            if (tfsearch.getText().equals("")) {
-                throw new NullPointerException();
-            } else {
-                tvScreen.getItems().clear();
-                tvScreen.getItems().addAll(airport.searchByBinarySearch(criteria, search));
-
-                lbTimeSearch.setText(" "+airport.getTimeSearch());
-            }
-        } catch (NullPointerException e) {
-            Alert men = new Alert(Alert.AlertType.WARNING);
-            men.setTitle("Warning !!!");
-            men.setHeaderText("Worthless");
-            men.setContentText("You have not entered any value.");
-            men.showAndWait();
-        } catch (FlitgthNoExistException e) {
-            Alert men = new Alert(Alert.AlertType.WARNING);
-            men.setTitle("Warning !!!");
-            men.setHeaderText("Flight not found");
-            men.setContentText("The flight looking does not exist.");
-            men.showAndWait();
-        } catch (NumberFormatException e){
-            Alert men = new Alert(Alert.AlertType.WARNING);
-            men.setTitle("Warning !!!");
-            men.setHeaderText("No number");
-            men.setContentText("You must enter a positive integer.");
-            men.showAndWait();
-        }
-        btBack.setDisable(true);
-        btNext.setDisable(true);
     }
 
     @FXML
@@ -254,7 +202,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByAirline(ActionEvent event) {
-        airport.sortByAirline();
+       // airport.sortByAirline();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -263,7 +211,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByCity(ActionEvent event) {
-        airport.sortByCity();
+       // airport.sortByCity();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -281,7 +229,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByTime(ActionEvent event) {
-        airport.sortByNaturalOrder();
+        //airport.sortByNaturalOrder();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -290,7 +238,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByFligth(ActionEvent event) {
-        airport.sortByFligth();
+        //airport.sortByFligth();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -299,7 +247,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByGate(ActionEvent event) {
-        airport.sortByGate();
+      // airport.sortByGate();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
@@ -308,7 +256,7 @@ public class AirportScreenGUIController implements Initializable {
 
     @FXML
     void controlBtSortByState(ActionEvent event) {
-        airport.sortByState();
+       // airport.sortByState();
         tvScreen.getItems().clear();
         pageNumber = 0;
         printFligth();
